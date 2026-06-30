@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>領導者全球趨勢雷達</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="title-block">
+        <p class="eyebrow">Global Leadership Trend Radar</p>
+        <h1>領導者全球趨勢雷達</h1>
+        <p id="scopeText" class="scope"></p>
+      </div>
+      <div class="meta-card" aria-label="資料摘要">
+        <div>
+          <strong id="trendCount">0</strong>
+          <span>趨勢卡片</span>
+        </div>
+        <div>
+          <strong id="categoryCount">0</strong>
+          <span>動態類別</span>
+        </div>
+        <div>
+          <strong id="sourceCount">0</strong>
+          <span>追蹤來源</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="summary-band" aria-label="本週總覽">
+        <div>
+          <h2>本週判讀</h2>
+          <p id="weeklyThesis"></p>
+        </div>
+        <div class="signal-grid">
+          <div class="signal">
+            <span>資料更新</span>
+            <strong id="generatedAt">-</strong>
+          </div>
+          <div class="signal">
+            <span>下次檢查</span>
+            <strong id="nextReview">-</strong>
+          </div>
+          <div class="signal">
+            <span>高熱度訊號</span>
+            <strong id="hotSignalCount">0</strong>
+          </div>
+          <div class="signal">
+            <span>A級可信度</span>
+            <strong id="highConfidenceCount">0</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="must-read-section" aria-label="本週全球領導者必看">
+        <div class="section-title">
+          <div>
+            <h2>本週全球領導者必看</h2>
+            <p id="mustReadNote"></p>
+          </div>
+          <span id="mustReadUpdated">-</span>
+        </div>
+        <div id="mustReadGrid" class="must-read-grid"></div>
+      </section>
+
+      <section class="perspective-section" aria-label="Joyce 本週觀點筆記">
+        <div class="section-title">
+          <div>
+            <h2>Joyce 本週觀點筆記</h2>
+            <p id="perspectiveSummary"></p>
+          </div>
+          <span id="perspectiveLabel">視野養成</span>
+        </div>
+        <div id="perspectiveGrid" class="perspective-grid"></div>
+      </section>
+
+      <section class="radar-section" aria-label="全球視野主線">
+        <div class="section-title">
+          <div>
+            <h2>全球視野主線</h2>
+            <p>首頁只保留不重複的高階主線，25 個細分類別放在下拉與左側分布，用來深入篩選。</p>
+          </div>
+          <span id="radarLabel">0 條主線</span>
+        </div>
+        <div id="radarMap" class="radar-map"></div>
+      </section>
+
+      <section class="controls" aria-label="篩選條件">
+        <label>
+          <span>搜尋</span>
+          <input id="searchInput" type="search" placeholder="AI、供應鏈、董事會、能源、人才" />
+        </label>
+        <label>
+          <span>類別</span>
+          <select id="categorySelect"></select>
+        </label>
+        <label>
+          <span>來源類型</span>
+          <select id="sourceTypeSelect"></select>
+        </label>
+        <label>
+          <span>可信度</span>
+          <select id="confidenceSelect">
+            <option value="">全部</option>
+            <option value="A">A 官方/一手資料</option>
+            <option value="B">B 主流媒體/活動頁</option>
+            <option value="C">C 觀察性弱訊號</option>
+          </select>
+        </label>
+        <label>
+          <span>排序</span>
+          <select id="sortSelect">
+            <option value="heat">熱度高到低</option>
+            <option value="confidence">可信度</option>
+            <option value="category">類別</option>
+            <option value="date">來源日期</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="market-layout">
+        <aside class="category-panel" aria-label="類別分布">
+          <div class="section-title compact">
+            <h2>類別分布</h2>
+            <span id="visibleCount">0 筆</span>
+          </div>
+          <div id="categoryBars" class="category-bars"></div>
+        </aside>
+
+        <section class="trend-section" aria-label="趨勢卡片">
+          <div class="section-title compact">
+            <h2>趨勢卡片</h2>
+            <span id="resultLabel"></span>
+          </div>
+          <div id="trendGrid" class="trend-grid"></div>
+        </section>
+      </section>
+
+      <section class="recommendation-band" aria-label="可轉化為領導力學習的議題">
+        <div class="section-title">
+          <div>
+            <h2>可轉化為領導力學習的議題</h2>
+            <p id="recommendationNote"></p>
+          </div>
+          <span id="recommendationUpdated">-</span>
+        </div>
+        <div id="recommendationGrid" class="recommendation-grid"></div>
+      </section>
+
+      <section class="source-section" aria-label="來源策略">
+        <div>
+          <h2>來源策略</h2>
+          <p id="sourceStrategyText"></p>
+        </div>
+        <div id="sourceList" class="source-list"></div>
+      </section>
+    </main>
+
+    <div id="detailPanel" class="detail-panel" aria-hidden="true">
+      <div class="detail-backdrop" data-close="true"></div>
+      <article class="detail-sheet" role="dialog" aria-modal="true" aria-labelledby="detailTitle">
+        <button class="close-button" type="button" data-close="true" aria-label="關閉">×</button>
+        <div id="detailContent"></div>
+      </article>
+    </div>
+
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
