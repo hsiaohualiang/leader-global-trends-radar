@@ -7,6 +7,7 @@ const payload = window.LEADER_TREND_DATA || {
   trends: [],
   sources: [],
 };
+const historyPayload = window.LEADER_TREND_HISTORY || { reports: [] };
 const categoryDefinitions = payload.categoryDefinitions || [];
 
 const state = {
@@ -28,6 +29,8 @@ const els = {
   nextReview: document.querySelector("#nextReview"),
   hotSignalCount: document.querySelector("#hotSignalCount"),
   highConfidenceCount: document.querySelector("#highConfidenceCount"),
+  historySelect: document.querySelector("#historySelect"),
+  historyReport: document.querySelector("#historyReport"),
   mustReadNote: document.querySelector("#mustReadNote"),
   mustReadUpdated: document.querySelector("#mustReadUpdated"),
   mustReadGrid: document.querySelector("#mustReadGrid"),
@@ -216,6 +219,165 @@ function initMeta() {
 
   fillSelect(els.categorySelect, categories, "全部類別");
   fillSelect(els.sourceTypeSelect, uniqueValues(payload.trends, "sourceType"), "全部來源類型");
+}
+
+function uniqueLinks(links) {
+  const seen = new Set();
+  return (links || []).filter((item) => {
+    if (!item?.url || seen.has(item.url)) return false;
+    seen.add(item.url);
+    return true;
+  });
+}
+
+function renderHistoryReport(report) {
+  if (!els.historyReport) return;
+  if (!report) {
+    els.historyReport.innerHTML = `
+      <div class="empty-state">
+        <strong>目前沒有歷史週報</strong>
+        <p>每週更新後，這裡會累積可回看的週報摘要。</p>
+      </div>
+    `;
+    return;
+  }
+
+  const metrics = report.metrics || {};
+  const statusLabel = report.status === "complete" ? "完整週報" : "快照摘要";
+  const sourceLinks = uniqueLinks(report.sourceLinks);
+  els.historyReport.innerHTML = `
+    <article class="history-summary">
+      <div class="history-summary-head">
+        <div>
+          <div class="pill-row">
+            <span class="pill hot">${escapeHtml(statusLabel)}</span>
+            <span class="pill">${escapeHtml(report.date)}</span>
+          </div>
+          <h3>${escapeHtml(report.label)}</h3>
+          <p>${escapeHtml(report.summary)}</p>
+        </div>
+        <div class="history-metrics">
+          <div><strong>${escapeHtml(metrics.trends || 0)}</strong><span>趨勢卡</span></div>
+          <div><strong>${escapeHtml(metrics.sources || 0)}</strong><span>來源</span></div>
+          <div><strong>${escapeHtml(metrics.highConfidence || 0)}</strong><span>A 級</span></div>
+          <div><strong>${escapeHtml(metrics.hotSignals || 0)}</strong><span>高熱度</span></div>
+        </div>
+      </div>
+    </article>
+
+    <div class="history-columns">
+      <article class="history-panel">
+        <h3>領導者必看 / 當週熱點</h3>
+        <div class="history-list">
+          ${(report.mustReads || [])
+            .map(
+              (item) => `
+                <div class="history-item">
+                  <span class="history-rank">${escapeHtml(item.rank)}</span>
+                  <div>
+                    <strong>${escapeHtml(item.headline)}</strong>
+                    <p>${escapeHtml(item.whyLeadersCare)}</p>
+                    ${
+                      item.sourceUrl
+                        ? `<a href="${escapeHtml(item.sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(item.sourceName || "來源")}</a>`
+                        : ""
+                    }
+                  </div>
+                </div>
+              `
+            )
+            .join("")}
+        </div>
+      </article>
+
+      <article class="history-panel">
+        <h3>Joyce 判讀與追問</h3>
+        <div class="history-block">
+          <strong>判讀重點</strong>
+          ${listItems(report.interpretation || [])}
+        </div>
+        <div class="history-block">
+          <strong>可拿去問高階主管</strong>
+          ${listItems(report.discussionPrompts || [])}
+        </div>
+      </article>
+    </div>
+
+    <div class="history-columns">
+      <article class="history-panel">
+        <h3>新增或升溫主題</h3>
+        <div class="history-theme-list">
+          ${(report.risingThemes || [])
+            .map(
+              (item) => `
+                <div class="history-theme">
+                  <strong>${escapeHtml(item.title)}</strong>
+                  <p>${escapeHtml(item.reason)}</p>
+                  <span>${escapeHtml(item.taiwanMeaning || "")}</span>
+                </div>
+              `
+            )
+            .join("")}
+        </div>
+      </article>
+
+      <article class="history-panel">
+        <h3>學習產品機會</h3>
+        <div class="history-opportunity-list">
+          ${(report.learningOpportunities || [])
+            .map(
+              (item) => `
+                <div class="history-opportunity">
+                  <span>${escapeHtml(item.priority)}</span>
+                  <div>
+                    <strong>${escapeHtml(item.title)}</strong>
+                    <p>${escapeHtml(item.whyNow || `${item.category || ""}｜熱度 ${item.heat || "-"}`)}</p>
+                  </div>
+                </div>
+              `
+            )
+            .join("")}
+        </div>
+      </article>
+    </div>
+
+    <div class="history-columns compact-history">
+      <article class="history-panel">
+        <h3>分類分布</h3>
+        <div class="history-category-grid">
+          ${(report.categoryCounts || [])
+            .map((item) => `<span>${escapeHtml(item.name)} <strong>${escapeHtml(item.count)}</strong></span>`)
+            .join("")}
+        </div>
+      </article>
+      <article class="history-panel">
+        <h3>來源與缺口</h3>
+        <div class="history-source-links">
+          ${
+            sourceLinks.length
+              ? sourceLinks
+                  .map((item) => `<a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.name || item.url)}</a>`)
+                  .join("")
+              : '<p class="muted-copy">此週快照未保留完整來源連結。</p>'
+          }
+        </div>
+        ${listItems(report.gaps || [])}
+      </article>
+    </div>
+  `;
+}
+
+function initHistory() {
+  if (!els.historySelect) return;
+  const reports = historyPayload.reports || [];
+  if (!reports.length) {
+    renderHistoryReport(null);
+    return;
+  }
+  els.historySelect.innerHTML = reports
+    .map((report) => `<option value="${escapeHtml(report.id)}">${escapeHtml(report.label)}</option>`)
+    .join("");
+  renderHistoryReport(reports[0]);
 }
 
 function renderRecommendations() {
@@ -694,6 +856,13 @@ function render() {
 }
 
 function bindEvents() {
+  if (els.historySelect) {
+    els.historySelect.addEventListener("change", (event) => {
+      const report = (historyPayload.reports || []).find((item) => item.id === event.target.value);
+      renderHistoryReport(report);
+    });
+  }
+
   els.searchInput.addEventListener("input", (event) => {
     state.search = event.target.value;
     render();
@@ -779,6 +948,7 @@ function bindEvents() {
 }
 
 initMeta();
+initHistory();
 renderSources();
 bindEvents();
 render();

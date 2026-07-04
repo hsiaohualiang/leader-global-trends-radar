@@ -183,11 +183,215 @@ main {
 .must-read-section,
 .perspective-section,
 .radar-section,
+.history-section,
 .source-section {
   display: grid;
   gap: 18px;
   padding: 24px 0;
   border-bottom: 1px solid var(--line);
+}
+
+.history-picker {
+  flex: 0 0 min(320px, 38vw);
+}
+
+.history-report {
+  display: grid;
+  gap: 14px;
+}
+
+.history-summary,
+.history-panel {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+}
+
+.history-summary {
+  padding: 18px;
+  border-top: 5px solid var(--violet);
+}
+
+.history-summary-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 380px);
+  gap: 18px;
+  align-items: start;
+}
+
+.history-summary h3,
+.history-panel h3 {
+  margin: 10px 0 0;
+}
+
+.history-summary p {
+  margin: 10px 0 0;
+  color: #334155;
+  line-height: 1.7;
+}
+
+.history-metrics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+  gap: 1px;
+}
+
+.history-metrics div {
+  display: grid;
+  gap: 4px;
+  padding: 12px;
+  background: #fbfdff;
+}
+
+.history-metrics strong {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.history-metrics span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.history-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.history-panel {
+  display: grid;
+  align-content: start;
+  gap: 14px;
+  padding: 16px;
+}
+
+.history-panel h3 {
+  margin: 0;
+}
+
+.history-list,
+.history-theme-list,
+.history-opportunity-list,
+.history-source-links {
+  display: grid;
+  gap: 10px;
+}
+
+.history-item,
+.history-opportunity {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #fbfdff;
+}
+
+.history-rank,
+.history-opportunity > span {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: #f5f3ff;
+  color: #5b21b6;
+  font-weight: 900;
+}
+
+.history-item strong,
+.history-theme strong,
+.history-opportunity strong {
+  line-height: 1.45;
+}
+
+.history-item p,
+.history-theme p,
+.history-theme span,
+.history-opportunity p,
+.history-block li,
+.history-panel li {
+  color: #334155;
+  line-height: 1.62;
+}
+
+.history-item p,
+.history-theme p,
+.history-opportunity p {
+  margin: 6px 0 0;
+}
+
+.history-item a,
+.history-source-links a {
+  display: inline-block;
+  margin-top: 8px;
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.history-theme {
+  display: grid;
+  gap: 6px;
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #fbfdff;
+}
+
+.history-theme span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.history-block {
+  display: grid;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #fbfdff;
+}
+
+.history-block ul,
+.history-panel ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.history-category-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.history-category-grid span {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  min-height: 30px;
+  padding: 5px 9px;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  background: #f8fafc;
+  color: #334155;
+  font-size: 13px;
+}
+
+.history-source-links a {
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #fbfdff;
 }
 
 .must-read-grid {
@@ -762,7 +966,9 @@ select {
   }
 
   .source-list,
-  .radar-map {
+  .radar-map,
+  .history-summary-head,
+  .history-columns {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -771,7 +977,9 @@ select {
   .topbar,
   .summary-band,
   .market-layout,
-  .controls {
+  .controls,
+  .history-summary-head,
+  .history-columns {
     grid-template-columns: 1fr;
   }
 
@@ -781,6 +989,10 @@ select {
 
   .category-panel {
     position: static;
+  }
+
+  .history-picker {
+    flex-basis: 100%;
   }
 }
 

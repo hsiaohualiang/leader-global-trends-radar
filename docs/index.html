@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>領導者全球趨勢雷達</title>
-    <link rel="stylesheet" href="./styles.css?v=20260704" />
+    <link rel="stylesheet" href="./styles.css?v=20260704-history" />
   </head>
   <body>
     <header class="topbar">
@@ -53,6 +53,20 @@
             <strong id="highConfidenceCount">0</strong>
           </div>
         </div>
+      </section>
+
+      <section class="history-section" aria-label="歷史週報">
+        <div class="section-title">
+          <div>
+            <h2>歷史週報</h2>
+            <p>回看上一週與更早週次的領導者趨勢判讀、熱點變化、來源與可延伸的學習產品機會。</p>
+          </div>
+          <label class="history-picker">
+            <span>選擇週次</span>
+            <select id="historySelect"></select>
+          </label>
+        </div>
+        <div id="historyReport" class="history-report"></div>
       </section>
 
       <section class="must-read-section" aria-label="本週全球領導者必看">
@@ -167,7 +181,8 @@
       </article>
     </div>
 
-    <script src="./data.js?v=20260704"></script>
-    <script src="./app.js?v=20260704"></script>
+    <script src="./data.js?v=20260704-history"></script>
+    <script src="./history-data.js?v=20260704-history"></script>
+    <script src="./app.js?v=20260704-history"></script>
   </body>
 </html>
