@@ -1,63 +1,66 @@
 {
-  "recorded_at": "2026-06-27T12:16:08.312Z",
-  "generated_at": "2026-06-27",
-  "next_review": "2026-07-04 07:30 Asia/Taipei",
-  "trend_count": 39,
+  "recorded_at": "2026-07-04T13:25:52.423Z",
+  "generated_at": "2026-07-04",
+  "next_review": "2026-07-11 20:00 Asia/Taipei",
+  "trend_count": 52,
   "recommendation_count": 6,
-  "source_count": 18,
+  "source_count": 29,
   "category_count": 25,
   "category_counts": {
-    "AI投資ROI": 7,
+    "AI投資ROI": 11,
     "AI成本治理": 6,
-    "AI基礎建設與資料中心": 7,
-    "資本市場與金融風險": 7,
+    "AI基礎建設與資料中心": 11,
+    "資本市場與金融風險": 9,
     "Agentic AI與流程自動化": 6,
     "資料治理與AI-ready": 5,
-    "AI規模化落地": 7,
-    "高階幕僚與決策智能": 6,
-    "AI信任與透明度": 7,
+    "AI規模化落地": 8,
+    "高階幕僚與決策智能": 7,
+    "AI信任與透明度": 8,
     "董事會AI治理": 7,
     "資安與數位韌性": 7,
-    "EU AI監管與合規": 6,
-    "地緣政治與能源風險": 6,
-    "全球低成長與通膨": 6,
-    "關稅貿易與區域布局": 7,
+    "EU AI監管與合規": 8,
+    "地緣政治與能源風險": 8,
+    "全球低成長與通膨": 8,
+    "關稅貿易與區域布局": 8,
     "印度與新興市場": 5,
     "供應鏈韌性": 8,
-    "AI供應鏈與半導體": 7,
-    "歐洲AI產業政策": 7,
-    "新創與生態系合作": 5,
-    "未來工作與人機協作": 6,
-    "人才重配置與再學習": 6,
-    "CEO經營節奏與風險雷達": 7,
-    "領導力接班與心理安全": 6,
-    "高階學習產品與內容設計": 7
+    "AI供應鏈與半導體": 8,
+    "歐洲AI產業政策": 8,
+    "新創與生態系合作": 6,
+    "未來工作與人機協作": 8,
+    "人才重配置與再學習": 7,
+    "CEO經營節奏與風險雷達": 9,
+    "領導力接班與心理安全": 7,
+    "高階學習產品與內容設計": 8
   },
   "parent_category_counts": {
-    "AI投資與資本市場": 4,
+    "AI投資與資本市場": 7,
     "AI落地與資料治理": 5,
-    "AI信任與科技治理": 6,
-    "組織人才與CEO學習": 8,
-    "全球宏觀與地緣市場": 4,
+    "AI信任與科技治理": 7,
+    "組織人才與CEO學習": 9,
+    "全球宏觀與地緣市場": 5,
     "供應鏈韌性與產業佈局": 2,
-    "AI投資ROI": 3,
+    "AI投資ROI": 5,
     "AI基礎建設與資料中心": 3,
-    "EU AI監管與合規": 1,
+    "AI規模化落地": 1,
+    "全球低成長與通膨": 1,
+    "EU AI監管與合規": 2,
+    "未來工作與人機協作": 2,
+    "高階學習產品與內容設計": 1,
     "董事會AI治理": 1,
-    "未來工作與人機協作": 1,
     "供應鏈韌性": 1
   },
   "confidence_counts": {
-    "B": 15,
-    "A": 23,
-    "C": 1
+    "B": 16,
+    "A": 34,
+    "C": 2
   },
   "source_type_counts": {
     "國際財經媒體": 2,
-    "官方/金融機構": 2,
+    "官方/金融機構": 4,
     "顧問/研究": 7,
     "CEO調查": 7,
-    "官方/經濟機構": 2,
+    "官方/經濟機構": 3,
     "產業活動/媒體": 2,
     "國際組織/論壇": 1,
     "政策/研究": 1,
@@ -71,18 +74,49 @@
     "歐洲官方/產業政策": 1,
     "歐洲國際財經媒體": 1,
     "歐洲科技媒體": 1,
+    "AI研究": 1,
+    "官方經濟機構": 1,
+    "歐洲AI治理": 1,
+    "CEO/董事會研究": 1,
+    "組織/人才研究": 1,
+    "影音/弱訊號": 1,
     "投資研究/國際財經媒體": 1,
     "國際財經媒體/能源訊號": 1,
     "企業領袖訪談/組織研究": 1,
-    "產業研究/活動訊號": 1
+    "產業研究/活動訊號": 1,
+    "投資研究": 1,
+    "國際財經媒體與影音": 1,
+    "歐洲官方/國際財經媒體": 1,
+    "顧問/領導力研究": 1
   },
   "top_hot_trends": [
+    {
+      "id": "bis-ai-boom-fragility",
+      "title": "BIS 警示 AI 熱潮可能放大金融脆弱性",
+      "category": "AI投資ROI",
+      "heat": 98,
+      "confidence": "A"
+    },
+    {
+      "id": "bis-ai-exuberance-risk",
+      "title": "BIS 將 AI 投資熱潮列為金融穩定壓力點",
+      "category": "AI投資與資本市場",
+      "heat": 98,
+      "confidence": "A"
+    },
     {
       "id": "ai-cost-discipline",
       "title": "AI 成本紀律成為 CEO/CFO 議題",
       "category": "AI投資與資本市場",
       "heat": 97,
       "confidence": "B"
+    },
+    {
+      "id": "ai-capex-financial-link",
+      "title": "AI 資本支出與金融穩定開始連動",
+      "category": "AI投資與資本市場",
+      "heat": 97,
+      "confidence": "A"
     },
     {
       "id": "ai-physical-economy-buildout",
@@ -92,8 +126,8 @@
       "confidence": "A"
     },
     {
-      "id": "ai-capex-financial-link",
-      "title": "AI 資本支出與金融穩定開始連動",
+      "id": "data-center-power-demand-doubles",
+      "title": "資料中心用電需求快速上升，電力成為 AI 規模化瓶頸",
       "category": "AI投資與資本市場",
       "heat": 96,
       "confidence": "A"
@@ -106,45 +140,24 @@
       "confidence": "A"
     },
     {
+      "id": "stanford-ai-index-2026-adoption-gap",
+      "title": "Stanford AI Index 顯示 AI 投資升高但落地能力分化",
+      "category": "AI規模化落地",
+      "heat": 94,
+      "confidence": "A"
+    },
+    {
       "id": "ai-power-water-bottleneck",
       "title": "資料中心的電力與水資源成為 AI 成長瓶頸",
       "category": "AI基礎建設與資料中心",
-      "heat": 92,
+      "heat": 94,
       "confidence": "B"
     },
     {
-      "id": "ceo-cyber-ai-risk-q2",
-      "title": "CEO 將資安、AI 與地緣風險視為同一組經營壓力",
-      "category": "董事會AI治理",
-      "heat": 91,
-      "confidence": "A"
-    },
-    {
-      "id": "ai-scale-gap",
-      "title": "AI 試點很多，規模化成果仍不足",
-      "category": "AI落地與資料治理",
-      "heat": 90,
-      "confidence": "A"
-    },
-    {
-      "id": "board-ai-cyber",
-      "title": "董事會 AI、資安與危機治理需求升高",
-      "category": "AI信任與科技治理",
-      "heat": 90,
-      "confidence": "A"
-    },
-    {
-      "id": "eu-gpai-compliance-deadline",
-      "title": "GPAI 合規從政策討論進入供應商管理",
-      "category": "EU AI監管與合規",
-      "heat": 90,
-      "confidence": "A"
-    },
-    {
-      "id": "human-x-machine",
-      "title": "工作設計從 human + machine 轉向 human x machine",
-      "category": "組織人才與CEO學習",
-      "heat": 89,
+      "id": "worldbank-oecd-low-growth-energy-risk",
+      "title": "低成長與能源風險成為 2026 下半年基準情境",
+      "category": "全球低成長與通膨",
+      "heat": 93,
       "confidence": "A"
     }
   ],
