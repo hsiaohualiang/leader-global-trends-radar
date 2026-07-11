@@ -1,54 +1,54 @@
 {
-  "recorded_at": "2026-07-04T14:24:56.675Z",
-  "generated_at": "2026-07-04",
-  "next_review": "2026-07-11 20:00 Asia/Taipei",
-  "trend_count": 59,
+  "recorded_at": "2026-07-11T12:07:46.712Z",
+  "generated_at": "2026-07-11",
+  "next_review": "2026-07-18 20:00 Asia/Taipei",
+  "trend_count": 71,
   "recommendation_count": 6,
-  "source_count": 32,
+  "source_count": 35,
   "category_count": 25,
   "category_counts": {
-    "AI投資ROI": 11,
-    "AI成本治理": 6,
-    "AI基礎建設與資料中心": 11,
-    "資本市場與金融風險": 13,
-    "Agentic AI與流程自動化": 6,
-    "資料治理與AI-ready": 5,
-    "AI規模化落地": 8,
-    "高階幕僚與決策智能": 8,
-    "AI信任與透明度": 9,
-    "董事會AI治理": 8,
-    "資安與數位韌性": 9,
-    "EU AI監管與合規": 8,
-    "地緣政治與能源風險": 12,
-    "全球低成長與通膨": 10,
-    "關稅貿易與區域布局": 10,
-    "印度與新興市場": 5,
-    "供應鏈韌性": 11,
-    "AI供應鏈與半導體": 8,
-    "歐洲AI產業政策": 9,
-    "新創與生態系合作": 6,
-    "未來工作與人機協作": 8,
-    "人才重配置與再學習": 8,
-    "CEO經營節奏與風險雷達": 16,
-    "領導力接班與心理安全": 8,
-    "高階學習產品與內容設計": 11
+    "AI投資ROI": 14,
+    "AI成本治理": 7,
+    "AI基礎建設與資料中心": 13,
+    "資本市場與金融風險": 15,
+    "Agentic AI與流程自動化": 7,
+    "資料治理與AI-ready": 8,
+    "AI規模化落地": 9,
+    "高階幕僚與決策智能": 9,
+    "AI信任與透明度": 13,
+    "董事會AI治理": 11,
+    "資安與數位韌性": 10,
+    "EU AI監管與合規": 10,
+    "地緣政治與能源風險": 17,
+    "全球低成長與通膨": 13,
+    "關稅貿易與區域布局": 13,
+    "印度與新興市場": 6,
+    "供應鏈韌性": 13,
+    "AI供應鏈與半導體": 11,
+    "歐洲AI產業政策": 11,
+    "新創與生態系合作": 8,
+    "未來工作與人機協作": 10,
+    "人才重配置與再學習": 10,
+    "CEO經營節奏與風險雷達": 20,
+    "領導力接班與心理安全": 9,
+    "高階學習產品與內容設計": 12
   },
   "parent_category_counts": {
-    "科技與AI轉型": 16,
-    "治理與社會信任": 12,
-    "組織與人才": 10,
-    "CEO經營環境": 8,
-    "地緣政治與供應鏈": 9,
-    "產業與商業模式": 4
+    "科技與AI轉型": 17,
+    "治理與社會信任": 14,
+    "組織與人才": 12,
+    "CEO經營環境": 11,
+    "地緣政治與供應鏈": 11,
+    "產業與商業模式": 6
   },
   "confidence_counts": {
-    "B": 17,
-    "A": 40,
-    "C": 2
+    "B": 19,
+    "A": 49,
+    "C": 3
   },
   "source_type_counts": {
     "國際財經媒體": 2,
-    "官方/金融機構": 4,
+    "官方/金融機構": 5,
     "顧問/研究": 7,
     "CEO調查": 7,
     "官方/經濟機構": 3,
@@ -65,11 +65,11 @@
     "歐洲官方/產業政策": 1,
     "歐洲國際財經媒體": 1,
     "歐洲科技媒體": 1,
-    "AI研究": 1,
-    "官方經濟機構": 1,
+    "AI研究": 2,
+    "官方經濟機構": 4,
     "歐洲AI治理": 1,
-    "CEO/董事會研究": 5,
-    "組織/人才研究": 1,
+    "CEO/董事會研究": 6,
+    "組織/人才研究": 2,
     "影音/弱訊號": 1,
     "投資研究/國際財經媒體": 1,
     "國際財經媒體/能源訊號": 1,
@@ -81,9 +81,21 @@
     "顧問/領導力研究": 1,
     "貿易/供應鏈研究": 1,
     "能源研究": 1,
-    "國際組織/風險研究": 1
+    "國際組織/風險研究": 1,
+    "能源/產業研究": 1,
+    "政府/監管機構": 1,
+    "政府/財經媒體": 1,
+    "顧問/AI研究": 1,
+    "影音弱訊號": 1
   },
   "top_hot_trends": [
+    {
+      "id": "imf-war-technology-crosscurrents-202607",
+      "title": "戰爭與科技交錯成為 CEO 下半年基準情境",
+      "category": "CEO經營環境",
+      "heat": 98,
+      "confidence": "A"
+    },
     {
       "id": "ai-cost-discipline",
       "title": "AI 成本紀律成為 CEO/CFO 議題",
@@ -106,6 +118,13 @@
       "confidence": "A"
     },
     {
+      "id": "bis-policy-discipline-ai-fragility-202606",
+      "title": "AI 投資熱潮與金融脆弱性進入同一張風險圖",
+      "category": "CEO經營環境",
+      "heat": 97,
+      "confidence": "A"
+    },
+    {
       "id": "data-center-power-demand-doubles",
       "title": "資料中心用電需求快速上升，電力成為 AI 規模化瓶頸",
       "category": "科技與AI轉型",
@@ -120,38 +139,24 @@
       "confidence": "A"
     },
     {
+      "id": "worldbank-growth-energy-risk-202606",
+      "title": "能源衝擊與貿易不確定性壓低全球成長",
+      "category": "地緣政治與供應鏈",
+      "heat": 96,
+      "confidence": "A"
+    },
+    {
+      "id": "conference-board-ceo-risk-q2-2026",
+      "title": "CEO 風險焦點從單點事件升級為跨部門風險治理",
+      "category": "CEO經營環境",
+      "heat": 95,
+      "confidence": "A"
+    },
+    {
       "id": "middle-east-energy-risk",
       "title": "中東衝突與能源價格重新改寫策略假設",
       "category": "地緣政治與供應鏈",
       "heat": 94,
-      "confidence": "A"
-    },
-    {
-      "id": "stanford-ai-index-2026-adoption-gap",
-      "title": "Stanford AI Index 顯示 AI 投資升高但落地能力分化",
-      "category": "科技與AI轉型",
-      "heat": 94,
-      "confidence": "A"
-    },
-    {
-      "id": "worldbank-oecd-low-growth-energy-risk",
-      "title": "低成長與能源風險成為 2026 下半年 CEO 基準情境",
-      "category": "CEO經營環境",
-      "heat": 94,
-      "confidence": "A"
-    },
-    {
-      "id": "ai-power-water-bottleneck",
-      "title": "資料中心的電力與水資源成為 AI 成長瓶頸",
-      "category": "地緣政治與供應鏈",
-      "heat": 94,
-      "confidence": "B"
-    },
-    {
-      "id": "bis-ai-boom-fragility",
-      "title": "BIS 警示 AI 熱潮可能放大金融脆弱性",
-      "category": "科技與AI轉型",
-      "heat": 92,
       "confidence": "A"
     }
   ],
