@@ -1,6 +1,227 @@
 window.LEADER_TREND_HISTORY = {
-  "generated_at": "2026-07-11",
+  "generated_at": "2026-07-18",
   "reports": [
+    {
+      "id": "2026-07-18",
+      "date": "2026-07-18",
+      "label": "2026-07-18 完整週報",
+      "status": "complete",
+      "summary": "本週全球領導者的共同題目，是「AI 熱潮進入資本與治理壓力測試，同時低成長、能源、金融規範與組織信任重新回到 CEO 桌上」。FT 與 BIS 把 AI 投資、銀行監管與金融穩定連在一起；McKinsey 與 Stanford 提醒企業要從技術採用轉向可衡量的經營價值；World Bank、OECD 與 Conference Board 則讓能源、供應鏈、資安與地緣風險成為季度經營節奏。對台灣企業而言，這不是單純追 AI 機會的一週，而是把 AI 投資、資本紀律、能源韌性、歐洲合規與組織適應力放進同一個董事會語言。",
+      "interpretation": [
+        "FT 與 BIS 的共同訊號是：AI 已從創新敘事進入資本市場與金融穩定敘事，董事會要問投資是否可持續、是否過度集中、是否有停損門檻。",
+        "歐洲銀行監管與 AI 透明規則同時出現，提醒企業「競爭力」與「信任欄杆」正在被重新談判；領導者不能只站在效率那一邊。",
+        "McKinsey 的 agentic economics 把 AI 管理拉回營運基本功：成本分布、業務 KPI、流程 owner、例外處理與治理責任。",
+        "World Bank、OECD 與 Conference Board 讓能源、供應鏈、資安與地緣風險持續佔據 CEO 議程；這些不是背景噪音，而是季度經營節奏。",
+        "對台灣企業而言，本週最值得練習的是「雙重視角」：一方面掌握 AI 供應鏈與數位轉型機會，另一方面建立資本、能源、合規與組織韌性的保護欄。"
+      ],
+      "discussionPrompts": [
+        "董事會若只問 AI 專案數量，而不問資本配置、能源、資安與停損門檻，會漏掉什麼風險？",
+        "我們的 AI 投資是否已有「機器工作」的成本與成果儀表板？誰擁有這張表？",
+        "當歐洲同時追求競爭力與更具體的 AI 透明義務，台灣供應商要先補哪一種可信文件？",
+        "如果能源、關稅、資安與 AI 成本同時上升，哪個事業群最需要重排 2026 下半年假設？",
+        "組織適應力是否已被放入 CEO 議程，還是仍被視為 HR 的訓練題？"
+      ],
+      "mustReads": [
+        {
+          "rank": 1,
+          "headline": "歐洲重新討論銀行監管：競爭力改革不能脫離金融韌性",
+          "whyLeadersCare": "CEO、CFO 與董事會要把監管、資本成本、融資條件與金融交易對手風險一起看；外部資金環境正在被「競爭力」敘事重新定義。",
+          "taiwanMeaning": "台灣企業若有歐洲市場、歐洲授信或跨境併購，需要追蹤歐洲金融規則變動，避免把資金可得性誤判為低風險。",
+          "joyceQuestion": "當政策為了競爭力鬆綁時，我們的董事會如何分辨「更有彈性」與「更脆弱」？",
+          "keepWatching": [
+            "歐盟銀行資本規範修正",
+            "歐洲銀行授信條件",
+            "企業債與科技投資融資",
+            "金融監管與競爭力辯論"
+          ],
+          "sourceName": "Financial Times News Briefing",
+          "sourceUrl": "https://www.ft.com/content/5586c99d-bcaa-4361-81a9-229ebc56e595",
+          "heat": 91,
+          "confidence": "B"
+        },
+        {
+          "rank": 2,
+          "headline": "BIS 把 AI 投資競賽視為金融穩定題：董事會要問債務、循環投資與停損",
+          "whyLeadersCare": "AI 供應鏈、科技股、債券市場與企業 capex 可能形成同一個循環；董事會要建立「若 AI 回報延後，哪些曝險先受傷」的問題清單。",
+          "taiwanMeaning": "台灣 AI 供應鏈仍受益，但需要更細追蹤 hyperscaler capex、資料中心融資、庫存與客戶訂單能見度。",
+          "joyceQuestion": "如果 AI 投資熱潮從加速轉為盤整，我們的產品線、產能與現金流有沒有可調節的節奏？",
+          "keepWatching": [
+            "BIS AI investment race 後續研究",
+            "資料中心債券發行",
+            "hyperscaler capex 指引",
+            "AI 供應鏈庫存"
+          ],
+          "sourceName": "BIS Working Paper: The AI investment race",
+          "sourceUrl": "https://www.bis.org/publ/work1367.pdf",
+          "heat": 92,
+          "confidence": "A"
+        },
+        {
+          "rank": 3,
+          "headline": "CEO 風險清單變立體：資安、地緣、AI、供應鏈與能源同時升溫",
+          "whyLeadersCare": "風險治理不能再分散於 IT、法遵、供應鏈與策略部門；CEO 需要一個跨部門、季度校準的風險節奏。",
+          "taiwanMeaning": "台灣企業位於敏感供應鏈與跨境客戶網絡中，資安與地緣風險會直接影響訂單資格、客戶信任與董事會責任。",
+          "joyceQuestion": "本季董事會最該追問哪三個風險？我們是否有共同排序，而不是各部門各講各的？",
+          "keepWatching": [
+            "CEO Confidence Q3",
+            "重大資安事件",
+            "客戶稽核條件",
+            "地緣與能源衝擊"
+          ],
+          "sourceName": "The Conference Board CEO Confidence Q2 2026",
+          "sourceUrl": "https://www.conference-board.org/topics/CEO-Confidence/",
+          "heat": 95,
+          "confidence": "A"
+        },
+        {
+          "rank": 4,
+          "headline": "能源與貿易不確定性回到 P&L：低成長會先表現在毛利、庫存與交期",
+          "whyLeadersCare": "CEO、COO 與 CFO 要把能源、關稅、匯率、需求疲弱與客戶承諾轉成可執行的價格、採購、庫存與市場組合決策。",
+          "taiwanMeaning": "台灣製造與出口企業需重跑成本模型，尤其是能源密集、長交期、歐洲客戶與毛利較薄的產品線。",
+          "joyceQuestion": "若能源與關稅成本同時上升，我們會優先調價、換供應商、改市場組合，還是讓毛利吸收？",
+          "keepWatching": [
+            "World Bank/OECD 展望",
+            "油價與天然氣",
+            "關稅與原產地規則",
+            "出口訂單與客戶庫存"
+          ],
+          "sourceName": "World Bank Global Economic Prospects, June 2026",
+          "sourceUrl": "https://www.worldbank.org/en/publication/global-economic-prospects",
+          "heat": 96,
+          "confidence": "A"
+        },
+        {
+          "rank": 5,
+          "headline": "Agentic AI 的管理問題從「工具導入」轉為「機器工作成本與成果治理」",
+          "whyLeadersCare": "CEO 與 CIO 若沒有 KPI、成本分布、模型路由與覆核責任，agentic AI 可能快速放大成本池，卻沒有穩定轉成營收、毛利或效率。",
+          "taiwanMeaning": "台灣企業導入 agent 時要把中文 token 成本、跨系統資料品質、資安閘道與供應商計價納入完整 TCO。",
+          "joyceQuestion": "我們的 AI agent 專案，是用「完成的業務成果」衡量，還是只用使用量、模型速度與展示效果衡量？",
+          "keepWatching": [
+            "McKinsey agentic economics",
+            "企業 IT 預算 AI 占比",
+            "agent cost dashboard",
+            "流程 owner 的 KPI 設計"
+          ],
+          "sourceName": "McKinsey: Is that AI agent worth it?",
+          "sourceUrl": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/is-that-ai-agent-worth-it-agentic-economics-and-the-modern-operating-model",
+          "heat": 89,
+          "confidence": "B"
+        },
+        {
+          "rank": 6,
+          "headline": "組織適應力與信任仍是轉型瓶頸：導入越快，人的系統越要重設",
+          "whyLeadersCare": "高階主管要把組織適應力當成營運基礎建設；否則 AI 會放大既有權責模糊、信任不足與主管能力落差。",
+          "taiwanMeaning": "台灣企業常同時面對人才短缺、接班、跨部門協作與 AI 導入，若不重設工作與決策權，轉型會卡在人的系統。",
+          "joyceQuestion": "我們是在訓練員工使用工具，還是在重新設計工作、權責、回饋與主管角色？",
+          "keepWatching": [
+            "Deloitte Human Capital Trends",
+            "主管能力模型",
+            "員工信任",
+            "跨部門流程重設"
+          ],
+          "sourceName": "Deloitte 2026 Global Human Capital Trends",
+          "sourceUrl": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html",
+          "heat": 90,
+          "confidence": "A"
+        },
+        {
+          "rank": 7,
+          "headline": "歐洲 AI 透明義務進入倒數：品牌、內容與客服都要準備可信標示",
+          "whyLeadersCare": "AI 生成內容透明會影響品牌信任、客服、教育內容、投資人溝通與產品介面；這是法務、品牌、HR、客服與 IT 的共同治理題。",
+          "taiwanMeaning": "台灣企業若服務歐洲客戶或有國際品牌曝光，應建立 AI 內容標示、審核、供應商責任與危機回應流程。",
+          "joyceQuestion": "我們現在有哪些對外內容是 AI 生成或 AI 協作？是否知道何時需要標示、誰審核、誰負責？",
+          "keepWatching": [
+            "AI Act Article 50",
+            "AI-generated content Code of Practice",
+            "歐洲客戶採購條款",
+            "品牌與客服內容稽核"
+          ],
+          "sourceName": "European Commission AI Office",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content",
+          "heat": 88,
+          "confidence": "A"
+        }
+      ],
+      "recommendations": [
+        {
+          "priority": 1,
+          "title": "CEO 全局風險雷達：資安、地緣、能源與金融規範的季度節奏",
+          "category": "CEO經營環境",
+          "heat": 96
+        },
+        {
+          "priority": 2,
+          "title": "AI 投資與資本紀律：從 capex 熱潮到董事會停損門檻",
+          "category": "科技與AI轉型",
+          "heat": 95
+        },
+        {
+          "priority": 3,
+          "title": "能源、資料中心與供應鏈韌性：AI 成長背後的營運底盤",
+          "category": "地緣政治與供應鏈",
+          "heat": 93
+        },
+        {
+          "priority": 4,
+          "title": "董事會信任治理：AI 透明、frontier model 與內容責任",
+          "category": "治理與社會信任",
+          "heat": 91
+        },
+        {
+          "priority": 5,
+          "title": "組織適應力與人機協作：從工具訓練到工作系統重設",
+          "category": "組織與人才",
+          "heat": 90
+        },
+        {
+          "priority": 6,
+          "title": "歐洲市場准入與可信供應鏈：合規、能源與科技主權",
+          "category": "地緣政治與供應鏈",
+          "heat": 89
+        }
+      ],
+      "metrics": {
+        "trends": 77,
+        "categories": 25,
+        "sources": 42,
+        "recommendations": 6,
+        "highConfidence": 51,
+        "hotSignals": 56
+      },
+      "sourceLinks": [
+        {
+          "name": "Financial Times: EU bank deregulation",
+          "url": "https://www.ft.com/content/5586c99d-bcaa-4361-81a9-229ebc56e595"
+        },
+        {
+          "name": "BIS: The AI investment race",
+          "url": "https://www.bis.org/publ/work1367.pdf"
+        },
+        {
+          "name": "The Conference Board: CEO Confidence",
+          "url": "https://www.conference-board.org/topics/CEO-Confidence/"
+        },
+        {
+          "name": "World Bank Global Economic Prospects",
+          "url": "https://www.worldbank.org/en/publication/global-economic-prospects"
+        },
+        {
+          "name": "McKinsey: Agentic economics",
+          "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/is-that-ai-agent-worth-it-agentic-economics-and-the-modern-operating-model"
+        },
+        {
+          "name": "European Commission: AI-generated content transparency",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"
+        },
+        {
+          "name": "Deloitte Human Capital Trends",
+          "url": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html"
+        }
+      ],
+      "gaps": [
+        "FT 部分文章可能受付費牆限制，已以可檢索摘要與可點擊來源保留；影音弱訊號本週未做互動數與留言量驗證，因此未宣稱社群熱度。"
+      ]
+    },
     {
       "id": "2026-07-11",
       "date": "2026-07-11",
