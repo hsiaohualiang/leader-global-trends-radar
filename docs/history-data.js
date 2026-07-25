@@ -6,138 +6,121 @@ window.LEADER_TREND_HISTORY = {
       "date": "2026-07-25",
       "label": "2026-07-25 完整週報",
       "status": "complete",
-      "summary": "本週全球領導者要處理的不是單一 AI 題，而是「戰爭與能源把通膨和利率拉回桌上，AI 投資仍撐住成長但同時製造資本紀律、電力與治理壓力」。IMF 與 BIS 都把全球經濟描述為兩股力量拉扯：能源/地緣衝擊壓低能見度，科技投資與 AI 供應鏈支撐部分成長；The Conference Board 顯示 CEO 對資安、地緣與 AI 仍高度警覺；McKinsey、Deloitte 與歐盟資料則提醒，企業接下來的差距會出現在 AI ROI、工作系統重設與可信合規。對台灣企業而言，本週關鍵不是追更多新名詞，而是把能源、關稅、AI capex、資安、人才與歐洲市場准入整合成董事會能每季追蹤的經營語言。",
+      "summary": "本週全球領導者的共同題目，是「外部成長看似撐住，但真正的壓力正在轉向資本、能源、主權與組織吸收能力」。IMF 把全球經濟放在戰爭與科技的交錯中，提醒 CEO 不可把 AI 動能誤讀為全面景氣復甦；FT 對 Google 現金流、歐洲 AI 主權與資料中心電力的追蹤，則把 AI 從工具議題拉回資本配置、能源基礎建設與地緣科技依賴；The Conference Board 與 FT 職場訊號顯示，資安、地緣政治與人機工作編排正在變成高階團隊的季度治理題。對台灣企業而言，本週不是追逐單一 AI 熱點，而是檢查自己的三個底盤：資本紀律、能源與供應鏈韌性、以及能否把人與 AI 重新編成可信任的工作系統。",
       "interpretation": [
-        "第一，IMF 與 BIS 的共同訊號是「分化」：科技價值鏈受益者與能源曝險者會走出不同曲線，台灣企業往往同時在兩邊。",
-        "第二，AI capex 已不是科技新聞，而是金融穩定、信用、電力與地方治理新聞；董事會要開始讀客戶 capex 指引與資本市場語言。",
-        "第三，關稅與 forced labor/原產地要求讓供應鏈文件治理變成商業能力，不能只靠採購或報關單位臨時處理。",
-        "第四，組織端的瓶頸正在從「會不會用 AI」轉為「誰負責、誰覆核、工作怎麼重設、主管如何建立信任」。",
-        "第五，歐洲 AI Act 與 AI factories 同時出現，代表歐洲一手建基礎建設、一手提高可信門檻；台灣供應商要同時看機會與准入成本。"
+        "IMF 的訊號提醒：全球經濟不是單純衰退或復甦，而是戰爭、能源與科技投資同時拉扯；CEO 要用情境而非單一預測管理。",
+        "Google 現金流與 Big Tech capex 壓力讓 AI 從「值得投入」變成「如何證明值得」；董事會要開始問 AI 投資的資本紀律。",
+        "歐洲 AI 主權與 GPAI Code 顯示，AI 採購會越來越像供應鏈治理：來源、依賴、透明、版權與安全都要可被稽核。",
+        "資料中心電力與能源商品價格把 AI 成長拉回營運底盤；沒有能源、電網、設備與社會接受度，就沒有可持續的數位成長。",
+        "FT 的 workforce orchestrator 訊號說明，人機協作的關鍵不是會不會用工具，而是誰來設計分工、權責、覆核與技能更新。"
       ],
       "discussionPrompts": [
-        "董事會是否已有一張把能源、關稅、AI 客戶 capex、資安與人才放在一起的季度風險雷達？",
-        "如果 AI 景氣仍熱，但資金成本與電力成本升高，我們哪些投資要加速，哪些要停損？",
-        "面對歐洲客戶，我們能否提出 AI 使用、資料、供應商、原產地與永續文件，而不是只提供產品規格？",
-        "主管是否知道在 AI 流程中何時授權、何時覆核、何時回到人工判斷？",
-        "哪些本週全球訊號可以轉成 CEO/二代/高階團隊的討論題，而不是只做成趨勢簡報？"
+        "我們目前最樂觀的成長假設，是否其實建立在 AI capex、能源穩定與客戶投資持續三個前提上？",
+        "董事會下次審 AI 專案時，除了功能展示，是否也要求 TCO、現金流、風險分級與停損門檻？",
+        "如果歐洲客戶明天要求說明 AI 模型來源、資料位置、透明標示與供應商責任，我們準備好了嗎？",
+        "我們的 AI 導入是讓人更有效，還是讓權責更模糊？誰負責重新編排工作？",
+        "台灣企業在 AI 供應鏈紅利中，如何避免忽略能源、資安與客戶財務健康的下行風險？"
       ],
       "mustReads": [
         {
           "rank": 1,
-          "headline": "全球經濟不是單向放緩：能源戰爭拖累，科技投資支撐，但企業分化會加劇",
-          "whyLeadersCare": "CEO、CFO 與董事會要停止用單一景氣假設管理全年預算，改用雙軌情境檢查營收、毛利、匯率、能源與投資。",
-          "taiwanMeaning": "台灣企業同時受惠 AI 硬體鏈，也承擔能源進口與出口需求波動；董事會需要看「受益與受壓」兩張表。",
-          "joyceQuestion": "如果科技客戶成長與能源/關稅壓力同時發生，我們的毛利、現金與產能決策會怎麼變？",
+          "headline": "全球成長撐住但不均衡：CEO 要把戰爭、能源與科技需求放進同一個基準情境",
+          "whyLeadersCare": "這提醒 CEO 不要把 AI 需求或單一市場回升誤讀為全面復甦；董事會需要用多情境管理營收、毛利、庫存與資本支出。",
+          "taiwanMeaning": "台灣企業一方面受惠於科技供應鏈，另一方面暴露於能源進口、地緣風險與出口循環，必須把樂觀訂單與下行情境同時管理。",
+          "joyceQuestion": "我們目前的 2026 下半年計畫，是建立在單一成長假設，還是已把能源、戰爭、匯率與科技需求分開測試？",
           "keepWatching": [
-            "IMF/OECD 下次成長修正",
-            "油價與天然氣",
-            "台灣出口訂單",
-            "半導體客戶 capex 指引"
+            "IMF/OECD 下次展望",
+            "能源價格與海運瓶頸",
+            "半導體與 AI 客戶 capex",
+            "主要出口市場 PMI"
           ],
-          "sourceName": "IMF World Economic Outlook Update, July 2026",
+          "sourceName": "IMF World Economic Outlook Update",
           "sourceUrl": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026",
           "heat": 97,
           "confidence": "A"
         },
         {
           "rank": 2,
-          "headline": "BIS 把 AI 投資、能源衝擊與金融脆弱性連成同一張風險圖",
-          "whyLeadersCare": "董事會要問 AI capex 是否靠過度樂觀、便宜資金或長約支撐；當利率、能源或需求改變，投資案可能同時被重估。",
-          "taiwanMeaning": "台灣 AI 供應鏈仍有機會，但更需要追蹤客戶集中、資料中心融資、庫存與產能承諾，避免把景氣上行誤讀成永久需求。",
-          "joyceQuestion": "我們有沒有把 AI 客戶訂單、資本市場情緒與能源成本放進同一個壓力測試？",
+          "headline": "能源與資料中心成為 AI 成長的營運底盤，不只是 ESG 題",
+          "whyLeadersCare": "AI、數位化與製造擴產都會回到電力容量、能源價格、設備交期與社會接受度；COO/CFO 要把能源可得性納入成長上限。",
+          "taiwanMeaning": "台灣科技、半導體、資料中心與高耗能製造若不能清楚說明電力、碳排與備援設計，將面對客戶稽核與成本風險。",
+          "joyceQuestion": "如果能源價格與電力容量成為成長限制，我們哪些產品線或客戶承諾最先需要重排？",
           "keepWatching": [
-            "hyperscaler capex",
-            "資料中心債務與私募信貸",
-            "AI 供應鏈庫存",
-            "電力與設備瓶頸"
+            "World Bank Commodity Markets Outlook",
+            "資料中心電力專案延遲",
+            "電網設備交期",
+            "客戶低碳採購條款"
           ],
-          "sourceName": "BIS Annual Economic Report 2026",
-          "sourceUrl": "https://www.bis.org/publ/arpdf/ar2026e1.htm",
-          "heat": 98,
-          "confidence": "A"
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/39f4842b-7389-485c-9d28-1a199607e56b",
+          "heat": 93,
+          "confidence": "B"
         },
         {
           "rank": 3,
-          "headline": "關稅政策回潮，供應鏈不確定性重新進入 CEO 與 CFO 的週會",
-          "whyLeadersCare": "關稅會同時影響毛利、價格、供應商、現金流、客戶承諾與品牌信任，不能只交給貿易或採購單位。",
-          "taiwanMeaning": "台灣出口與代工企業應準備多產地、原產地證明、客戶轉嫁口徑與替代供應商，而不是等客戶要求才補文件。",
-          "joyceQuestion": "若客戶明天要求我們說明原產地、強迫勞動風險與價格調整，我們能不能在 48 小時內回答？",
+          "headline": "Google AI capex 壓力顯示：AI 投資開始被現金流與資本市場驗證",
+          "whyLeadersCare": "AI 不會消失，但會被資本紀律重新定價；CEO/CFO 需要知道每筆 AI 投資的回收假設、停損節點與對現金流的影響。",
+          "taiwanMeaning": "台灣 AI 供應鏈仍有訂單機會，但應避免把 hyperscaler 短期 capex 視為沒有波動的永久需求。",
+          "joyceQuestion": "我們的 AI 專案是否有董事會看得懂的 ROI、TCO 與停損門檻，還是仍停留在展示與採用率？",
           "keepWatching": [
-            "Section 301/產業調查",
-            "客戶合約條款",
-            "原產地與 forced labor 文件",
-            "美歐中貿易回應"
+            "Big Tech 2026/2027 capex 指引",
+            "雲端成長率與自由現金流",
+            "AI 基礎建設債務融資",
+            "晶片與電力設備交期"
           ],
-          "sourceName": "The Conference Board Tariff Tracker / international business media",
-          "sourceUrl": "https://www.conference-board.org/",
-          "heat": 94,
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/b02f972c-c764-4006-9377-42563d9d5530",
+          "heat": 96,
           "confidence": "B"
         },
         {
           "rank": 4,
-          "headline": "CEO 風險清單立體化：資安、地緣、AI 與 upskilling 必須同桌排序",
-          "whyLeadersCare": "這不是 HR 或 IT 各自處理的議題；CEO 要建立共同節奏，決定哪些風險先投資、誰負責、多久回報。",
-          "taiwanMeaning": "國際客戶會把資安、AI 治理與供應鏈敏感度當成供應商信任條件，台灣企業需把風險治理轉成商業能力。",
-          "joyceQuestion": "我們本季董事會最該追問哪三個跨部門風險？是否已有 owner 與回應期限？",
+          "headline": "歐洲將 AI 視為地緣政治武器，企業採購要開始回答主權與可信問題",
+          "whyLeadersCare": "模型、雲端、資料與供應商依賴會影響市場准入、客戶信任與法遵責任；董事會要把 AI 採購從 IT 決策提升為治理決策。",
+          "taiwanMeaning": "台灣企業若供應歐洲客戶，應準備模型來源、資料位置、AI 內容標示與供應商責任文件，避免被動回覆客戶稽核。",
+          "joyceQuestion": "我們的 AI 供應商名單中，哪些會造成資料主權、供應中斷或歐洲合規風險？",
           "keepWatching": [
-            "CEO Confidence Q3",
-            "重大資安事件",
-            "AI upskilling 預算",
-            "客戶稽核要求"
+            "EU AI Office GPAI Code signatories",
+            "AI Act 透明義務",
+            "歐洲 tech sovereignty package",
+            "客戶採購條款更新"
           ],
-          "sourceName": "The Conference Board CEO Confidence",
-          "sourceUrl": "https://www.conference-board.org/topics/CEO-Confidence/",
-          "heat": 96,
-          "confidence": "A"
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/ccaf6c42-f94b-4afc-a063-7243b4fb78ed",
+          "heat": 94,
+          "confidence": "B"
         },
         {
           "rank": 5,
-          "headline": "組織適應力瓶頸浮現：工作設計、信任與主管責任比工具訓練更關鍵",
-          "whyLeadersCare": "如果 CEO 只看工具導入率，忽略權責、覆核、心理安全與流程 owner，轉型會放大組織摩擦。",
-          "taiwanMeaning": "台灣企業的接班、中階主管斷層與跨部門協作問題，會在 AI 專案中更快顯現。",
-          "joyceQuestion": "我們是在增加工具訓練，還是在重新定義工作、決策權、覆核責任與主管角色？",
+          "headline": "人機協作不只是訓練問題，企業需要能編排工作的新角色",
+          "whyLeadersCare": "CHRO、COO 與事業主管要從「教大家用工具」轉向「重新設計工作系統」；否則 AI 會放大權責模糊與信任問題。",
+          "taiwanMeaning": "台灣企業面對缺工、接班與跨部門協作壓力，若能先建立人機工作編排能力，可把 AI 導入轉成組織適應力，而不只是工具採購。",
+          "joyceQuestion": "我們公司是否有人負責設計人與 AI 的分工、覆核、技能地圖與責任邊界？",
           "keepWatching": [
             "Deloitte Human Capital Trends",
-            "員工信任與焦慮",
-            "主管 AI 管理能力",
-            "流程 owner 設計"
+            "FT workplace AI signals",
+            "AI agent 導入後的權責設計",
+            "主管能力模型更新"
           ],
-          "sourceName": "Deloitte 2026 Global Human Capital Trends",
-          "sourceUrl": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html",
-          "heat": 90,
-          "confidence": "A"
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/d8d5490a-99dc-41fd-9e05-c8143721c539",
+          "heat": 91,
+          "confidence": "B"
         },
         {
           "rank": 6,
-          "headline": "EU AI Act 全面適用倒數：AI 合規會前移到產品、採購與業務文件",
-          "whyLeadersCare": "合規不是法務最後審查，而是模型選擇、資料治理、供應商合約、產品介面與客戶承諾的共同設計。",
-          "taiwanMeaning": "台灣 B2B 供應商與跨境品牌若碰到歐洲客戶，需要先準備 AI 清冊、模型來源、資料使用與風險管理文件。",
-          "joyceQuestion": "我們現在有哪些 AI 功能或 AI 生成內容會被歐洲客戶問到？誰能提出證明？",
+          "headline": "CEO 風險清單仍由資安、地緣政治與新科技共同主導",
+          "whyLeadersCare": "風險不再能分給單一部門處理；CEO 需要建立跨 IT、法務、供應鏈、財務與業務的季度風險排序。",
+          "taiwanMeaning": "台灣企業在全球供應鏈中常同時面對資安稽核、地緣敏感、客戶集中與技術依賴，董事會需要更高頻率的整合風險檢視。",
+          "joyceQuestion": "如果本季只能選三個風險放進董事會深談，我們會選哪三個？排序依據是什麼？",
           "keepWatching": [
-            "2026-08-02 AI Act 時程",
-            "GPAI Code signatories",
-            "客戶採購條款",
-            "透明標示與內容責任"
+            "CEO Confidence Q3",
+            "重大資安事件與客戶稽核",
+            "地緣政治與出口管制",
+            "AI 供應商風險"
           ],
-          "sourceName": "European Commission AI Act",
-          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
-          "heat": 93,
-          "confidence": "A"
-        },
-        {
-          "rank": 7,
-          "headline": "亞洲能源曝險升高，供應鏈韌性要從交期管理升級為 P&L 管理",
-          "whyLeadersCare": "COO 與 CFO 要把能源、原料、庫存、價格與客戶承諾一起建模；能源不是背景變數，而是營運底盤。",
-          "taiwanMeaning": "台灣企業高度依賴進口能源與亞洲供應鏈，石化、電子材料、物流、半導體與能源密集製造都需要重跑成本與交付情境。",
-          "joyceQuestion": "若能源與關鍵原料在 30 天內再度吃緊，我們會優先保交期、保毛利、保現金，還是保客戶承諾？",
-          "keepWatching": [
-            "油價與 LNG",
-            "石化/肥料/電子材料供應",
-            "亞洲匯率與運價",
-            "客戶庫存與交期要求"
-          ],
-          "sourceName": "BIS Annual Economic Report 2026",
-          "sourceUrl": "https://www.bis.org/publ/arpdf/ar2026e1.htm",
+          "sourceName": "The Conference Board CEO Confidence Q2 2026",
+          "sourceUrl": "https://www.conference-board.org/topics/CEO-Confidence/",
           "heat": 95,
           "confidence": "A"
         }
@@ -145,78 +128,86 @@ window.LEADER_TREND_HISTORY = {
       "recommendations": [
         {
           "priority": 1,
-          "title": "CEO 季度風險雷達：能源、關稅、資安、AI 與人才同桌排序",
+          "title": "CEO 外部情境雷達：戰爭、能源、科技需求與資本成本",
           "category": "CEO經營環境",
           "heat": 97
         },
         {
           "priority": 2,
-          "title": "AI Capex 與資本紀律：從供應鏈紅利到董事會壓力測試",
+          "title": "AI 資本紀律：從 capex 熱潮到現金流與停損門檻",
           "category": "科技與AI轉型",
           "heat": 96
         },
         {
           "priority": 3,
-          "title": "關稅與可信供應鏈戰略室：從成本吸收到客戶信任",
+          "title": "能源、資料中心與供應鏈韌性：AI 成長背後的營運底盤",
           "category": "地緣政治與供應鏈",
           "heat": 94
         },
         {
           "priority": 4,
-          "title": "人機協作與組織適應力：把 AI 從工具訓練變成工作系統重設",
-          "category": "組織與人才",
-          "heat": 92
+          "title": "歐洲 AI 主權與可信採購：合規、模型來源與市場准入",
+          "category": "治理與社會信任",
+          "heat": 93
         },
         {
           "priority": 5,
-          "title": "歐洲 AI 合規與市場准入：從 AI Act 到供應商可信文件",
-          "category": "治理與社會信任",
+          "title": "人機工作編排：AI 時代的主管角色、技能地圖與責任設計",
+          "category": "組織與人才",
           "heat": 91
         },
         {
           "priority": 6,
-          "title": "AI、能源與社會信任：資料中心時代的營運底盤",
-          "category": "地緣政治與供應鏈",
-          "heat": 89
+          "title": "董事會風險治理：資安、地緣政治與 AI 供應商的季度校準",
+          "category": "治理與社會信任",
+          "heat": 90
         }
       ],
       "metrics": {
-        "trends": 90,
+        "trends": 98,
         "categories": 25,
-        "sources": 45,
+        "sources": 49,
         "recommendations": 6,
-        "highConfidence": 58,
-        "hotSignals": 68
+        "highConfidence": 62,
+        "hotSignals": 76
       },
       "sourceLinks": [
         {
-          "name": "IMF World Economic Outlook Update, July 2026",
+          "name": "IMF WEO Update July 2026",
           "url": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026"
         },
         {
-          "name": "BIS Annual Economic Report 2026",
-          "url": "https://www.bis.org/publ/arpdf/ar2026e1.htm"
+          "name": "Financial Times: Google AI spending",
+          "url": "https://www.ft.com/content/b02f972c-c764-4006-9377-42563d9d5530"
         },
         {
-          "name": "The Conference Board Tariff Tracker / international business media",
-          "url": "https://www.conference-board.org/"
+          "name": "Financial Times: EU AI geopolitical weapon",
+          "url": "https://www.ft.com/content/ccaf6c42-f94b-4afc-a063-7243b4fb78ed"
+        },
+        {
+          "name": "Financial Times: National Grid AI power boom",
+          "url": "https://www.ft.com/content/39f4842b-7389-485c-9d28-1a199607e56b"
+        },
+        {
+          "name": "Financial Times: workforce orchestrator",
+          "url": "https://www.ft.com/content/d8d5490a-99dc-41fd-9e05-c8143721c539"
+        },
+        {
+          "name": "European Commission GPAI Code",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai"
         },
         {
           "name": "The Conference Board CEO Confidence",
           "url": "https://www.conference-board.org/topics/CEO-Confidence/"
         },
         {
-          "name": "Deloitte 2026 Global Human Capital Trends",
-          "url": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html"
-        },
-        {
-          "name": "European Commission AI Act",
-          "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
-        },
-        {
-          "name": "BIS Annual Economic Report 2026",
-          "url": "https://www.bis.org/publ/arpdf/ar2026e1.htm"
+          "name": "World Bank Commodity Markets",
+          "url": "https://www.worldbank.org/en/research/commodity-markets"
         }
+      ],
+      "gaps": [
+        "FT 文章多屬付費牆，本次使用可讀摘要與搜尋摘要判讀，建議 Joyce 若有訂閱可人工確認全文細節。",
+        "影音弱訊號本週未納入互動數據，未宣稱觀看數、留言或社群熱度。"
       ]
     },
     {
