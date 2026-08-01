@@ -1,61 +1,69 @@
 {
-  "recorded_at": "2026-07-25T12:13:19.391Z",
-  "generated_at": "2026-07-25",
-  "next_review": "2026-08-01 20:00 Asia/Taipei",
-  "trend_count": 98,
+  "recorded_at": "2026-08-01T15:17:32.491Z",
+  "generated_at": "2026-08-01",
+  "next_review": "2026-08-08 20:00 Asia/Taipei",
+  "trend_count": 110,
   "recommendation_count": 6,
-  "source_count": 49,
+  "source_count": 51,
   "category_count": 25,
   "category_counts": {
-    "AI投資ROI": 21,
+    "AI投資ROI": 23,
     "AI成本治理": 10,
-    "AI基礎建設與資料中心": 21,
-    "資本市場與金融風險": 24,
-    "Agentic AI與流程自動化": 10,
-    "資料治理與AI-ready": 14,
-    "AI規模化落地": 12,
-    "高階幕僚與決策智能": 12,
-    "AI信任與透明度": 23,
-    "董事會AI治理": 20,
-    "資安與數位韌性": 13,
-    "EU AI監管與合規": 18,
-    "地緣政治與能源風險": 26,
-    "全球低成長與通膨": 18,
-    "關稅貿易與區域布局": 15,
+    "AI基礎建設與資料中心": 23,
+    "資本市場與金融風險": 25,
+    "Agentic AI與流程自動化": 11,
+    "資料治理與AI-ready": 16,
+    "AI規模化落地": 14,
+    "高階幕僚與決策智能": 13,
+    "AI信任與透明度": 25,
+    "董事會AI治理": 22,
+    "資安與數位韌性": 14,
+    "EU AI監管與合規": 20,
+    "地緣政治與能源風險": 30,
+    "全球低成長與通膨": 20,
+    "關稅貿易與區域布局": 18,
     "印度與新興市場": 6,
-    "供應鏈韌性": 18,
-    "AI供應鏈與半導體": 16,
-    "歐洲AI產業政策": 16,
-    "新創與生態系合作": 9,
-    "未來工作與人機協作": 12,
-    "人才重配置與再學習": 13,
-    "CEO經營節奏與風險雷達": 30,
-    "領導力接班與心理安全": 11,
-    "高階學習產品與內容設計": 13
+    "供應鏈韌性": 21,
+    "AI供應鏈與半導體": 18,
+    "歐洲AI產業政策": 18,
+    "新創與生態系合作": 11,
+    "未來工作與人機協作": 14,
+    "人才重配置與再學習": 15,
+    "CEO經營節奏與風險雷達": 35,
+    "領導力接班與心理安全": 13,
+    "高階學習產品與內容設計": 14
   },
   "parent_category_counts": {
-    "CEO經營環境": 18,
-    "治理與社會信任": 22,
-    "組織與人才": 14,
-    "地緣政治與供應鏈": 16,
-    "科技與AI轉型": 21,
-    "產業與商業模式": 7
+    "CEO經營環境": 21,
+    "治理與社會信任": 24,
+    "組織與人才": 16,
+    "科技與AI轉型": 23,
+    "地緣政治與供應鏈": 18,
+    "產業與商業模式": 8
   },
   "confidence_counts": {
-    "A": 62,
-    "B": 31,
-    "C": 5
+    "A": 69,
+    "B": 35,
+    "C": 6
   },
   "source_type_counts": {
+    "官方/經濟機構": 5,
+    "CEO/董事會研究": 8,
+    "官方/政策機構": 2,
+    "組織/人才研究": 4,
+    "管理顧問研究": 1,
+    "官方/金融機構": 8,
+    "能源/供應鏈研究": 1,
+    "國際新聞與產業活動": 1,
+    "影音/弱訊號": 4,
+    "新創/產業媒體": 1,
     "官方金融機構": 1,
     "官方治理機構": 1,
     "金融穩定機構": 1,
     "國際財經媒體": 7,
     "官方經濟機構": 6,
-    "官方/金融機構": 7,
     "顧問/研究": 7,
     "CEO調查": 7,
-    "官方/經濟機構": 3,
     "產業活動/媒體": 2,
     "國際組織/論壇": 1,
     "政策/研究": 1,
@@ -71,9 +79,6 @@
     "歐洲科技媒體": 1,
     "AI研究": 2,
     "歐洲AI治理": 1,
-    "CEO/董事會研究": 7,
-    "組織/人才研究": 3,
-    "影音/弱訊號": 3,
     "投資研究/國際財經媒體": 1,
     "國際財經媒體/能源訊號": 1,
     "企業領袖訪談/組織研究": 1,
@@ -98,6 +103,13 @@
     "國際財經媒體/歐洲政策": 1
   },
   "top_hot_trends": [
+    {
+      "id": "imf-weo-crosscurrents-policy-20260801",
+      "title": "全球成長在戰爭、關稅與科技投資拉扯下維持脆弱韌性",
+      "category": "CEO經營環境",
+      "heat": 98,
+      "confidence": "A"
+    },
     {
       "id": "imf-war-technology-crosscurrents-202607",
       "title": "戰爭與科技交錯成為 CEO 下半年基準情境",
@@ -155,62 +167,55 @@
       "confidence": "A"
     },
     {
-      "id": "ft-google-ai-cash-burn-20260725",
-      "title": "Google 現金流壓力讓 AI capex 進入投資人壓力測試",
-      "category": "科技與AI轉型",
-      "heat": 96,
-      "confidence": "B"
-    },
-    {
-      "id": "data-center-power-demand-doubles",
-      "title": "資料中心用電需求快速上升，電力成為 AI 規模化瓶頸",
-      "category": "科技與AI轉型",
+      "id": "conference-board-ceo-confidence-risk-20260801",
+      "title": "CEO 信心與風險議程顯示資安、地緣與政策不確定仍是董事會核心題",
+      "category": "治理與社會信任",
       "heat": 96,
       "confidence": "A"
     }
   ],
   "recommended_courses": [
     {
-      "id": "course-ceo-crosscurrents-radar",
-      "title": "CEO 外部情境雷達：戰爭、能源、科技需求與資本成本",
+      "id": "course-ceo-quarterly-radar-20260801",
+      "title": "CEO 季度外部情境雷達：把宏觀、關稅、能源與科技需求變成決策表",
       "priority": 1,
       "category": "CEO經營環境",
-      "heat": 97
+      "heat": 98
     },
     {
-      "id": "course-ai-capital-discipline-20260725",
-      "title": "AI 資本紀律：從 capex 熱潮到現金流與停損門檻",
+      "id": "course-board-integrated-risk-20260801",
+      "title": "董事會整合風險治理：資安、地緣、政策與 AI 供應商的共同排序",
       "priority": 2,
-      "category": "科技與AI轉型",
+      "category": "治理與社會信任",
       "heat": 96
     },
     {
-      "id": "course-energy-datacenter-resilience-20260725",
-      "title": "能源、資料中心與供應鏈韌性：AI 成長背後的營運底盤",
+      "id": "course-ai-trustworthy-procurement-20260801",
+      "title": "AI 合規與可信採購：從 EU AI Act 到客戶稽核文件包",
       "priority": 3,
-      "category": "地緣政治與供應鏈",
-      "heat": 94
+      "category": "治理與社會信任",
+      "heat": 95
     },
     {
-      "id": "course-eu-ai-sovereignty-compliance-20260725",
-      "title": "歐洲 AI 主權與可信採購：合規、模型來源與市場准入",
+      "id": "course-human-ai-work-orchestration-20260801",
+      "title": "人機工作編排：AI 時代的主管角色、責任邊界與信任管理",
       "priority": 4,
-      "category": "治理與社會信任",
+      "category": "組織與人才",
       "heat": 93
     },
     {
-      "id": "course-workforce-orchestration-20260725",
-      "title": "人機工作編排：AI 時代的主管角色、技能地圖與責任設計",
+      "id": "course-ai-capital-value-20260801",
+      "title": "AI 價值兌現與資本紀律：ROI、TCO、停損點與供應鏈集中風險",
       "priority": 5,
-      "category": "組織與人才",
-      "heat": 91
+      "category": "科技與AI轉型",
+      "heat": 92
     },
     {
-      "id": "course-board-cyber-geopolitical-risk-20260725",
-      "title": "董事會風險治理：資安、地緣政治與 AI 供應商的季度校準",
+      "id": "course-energy-supplychain-resilience-20260801",
+      "title": "能源、資料中心與供應鏈韌性：AI 成長背後的營運上限",
       "priority": 6,
-      "category": "治理與社會信任",
-      "heat": 90
+      "category": "地緣政治與供應鏈",
+      "heat": 91
     }
   ]
 }

@@ -1,6 +1,231 @@
 window.LEADER_TREND_HISTORY = {
-  "generated_at": "2026-07-25",
+  "generated_at": "2026-08-01",
   "reports": [
+    {
+      "id": "2026-08-01",
+      "date": "2026-08-01",
+      "label": "2026-08-01 完整週報",
+      "status": "complete",
+      "summary": "本週全球領導者的共同題目，是「外部環境沒有單一主旋律，CEO 要把成長韌性、政策風險、AI 治理與組織吸收能力放在同一張決策桌上」。IMF 與 World Bank 提醒全球經濟仍有韌性，但低成長、關稅、能源與地緣風險會讓企業間差距擴大；The Conference Board 把資安、地緣與新科技維持在 CEO 風險議程；歐盟 AI Office/AI Act 讓 AI 採購進入文件化與可信治理；Deloitte、McKinsey 與 BBC AI Decoded 則共同指出，AI 的下個瓶頸不只是工具，而是人機工作編排、責任邊界與信任。對台灣企業而言，本週最該問的不是「要不要追 AI」，而是：我們是否有能力在低成長與高不確定下，仍用資本紀律、供應鏈韌性、合規文件與主管能力，把外部變局轉成可執行的管理節奏。",
+      "interpretation": [
+        "第一個判斷：全球經濟不是單純好或壞，而是不均衡；台灣企業要練的是把外部變數轉成可更新的經營假設。",
+        "第二個判斷：AI 正從工具議題變成資本、合規、供應商與人力資本議題；董事會語言必須從 demo 轉成 ROI、責任與風險。",
+        "第三個判斷：歐洲 AI Act 的意義不只是法規，而是客戶信任門檻改變；文件化能力會變成 B2B 競爭力。",
+        "第四個判斷：人機協作若沒有主管重新設計流程，會把責任模糊與員工焦慮放大；CHRO 與 COO 要共同負責。",
+        "第五個判斷：低成長與關稅環境下，企業要從追營收改成同時管理營收品質、付款條件、庫存與現金流。"
+      ],
+      "discussionPrompts": [
+        "我們現在最需要董事會共同校準的是宏觀情境、資本配置、風險排序，還是人才/AI 工作設計？",
+        "公司是否有一張可讓 CEO、CFO、CIO、CHRO 與供應鏈長共用的外部情境雷達？",
+        "AI 專案若下季被要求證明價值，我們會拿出使用率、成本節省、收入提升，還是風險降低作為證據？",
+        "若客戶開始要求 AI 治理文件，我們是把它當法遵成本，還是當信任銷售工具？"
+      ],
+      "mustReads": [
+        {
+          "rank": 1,
+          "headline": "全球成長仍有韌性，但 CEO 要用多情境管理戰爭、關稅、能源與科技投資",
+          "whyLeadersCare": "董事會若只看單一成長預測，容易錯估毛利、庫存、匯率與投資節奏；CEO 需要把外部假設改成可季度更新的決策表。",
+          "taiwanMeaning": "台灣企業同時受惠 AI 供應鏈與承受能源/出口/地緣風險，應把樂觀訂單與下行情境一起管理。",
+          "joyceQuestion": "我們現在的年度計畫，哪些關鍵假設只要關稅、能源或客戶 capex 改變，就會失效？",
+          "keepWatching": [
+            "IMF/OECD 下一輪展望",
+            "主要出口市場 PMI",
+            "能源價格與海運成本",
+            "AI 客戶 capex 指引"
+          ],
+          "sourceName": "IMF World Economic Outlook Update",
+          "sourceUrl": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026",
+          "heat": 98,
+          "confidence": "A"
+        },
+        {
+          "rank": 2,
+          "headline": "CEO 風險清單仍由資安、地緣、政策與新科技共同主導，董事會需要整合排序",
+          "whyLeadersCare": "風險治理需要跨 IT、法務、財務、供應鏈與業務共同排序，否則各部門回報無法形成真正決策。",
+          "taiwanMeaning": "台灣供應鏈企業容易同時面對資安稽核、出口管制、客戶集中與地緣敏感，董事會節奏要更密。",
+          "joyceQuestion": "如果董事會本季只能深談三個風險，我們會選哪三個？排序依據是營收、現金流、信任還是法遵？",
+          "keepWatching": [
+            "CEO Confidence 後續季度資料",
+            "重大資安事件",
+            "出口管制與關稅變動",
+            "關鍵客戶稽核要求"
+          ],
+          "sourceName": "The Conference Board",
+          "sourceUrl": "https://www.conference-board.org/topics/CEO-Confidence/",
+          "heat": 96,
+          "confidence": "A"
+        },
+        {
+          "rank": 3,
+          "headline": "EU AI Act 8 月 2 日起強化透明與 GPAI 執法，AI 採購開始比可信與文件化能力",
+          "whyLeadersCare": "CIO、法遵長與業務不能只比工具功能；AI 模型來源、資料位置、責任分工與客戶可稽核文件會影響市場准入。",
+          "taiwanMeaning": "台灣出口與科技服務企業若服務歐洲客戶，需要提前準備 AI 使用盤點、供應商問卷與治理文件包。",
+          "joyceQuestion": "如果歐洲客戶明天要求說明我們使用哪些 AI、資料在哪裡、誰負責風險，我們能回答嗎？",
+          "keepWatching": [
+            "European Commission AI Office 指引",
+            "GPAI Code 簽署與落地",
+            "客戶 AI 採購問卷",
+            "AI Act 執法案例"
+          ],
+          "sourceName": "European Commission AI Office",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+          "heat": 95,
+          "confidence": "A"
+        },
+        {
+          "rank": 4,
+          "headline": "AI 導入的真正瓶頸轉向人機工作編排、主管責任與員工信任",
+          "whyLeadersCare": "CHRO/COO 要把 AI 導入從訓練專案升級為工作系統重設，明確定義人工覆核、例外處理與主管判斷責任。",
+          "taiwanMeaning": "台灣企業缺工、接班與中階主管斷層明顯，AI 若不能重編流程與權責，只會增加焦慮與管理混亂。",
+          "joyceQuestion": "我們公司誰負責設計人與 AI 的分工？主管是工具使用者，還是工作系統設計者？",
+          "keepWatching": [
+            "Deloitte Human Capital Trends",
+            "McKinsey State of AI",
+            "BBC AI Decoded 工作議題",
+            "員工信任與採用率"
+          ],
+          "sourceName": "Deloitte Human Capital Trends",
+          "sourceUrl": "https://www.deloitte.com/global/en/issues/work/content/human-capital-trends.html",
+          "heat": 92,
+          "confidence": "B"
+        },
+        {
+          "rank": 5,
+          "headline": "低成長與貿易摩擦讓海外市場策略回到現金流、信用與區域組合",
+          "whyLeadersCare": "CEO 與 CFO 需要一起檢查新興市場收入、付款條件、庫存與匯率風險，而不是只看銷售機會。",
+          "taiwanMeaning": "台灣企業應重新排序出口市場與客戶信用，避免在低成長環境下用高成長假設擴庫存或放寬授信。",
+          "joyceQuestion": "我們的海外成長計畫中，哪些市場其實需要先做現金流與信用壓力測試？",
+          "keepWatching": [
+            "World Bank GEP 更新",
+            "主要市場匯率與利率",
+            "客戶付款週期",
+            "商品與能源價格"
+          ],
+          "sourceName": "World Bank Global Economic Prospects",
+          "sourceUrl": "https://www.worldbank.org/en/publication/global-economic-prospects",
+          "heat": 94,
+          "confidence": "A"
+        },
+        {
+          "rank": 6,
+          "headline": "AI 投資進入資本紀律階段：價值兌現、現金流與集中風險要一起看",
+          "whyLeadersCare": "董事會不能只問是否導入 AI，要問每個 AI 專案如何創造營收、降低成本、改善風險，何時停損。",
+          "taiwanMeaning": "台灣 AI 供應鏈應追蹤 hyperscaler capex、自由現金流與訂單集中度，避免把短期熱潮視為永久需求。",
+          "joyceQuestion": "我們的 AI 投資組合是否有 CFO 能檢查的 KPI、TCO、停損點與責任人？",
+          "keepWatching": [
+            "BIS/BoE 金融穩定訊號",
+            "Big Tech capex 與現金流",
+            "AI 供應鏈訂單集中度",
+            "企業 AI ROI 案例"
+          ],
+          "sourceName": "BIS Annual Economic Report",
+          "sourceUrl": "https://www.bis.org/publ/arpdf/ar2026e.htm",
+          "heat": 91,
+          "confidence": "A"
+        }
+      ],
+      "recommendations": [
+        {
+          "priority": 1,
+          "title": "CEO 季度外部情境雷達：把宏觀、關稅、能源與科技需求變成決策表",
+          "category": "CEO經營環境",
+          "heat": 98
+        },
+        {
+          "priority": 2,
+          "title": "董事會整合風險治理：資安、地緣、政策與 AI 供應商的共同排序",
+          "category": "治理與社會信任",
+          "heat": 96
+        },
+        {
+          "priority": 3,
+          "title": "AI 合規與可信採購：從 EU AI Act 到客戶稽核文件包",
+          "category": "治理與社會信任",
+          "heat": 95
+        },
+        {
+          "priority": 4,
+          "title": "人機工作編排：AI 時代的主管角色、責任邊界與信任管理",
+          "category": "組織與人才",
+          "heat": 93
+        },
+        {
+          "priority": 5,
+          "title": "AI 價值兌現與資本紀律：ROI、TCO、停損點與供應鏈集中風險",
+          "category": "科技與AI轉型",
+          "heat": 92
+        },
+        {
+          "priority": 6,
+          "title": "能源、資料中心與供應鏈韌性：AI 成長背後的營運上限",
+          "category": "地緣政治與供應鏈",
+          "heat": 91
+        }
+      ],
+      "metrics": {
+        "trends": 110,
+        "categories": 25,
+        "sources": 51,
+        "recommendations": 6,
+        "highConfidence": 69,
+        "hotSignals": 87
+      },
+      "sourceLinks": [
+        {
+          "name": "IMF WEO Update July 2026",
+          "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/07/08/world-economic-outlook-update-july-2026"
+        },
+        {
+          "name": "World Bank Global Economic Prospects",
+          "url": "https://www.worldbank.org/en/publication/global-economic-prospects"
+        },
+        {
+          "name": "The Conference Board CEO Confidence",
+          "url": "https://www.conference-board.org/topics/CEO-Confidence/"
+        },
+        {
+          "name": "European Commission AI Office",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office"
+        },
+        {
+          "name": "European Commission AI Continent Action Plan",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-continent-action-plan"
+        },
+        {
+          "name": "Deloitte Human Capital Trends",
+          "url": "https://www.deloitte.com/global/en/issues/work/content/human-capital-trends.html"
+        },
+        {
+          "name": "McKinsey State of AI",
+          "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
+        },
+        {
+          "name": "BIS Annual Economic Report 2026",
+          "url": "https://www.bis.org/publ/arpdf/ar2026e.htm"
+        },
+        {
+          "name": "IEA Energy and AI",
+          "url": "https://www.iea.org/reports/energy-and-ai"
+        },
+        {
+          "name": "BBC AI Decoded",
+          "url": "https://www.bbc.co.uk/programmes/m00293jy"
+        },
+        {
+          "name": "Reuters Business",
+          "url": "https://www.reuters.com/business/"
+        },
+        {
+          "name": "Sifted AI",
+          "url": "https://sifted.eu/ai"
+        }
+      ],
+      "gaps": [
+        "Reuters 與 Sifted 本週作為主題密度與產業弱訊號入口，未逐篇引用付費或需登入全文；建議 Joyce 若要外部發布引用可人工確認最終原文段落。",
+        "影音弱訊號只採 BBC AI Decoded 主題方向，未宣稱觀看數、留言數或社群熱度。",
+        "部分顧問研究頁為年度/持續更新型頁面，本次以 2026-08-01 可查版本作為觀察基準。"
+      ]
+    },
     {
       "id": "2026-07-25",
       "date": "2026-07-25",
