@@ -1,62 +1,73 @@
 {
-  "recorded_at": "2026-08-15T12:38:40.429Z",
-  "generated_at": "2026-08-15",
-  "next_review": "2026-08-22 20:00 Asia/Taipei",
-  "trend_count": 157,
+  "recorded_at": "2026-08-22T12:10:24.567Z",
+  "generated_at": "2026-08-22",
+  "next_review": "2026-08-29 20:00 Asia/Taipei",
+  "trend_count": 179,
   "recommendation_count": 6,
-  "source_count": 62,
+  "source_count": 79,
   "category_count": 25,
   "category_counts": {
-    "AI投資ROI": 29,
-    "AI成本治理": 10,
-    "AI基礎建設與資料中心": 30,
-    "資本市場與金融風險": 38,
-    "Agentic AI與流程自動化": 12,
-    "資料治理與AI-ready": 20,
-    "AI規模化落地": 23,
-    "高階幕僚與決策智能": 23,
-    "AI信任與透明度": 31,
-    "董事會AI治理": 33,
-    "資安與數位韌性": 17,
-    "EU AI監管與合規": 25,
-    "地緣政治與能源風險": 41,
-    "全球低成長與通膨": 29,
-    "關稅貿易與區域布局": 26,
-    "印度與新興市場": 7,
-    "供應鏈韌性": 30,
-    "AI供應鏈與半導體": 23,
-    "歐洲AI產業政策": 25,
-    "新創與生態系合作": 14,
-    "未來工作與人機協作": 27,
-    "人才重配置與再學習": 26,
-    "CEO經營節奏與風險雷達": 51,
-    "領導力接班與心理安全": 21,
-    "高階學習產品與內容設計": 20
+    "AI投資ROI": 32,
+    "AI成本治理": 12,
+    "AI基礎建設與資料中心": 33,
+    "資本市場與金融風險": 43,
+    "Agentic AI與流程自動化": 13,
+    "資料治理與AI-ready": 23,
+    "AI規模化落地": 27,
+    "高階幕僚與決策智能": 28,
+    "AI信任與透明度": 36,
+    "董事會AI治理": 37,
+    "資安與數位韌性": 20,
+    "EU AI監管與合規": 28,
+    "地緣政治與能源風險": 45,
+    "全球低成長與通膨": 32,
+    "關稅貿易與區域布局": 29,
+    "印度與新興市場": 8,
+    "供應鏈韌性": 34,
+    "AI供應鏈與半導體": 27,
+    "歐洲AI產業政策": 28,
+    "新創與生態系合作": 18,
+    "未來工作與人機協作": 31,
+    "人才重配置與再學習": 30,
+    "CEO經營節奏與風險雷達": 58,
+    "領導力接班與心理安全": 24,
+    "高階學習產品與內容設計": 23
   },
   "parent_category_counts": {
-    "CEO經營環境": 27,
-    "地緣政治與供應鏈": 26,
-    "全球經濟與資本市場": 6,
-    "治理與社會信任": 28,
-    "產業與商業模式": 13,
-    "科技與AI轉型": 30,
-    "組織與人才": 27
+    "CEO經營環境": 32,
+    "地緣政治與供應鏈": 30,
+    "科技與AI轉型": 33,
+    "產業與商業模式": 18,
+    "治理與社會信任": 30,
+    "組織與人才": 30,
+    "全球經濟與資本市場": 6
   },
   "confidence_counts": {
-    "A": 88,
-    "B": 60,
-    "C": 9
+    "A": 99,
+    "B": 68,
+    "C": 12
   },
   "source_type_counts": {
-    "CEO/董事會研究": 12,
+    "CEO/董事會研究": 14,
+    "官方經濟機構": 11,
+    "金融穩定研究": 2,
+    "國際財經媒體": 12,
+    "CEO/交易研究": 1,
+    "稅務/貿易研究": 1,
+    "供應鏈弱訊號": 1,
+    "歐洲AI治理": 3,
+    "歐洲AI產業政策": 1,
+    "歐洲新創媒體": 1,
+    "組織/人才研究": 9,
+    "策略/組織研究": 1,
+    "能源/基礎建設研究": 1,
+    "可信影片弱訊號": 2,
     "國際組織/貿易研究": 1,
-    "官方經濟機構": 8,
     "官方/金融研究": 3,
     "歐洲官方/AI監管": 2,
     "歐洲官方/產業政策": 3,
     "AI研究": 3,
     "顧問/組織研究": 2,
-    "組織/人才研究": 7,
     "顧問/AI研究": 4,
     "貿易/供應鏈研究": 2,
     "供應鏈/活動弱訊號": 1,
@@ -69,7 +80,6 @@
     "官方/政策研究": 1,
     "官方/經濟機構": 7,
     "官方/金融機構": 9,
-    "國際財經媒體": 10,
     "官方/政策機構": 5,
     "顧問/管理研究": 2,
     "影音/弱訊號": 5,
@@ -96,7 +106,6 @@
     "國際財經媒體與產品訊號": 1,
     "歐洲官方/監管": 3,
     "歐洲國際財經媒體": 1,
-    "歐洲AI治理": 1,
     "投資研究/國際財經媒體": 1,
     "國際財經媒體/能源訊號": 1,
     "企業領袖訪談/組織研究": 1,
@@ -116,10 +125,24 @@
   },
   "top_hot_trends": [
     {
+      "id": "conference-board-ceo-confidence-risk-stack-20260822",
+      "title": "CEO 信心改善但前三大風險變成 AI、新科技、資安與地緣的混合題",
+      "category": "CEO經營環境",
+      "heat": 99,
+      "confidence": "A"
+    },
+    {
       "id": "conference-board-ceo-confidence-risk-stack-20260815",
       "title": "CEO 信心在 Q3 反彈，但 AI、新科技、資安與地緣仍把風險排序推向董事會核心",
       "category": "CEO經營環境",
       "heat": 99,
+      "confidence": "A"
+    },
+    {
+      "id": "ec-ai-act-transparency-enforcement-20260822",
+      "title": "EU AI Act 透明義務進入執法期，AI 信任開始被文件化與稽核化",
+      "category": "治理與社會信任",
+      "heat": 98,
       "confidence": "A"
     },
     {
@@ -170,64 +193,50 @@
       "category": "治理與社會信任",
       "heat": 97,
       "confidence": "A"
-    },
-    {
-      "id": "imf-war-tech-crosscurrents-20260725",
-      "title": "戰爭與科技交錯成為 CEO 下半年基準情境",
-      "category": "CEO經營環境",
-      "heat": 97,
-      "confidence": "A"
-    },
-    {
-      "id": "ai-cost-discipline",
-      "title": "AI 成本紀律成為 CEO/CFO 議題",
-      "category": "科技與AI轉型",
-      "heat": 97,
-      "confidence": "B"
     }
   ],
   "recommended_courses": [
     {
-      "id": "course-ceo-risk-capital-rhythm-20260815",
-      "title": "CEO 風險與資本節奏：信心回升時如何決定加碼、暫停與防守",
+      "id": "course-ceo-risk-capital-rhythm-20260822",
+      "title": "CEO 外部風險與資本節奏：信心回升時如何加碼、暫停與防守",
       "priority": 1,
       "category": "CEO經營環境",
       "heat": 99
     },
     {
-      "id": "course-tariff-supply-chain-war-room-20260815",
-      "title": "關稅常態化供應鏈 War Room：原產地、在地化、報價與市場准入",
+      "id": "course-cfo-low-growth-pressure-test-20260822",
+      "title": "CFO 低成長壓力測試：把全球展望翻成現金流、庫存與客戶風險",
       "priority": 2,
-      "category": "地緣政治與供應鏈",
+      "category": "CEO經營環境",
       "heat": 96
     },
     {
-      "id": "course-trusted-ai-compliance-20260815",
-      "title": "可信 AI 與透明文件包：從 EU AI Act 到 B2B 客戶稽核",
+      "id": "course-tariff-forced-labor-supply-chain-20260822",
+      "title": "關稅與 forced-labor 供應鏈 War Room：原產地、文件、報價與市場准入",
       "priority": 3,
-      "category": "治理與社會信任",
-      "heat": 97
-    },
-    {
-      "id": "course-agentic-work-trust-20260815",
-      "title": "Agentic AI 工作系統重設：流程、能力、行為與信任",
-      "priority": 4,
-      "category": "組織與人才",
+      "category": "地緣政治與供應鏈",
       "heat": 95
     },
     {
-      "id": "course-energy-ai-growth-limit-20260815",
-      "title": "能源容量與 AI 成長上限：電力、電網、資料中心與供應鏈機會",
-      "priority": 5,
-      "category": "地緣政治與供應鏈",
-      "heat": 94
+      "id": "course-ai-transparency-b2b-trust-20260822",
+      "title": "可信 AI 與透明文件包：從 EU AI Act 到 B2B 客戶稽核",
+      "priority": 4,
+      "category": "治理與社會信任",
+      "heat": 98
     },
     {
-      "id": "course-europe-ai-sovereignty-partnership-20260815",
-      "title": "歐洲 AI 主權與新創合作：台灣企業的算力、合規與生態系入口",
+      "id": "course-ai-energy-capacity-supply-chain-20260822",
+      "title": "AI 能源容量與資料中心成長：電力、電網、散熱與供應鏈機會",
+      "priority": 5,
+      "category": "地緣政治與供應鏈",
+      "heat": 95
+    },
+    {
+      "id": "course-organization-trust-adaptability-20260822",
+      "title": "組織速度與適應力：主管如何重配資源、任務與人機工作系統",
       "priority": 6,
-      "category": "產業與商業模式",
-      "heat": 90
+      "category": "組織與人才",
+      "heat": 94
     }
   ]
 }

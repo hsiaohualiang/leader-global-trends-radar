@@ -1,6 +1,268 @@
 window.LEADER_TREND_HISTORY = {
-  "generated_at": "2026-08-15",
+  "generated_at": "2026-08-22",
   "reports": [
+    {
+      "id": "2026-08-22",
+      "date": "2026-08-22",
+      "label": "2026-08-22 完整週報",
+      "status": "complete",
+      "summary": "本週全球領導者的共同題目，是「外部約束開始進入營運層」。CEO 信心與科技投資仍支撐部分成長，但 IMF、OECD、World Bank 與 BIS 同時提醒低成長、能源價格、公共債務、AI 投資退潮與金融重估的連動風險；The Conference Board 顯示 AI/new technology、cyber 與地緣政治仍是董事會級風險。供應鏈端，關稅、forced-labor 執法、原產地與客戶合規正在變成報價前提；歐洲 AI Act 透明義務開始進入執法期，讓 AI 信任從願景變成標示、文件、採購與稽核能力。對台灣企業而言，本週不是問「要不要追 AI」，而是問：成長訂單背後的資本、能源、合規、人才與供應鏈條件，是否已經被放進同一套季度管理節奏。",
+      "interpretation": [
+        "信心回升不是風險消失，而是要求 CEO 更精準地決定何時加碼、何時暫停、何時防守。",
+        "AI 已從工具採購進入資本市場、能源容量、法規透明與員工信任；董事會必須用系統觀點管理。",
+        "關稅與 forced-labor 執法提醒供應鏈長：市場准入能力正在取代最低成本，成為高階競爭力。",
+        "歐洲 AI Act 的管理意義不是只看罰則，而是客戶信任會被文件化、標示化、流程化。",
+        "台灣企業最需要練習的是把全球訊號變成 30/60/90 天決策節奏，而不是一次性聽趨勢。"
+      ],
+      "discussionPrompts": [
+        "本季我們最可能被哪一個外部條件推翻：能源、關稅、客戶 capex、AI 法規、資安，還是人才？",
+        "如果 AI 投資循環反轉，我們的營收、庫存、現金流與人力計畫哪裡最脆弱？",
+        "供應鏈決策是否已經在報價前處理原產地、forced-labor、客戶轉嫁與替代來源？",
+        "我們是否有一份 48 小時內可交給跨國客戶的 AI 透明文件包？",
+        "中階主管是否有能力把 AI 導入後的責任、覆核與工作流程說清楚？"
+      ],
+      "mustReads": [
+        {
+          "rank": 1,
+          "headline": "CEO 信心回升後，最重要的工作是把成長、AI、新科技、資安與地緣放進同一張風險表",
+          "whyLeadersCare": "信心改善會帶來加碼衝動；CEO 必須用共同風險排序管理投資、招聘、資安與 AI，而不是讓各部門各自解讀景氣。",
+          "taiwanMeaning": "台灣出口與科技供應鏈若受惠需求回升，仍要同步處理客戶資安稽核、地緣敏感與 AI 風險治理。",
+          "joyceQuestion": "如果本季只能加碼三件事、暫停三件事，高階團隊會用哪些外部訊號決定？",
+          "keepWatching": [
+            "The Conference Board Q4 CEO confidence",
+            "AI/new technology 風險排序",
+            "重大資安事件",
+            "董事會資本支出與招聘決策"
+          ],
+          "sourceName": "The Conference Board CEO Confidence Q3 2026",
+          "sourceUrl": "https://www.conference-board.org/topics/CEO-Confidence/",
+          "heat": 99,
+          "confidence": "A"
+        },
+        {
+          "rank": 2,
+          "headline": "低成長與通膨停滯仍是基本盤，CFO 要把 AI 訂單熱度與現金流壓力拆開看",
+          "whyLeadersCare": "科技投資可支撐部分需求，但不能取代現金流、匯率、能源與客戶 capex 壓力測試。",
+          "taiwanMeaning": "台灣企業要避免把 AI 供應鏈熱度視為全面復甦，尤其要檢查客戶集中、付款條件與庫存風險。",
+          "joyceQuestion": "我們最樂觀的營收假設，建立在哪三個外部條件上？若其中一個反轉，現金流能撐多久？",
+          "keepWatching": [
+            "IMF/OECD/World Bank 下一次展望",
+            "能源與商品價格",
+            "主要出口市場 PMI",
+            "大型科技客戶 capex 與信用利差"
+          ],
+          "sourceName": "IMF World Economic Outlook Update July 2026",
+          "sourceUrl": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026",
+          "heat": 96,
+          "confidence": "A"
+        },
+        {
+          "rank": 3,
+          "headline": "關稅、forced-labor 與原產地合規正在變成供應鏈報價前提",
+          "whyLeadersCare": "供應鏈不再只是成本部門，而是市場准入、毛利、客戶合約、合規文件與品牌信任的共同 owner。",
+          "taiwanMeaning": "台灣企業要把供應商文件、原產地、替代來源、客戶轉嫁條款與人權稽核放進報價流程。",
+          "joyceQuestion": "我們的供應鏈設計是在追最低成本，還是在管理下一輪市場准入？",
+          "keepWatching": [
+            "USTR forced-labor 與 Section 301 行動",
+            "客戶供應商稽核問卷",
+            "原產地與第三地生產要求",
+            "Reuters Events 供應鏈議程變化"
+          ],
+          "sourceName": "PwC Section 301 forced labour tariffs August 2026",
+          "sourceUrl": "https://www.pwc.com/ca/en/services/tax/publications/tax-insights/section-301-tariffs-aug-2026.html",
+          "heat": 95,
+          "confidence": "B"
+        },
+        {
+          "rank": 4,
+          "headline": "EU AI Act 透明義務進入執法期，可信 AI 變成產品、行銷、客服與 B2B 銷售能力",
+          "whyLeadersCare": "AI 透明不只是法遵文件，而是所有面向客戶的 AI 互動、生成內容與供應商管理都要留下證據。",
+          "taiwanMeaning": "服務歐洲客戶的台灣企業，需要準備 AI 使用清冊、標示政策、供應商聲明與 48 小時內可交付的稽核答覆。",
+          "joyceQuestion": "如果歐洲客戶明天要求 AI 透明與標示證據，我們能在 48 小時內交出什麼？",
+          "keepWatching": [
+            "AI Office 執法案例",
+            "Article 50 實務問答",
+            "客戶 AI 採購問卷",
+            "內容標示與 deepfake 規範"
+          ],
+          "sourceName": "European Commission AI Act transparency enforcement",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+          "heat": 98,
+          "confidence": "A"
+        },
+        {
+          "rank": 5,
+          "headline": "資料中心用電倍增讓能源容量成為數位成長的硬上限",
+          "whyLeadersCare": "數位成長不只看晶片與模型，也看電力、電網、冷卻、地方治理、能源契約與低碳要求。",
+          "taiwanMeaning": "台灣伺服器、散熱、電源與高階製造鏈有機會，但要把客戶部署地電力瓶頸與低碳條件納入交期與產品策略。",
+          "joyceQuestion": "我們把資料中心成長視為科技機會時，有沒有同步估算能源、地方治理與交期上限？",
+          "keepWatching": [
+            "IEA data centre electricity updates",
+            "美國與歐洲電網排隊",
+            "大型雲端商能源合約",
+            "散熱與電源供應鏈瓶頸"
+          ],
+          "sourceName": "IEA Energy and AI",
+          "sourceUrl": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+          "heat": 95,
+          "confidence": "A"
+        },
+        {
+          "rank": 6,
+          "headline": "外部變動加速下，組織速度、資源重配與主管適應力比單一工具更稀缺",
+          "whyLeadersCare": "外部條件變動時，競爭優勢不只來自策略正確，也來自組織能否快速重配人、資源、決策權與主管注意力。",
+          "taiwanMeaning": "台灣企業面對缺工、接班與中階主管斷層，需要把學習從課程升級為真實任務、資源重配與跨部門演練。",
+          "joyceQuestion": "我們公司遇到外部衝擊時，哪些決策會卡在層級、部門邊界或主管能力不足？",
+          "keepWatching": [
+            "Deloitte Human Capital Trends",
+            "McKinsey organization highlights",
+            "資源重配速度",
+            "中階主管決策品質與接班斷層"
+          ],
+          "sourceName": "Deloitte 2026 Global Human Capital Trends",
+          "sourceUrl": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html",
+          "heat": 90,
+          "confidence": "A"
+        }
+      ],
+      "recommendations": [
+        {
+          "priority": 1,
+          "title": "CEO 外部風險與資本節奏：信心回升時如何加碼、暫停與防守",
+          "category": "CEO經營環境",
+          "heat": 99
+        },
+        {
+          "priority": 2,
+          "title": "CFO 低成長壓力測試：把全球展望翻成現金流、庫存與客戶風險",
+          "category": "CEO經營環境",
+          "heat": 96
+        },
+        {
+          "priority": 3,
+          "title": "關稅與 forced-labor 供應鏈 War Room：原產地、文件、報價與市場准入",
+          "category": "地緣政治與供應鏈",
+          "heat": 95
+        },
+        {
+          "priority": 4,
+          "title": "可信 AI 與透明文件包：從 EU AI Act 到 B2B 客戶稽核",
+          "category": "治理與社會信任",
+          "heat": 98
+        },
+        {
+          "priority": 5,
+          "title": "AI 能源容量與資料中心成長：電力、電網、散熱與供應鏈機會",
+          "category": "地緣政治與供應鏈",
+          "heat": 95
+        },
+        {
+          "priority": 6,
+          "title": "組織速度與適應力：主管如何重配資源、任務與人機工作系統",
+          "category": "組織與人才",
+          "heat": 94
+        }
+      ],
+      "metrics": {
+        "trends": 179,
+        "categories": 25,
+        "sources": 79,
+        "recommendations": 6,
+        "highConfidence": 99,
+        "hotSignals": 139
+      },
+      "sourceLinks": [
+        {
+          "name": "The Conference Board CEO Confidence Q3 2026",
+          "url": "https://www.conference-board.org/topics/CEO-Confidence/"
+        },
+        {
+          "name": "The Conference Board A Geopolitical August",
+          "url": "https://www.conference-board.org/research/policy-backgrounders/A-Geopolitical-August"
+        },
+        {
+          "name": "IMF World Economic Outlook Update July 2026",
+          "url": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026"
+        },
+        {
+          "name": "OECD Economic Outlook June 2026",
+          "url": "https://www.oecd.org/en/publications/oecd-economic-outlook-volume-2026-issue-1_2d1956f0-en.html"
+        },
+        {
+          "name": "World Bank Global Economic Prospects 2026",
+          "url": "https://www.worldbank.org/en/publication/global-economic-prospects"
+        },
+        {
+          "name": "BIS remarks on AI investment and financial stability",
+          "url": "https://www.bis.org/review/r260813l.htm"
+        },
+        {
+          "name": "BIS The AI investment race",
+          "url": "https://www.bis.org/publ/work1367.htm"
+        },
+        {
+          "name": "Financial Times AI debt machine",
+          "url": "https://www.ft.com/content/b2cbbab2-a51a-48f2-a9da-86d858cd4e86"
+        },
+        {
+          "name": "PwC M&A industry trends 2026 mid-year outlook",
+          "url": "https://www.pwc.com/gx/en/services/deals/trends.html"
+        },
+        {
+          "name": "PwC Section 301 forced labour tariffs August 2026",
+          "url": "https://www.pwc.com/ca/en/services/tax/publications/tax-insights/section-301-tariffs-aug-2026.html"
+        },
+        {
+          "name": "Reuters Events Supply Chain USA 2027",
+          "url": "https://events.reutersevents.com/supply-chain/usa"
+        },
+        {
+          "name": "European Commission AI Act transparency enforcement",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august"
+        },
+        {
+          "name": "European Commission AI transparency guidelines",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations"
+        },
+        {
+          "name": "European Commission AI factories and AI Gigafactories",
+          "url": "https://commission.europa.eu/topics/artificial-intelligence_en"
+        },
+        {
+          "name": "Sifted European AI infrastructure signals",
+          "url": "https://sifted.eu/sector/artificial-intelligence"
+        },
+        {
+          "name": "McKinsey AI transformations run on trust",
+          "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/ai-transformations-run-on-trust"
+        },
+        {
+          "name": "McKinsey Monthly Highlights August 2026",
+          "url": "https://www.mckinsey.com/~/media/mckinsey/email/monthly/2026/2026-08-08b.html"
+        },
+        {
+          "name": "Deloitte 2026 Global Human Capital Trends",
+          "url": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html"
+        },
+        {
+          "name": "IEA Energy and AI",
+          "url": "https://www.iea.org/reports/energy-and-ai/executive-summary"
+        },
+        {
+          "name": "BBC AI Decoded playlist",
+          "url": "https://www.youtube.com/playlist?list=PLS3XGZxi7cBW70Shs01zuQtbGmC2XEeDl"
+        },
+        {
+          "name": "Reuters NEXT Europe summit video",
+          "url": "https://www.youtube.com/watch?v=wnfQ7BWCrwY"
+        }
+      ],
+      "gaps": [
+        "Financial Times、Bloomberg、The Economist 等部分內容可能受 paywall 限制；本週未直接引用付費全文，只使用可驗證公開摘要、官方頁與來源連結。",
+        "BBC AI Decoded、Reuters NEXT Europe 與 Reuters Events 作為可信弱訊號使用；本週未查驗觀看數、留言量或社群互動，因此不做社群熱度宣稱。",
+        "Reuters 一手新聞搜尋可得結果有限；供應鏈主題以 Reuters Events、PwC trade/tariff research 與 The Conference Board geopolitical note 補強。"
+      ]
+    },
     {
       "id": "2026-08-15",
       "date": "2026-08-15",
