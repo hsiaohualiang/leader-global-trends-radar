@@ -1,10 +1,10 @@
 window.LEADER_TREND_DATA = {
   "meta": {
-    "generated_at": "2026-08-22",
-    "next_review": "2026-08-29 20:00 Asia/Taipei",
+    "generated_at": "2026-08-29",
+    "next_review": "2026-09-05 20:00 Asia/Taipei",
     "scope": "追蹤全球領導者必看的外部經營環境，涵蓋 CEO 經營節奏、全球經濟與資本市場、地緣政治與供應鏈、科技與 AI、組織人才、產業商業模式、治理與社會信任，協助 Joyce 建立高階主管視野，而不是只追單一科技議題。",
-    "weekly_thesis": "本週全球領導者的共同題目，是「外部約束開始進入營運層」。CEO 信心與科技投資仍支撐部分成長，但 IMF、OECD、World Bank 與 BIS 同時提醒低成長、能源價格、公共債務、AI 投資退潮與金融重估的連動風險；The Conference Board 顯示 AI/new technology、cyber 與地緣政治仍是董事會級風險。供應鏈端，關稅、forced-labor 執法、原產地與客戶合規正在變成報價前提；歐洲 AI Act 透明義務開始進入執法期，讓 AI 信任從願景變成標示、文件、採購與稽核能力。對台灣企業而言，本週不是問「要不要追 AI」，而是問：成長訂單背後的資本、能源、合規、人才與供應鏈條件，是否已經被放進同一套季度管理節奏。",
-    "recommendation_note": "學習產品作為下游轉化：本週六個機會聚焦外部風險與資本配置、低成長壓力測試、關稅與供應鏈合規、AI 透明治理、能源容量與資料中心成長，以及人機信任下的組織適應力。"
+    "weekly_thesis": "本週全球領導者的共同題目，是「成長動能正在被基礎條件重新定價」。CEO 信心回升、AI 基礎建設與美國製造局部升溫，讓市場看見投資動能；但 IMF、World Bank 與 BIS 同時提醒，戰爭、能源、商品價格、AI 過度投資與信用市場會把樂觀重新拉回紀律。供應鏈端，Reuters Events 與 Thomson Reuters 顯示波動、法規與 forced-labor 監督已從合規部門走到營運現場；歐洲則把 AI Act 透明義務、AI factories 與 gigafactories 變成可信 AI 與產業主權的雙軌議題。對台灣企業而言，本週不是問「AI 還熱不熱」，而是問：我們能不能同時管理訂單、電力、資本、法規、供應鏈文件與主管帶隊能力。",
+    "recommendation_note": "學習產品作為下游轉化：本週六個機會聚焦 CEO 風險與資本節奏、CFO 能源與現金流壓力測試、AI 基礎建設訂單品質、歐盟 AI 透明治理、供應鏈人權與合規 War Room，以及 agentic AI 下的人機工作設計。"
   },
   "methodology": {
     "confidence": "A=官方機構、一手調查、年度報告或可追溯原始資料；B=國際主流媒體、活動頁、專家訪談或影音訊號；C=弱訊號，需持續追蹤互動、轉載與後續資料。",
@@ -22,193 +22,919 @@ window.LEADER_TREND_DATA = {
   },
   "topRecommendations": [
     {
-      "id": "course-ceo-risk-capital-rhythm-20260822",
-      "title": "CEO 外部風險與資本節奏：信心回升時如何加碼、暫停與防守",
+      "id": "course-ceo-risk-capital-rhythm-20260829",
+      "title": "CEO 風險與資本節奏：信心回升時如何加碼、暫停與防守",
       "category": "CEO經營環境",
       "priority": 1,
       "heat": 99,
       "confidence": "A",
       "trendIds": [
-        "conference-board-ceo-confidence-risk-stack-20260822",
-        "imf-low-growth-disinflation-stall-20260822",
-        "bis-ai-investment-financial-stability-20260822",
-        "conference-board-geopolitical-august-20260822"
+        "conference-board-ceo-confidence-risk-stack-20260829",
+        "imf-tech-war-crosscurrents-growth-20260829",
+        "worldbank-commodity-energy-inflation-20260829",
+        "bis-ai-investment-race-overinvestment-20260829"
       ],
       "targetAudience": "企業主、CEO、總經理、CFO、策略長與董事會成員。",
-      "whyNow": "CEO confidence 回升，但 AI、新科技、資安、地緣、低成長與金融重估仍同時存在。",
-      "teacherProfile": "實戰 CEO、CFO、董事會顧問、國際政經分析師。",
+      "whyNow": "CEO confidence 回升，但 AI、新科技、資安、能源、地緣與金融重估同步存在。",
+      "teacherProfile": "實戰 CEO、CFO、董事會顧問、國際政經與資本市場分析師。",
       "productStructure": [
-        "Q3/Q4 外部雷達",
+        "季度外部風險雷達",
         "資本支出觸發條件",
         "董事會風險排序",
-        "跨 C-suite 決策演練"
+        "C-suite 決策演練"
       ],
-      "copywriting": "信心回來時，領導者最需要的不是衝動加碼，而是知道哪些錢該投、哪些風險不能外包給景氣。",
-      "openingFormat": "半天高階閉門班＋季度雷達模板",
+      "copywriting": "信心回來時，真正成熟的 CEO 不是先加速，而是先知道哪些錢值得投、哪些條件必須先被驗證。",
+      "openingFormat": "半天高階閉門班＋季度風險儀表板模板",
       "sourceBasis": [
         "The Conference Board CEO Confidence",
         "IMF WEO Update",
-        "BIS AI investment and financial stability",
-        "The Conference Board geopolitical policy backgrounder"
+        "World Bank Commodity Markets Outlook",
+        "BIS AI investment race"
       ]
     },
     {
-      "id": "course-cfo-low-growth-pressure-test-20260822",
-      "title": "CFO 低成長壓力測試：把全球展望翻成現金流、庫存與客戶風險",
+      "id": "course-cfo-energy-cashflow-pressure-test-20260829",
+      "title": "CFO 能源與現金流壓力測試：把全球展望翻成毛利、庫存與報價",
       "category": "CEO經營環境",
       "priority": 2,
       "heat": 96,
       "confidence": "A",
       "trendIds": [
-        "imf-low-growth-disinflation-stall-20260822",
-        "oecd-energy-shock-ai-investment-crosscurrent-20260822",
-        "worldbank-low-growth-trade-energy-20260822",
-        "ft-big-tech-ai-debt-credit-market-20260822"
+        "imf-tech-war-crosscurrents-growth-20260829",
+        "worldbank-commodity-energy-inflation-20260829",
+        "iea-data-centre-electricity-demand-20260829",
+        "pwc-ceo-survey-midyear-leadership-agenda-20260829"
       ],
-      "targetAudience": "CFO、財務長、策略長、營運長、事業部主管。",
-      "whyNow": "IMF、OECD、World Bank 都提醒成長仍受能源、衝突、通膨與金融重估約束，AI 訂單熱度不能替代壓力測試。",
-      "teacherProfile": "CFO、總經分析師、銀行授信/資本市場專家、供應鏈財務顧問。",
+      "targetAudience": "CFO、財務長、營運長、事業部主管、製造與採購主管。",
+      "whyNow": "能源、商品、匯率與科技需求分化，使財務壓力測試必須從年度預算變成季度管理節奏。",
+      "teacherProfile": "CFO、總經分析師、能源與供應鏈財務顧問、銀行授信專家。",
       "productStructure": [
         "全球展望轉譯",
-        "客戶 capex 與信用指標",
-        "匯率能源敏感度",
-        "庫存與現金流演練"
+        "能源與商品敏感度",
+        "現金流與庫存壓力測試",
+        "報價與客戶條款演練"
       ],
-      "copywriting": "把世界經濟展望變成公司能用的三張表：營收、現金流、停損線。",
-      "openingFormat": "一天工作坊＋企業財務情境模板",
+      "copywriting": "把全球不確定性翻成公司能用的三張表：毛利、現金流、停損線。",
+      "openingFormat": "一天工作坊＋企業情境試算模板",
       "sourceBasis": [
         "IMF WEO Update",
-        "OECD Economic Outlook",
-        "World Bank GEP",
-        "Financial Times AI debt analysis"
+        "World Bank Commodity Markets Outlook",
+        "IEA Energy and AI",
+        "PwC CEO snapshot"
       ]
     },
     {
-      "id": "course-tariff-forced-labor-supply-chain-20260822",
-      "title": "關稅與 forced-labor 供應鏈 War Room：原產地、文件、報價與市場准入",
-      "category": "地緣政治與供應鏈",
+      "id": "course-ai-infra-order-quality-20260829",
+      "title": "AI 基礎建設訂單品質：從算力需求、能源、融資到供應鏈風險",
+      "category": "科技與AI轉型",
       "priority": 3,
-      "heat": 95,
+      "heat": 97,
       "confidence": "B",
       "trendIds": [
-        "pwc-section301-forced-labor-tariffs-20260822",
-        "reuters-events-supply-chain-resilience-data-20260822",
-        "conference-board-geopolitical-august-20260822",
-        "worldbank-low-growth-trade-energy-20260822"
+        "bis-ai-investment-race-overinvestment-20260829",
+        "ft-neoclouds-ai-financing-risk-20260829",
+        "ft-anthropic-nscale-data-centre-deal-20260829",
+        "iea-data-centre-electricity-demand-20260829"
       ],
-      "targetAudience": "企業主、COO、供應鏈長、採購長、法務、業務主管。",
-      "whyNow": "關稅與 forced-labor 執法把供應鏈合規推到報價與市場准入前線，不能只由採購部處理。",
-      "teacherProfile": "國際貿易律師、供應鏈顧問、實戰 COO、跨國採購主管。",
+      "targetAudience": "企業主、供應鏈長、伺服器/電源/散熱供應鏈主管、投資人。",
+      "whyNow": "AI data centre 合約與 neocloud 融資快速擴大，但 BIS 與 FT 同時提醒過度投資、債務、租約與電力風險。",
+      "teacherProfile": "AI infrastructure 分析師、資料中心營運主管、能源專家、供應鏈財務顧問。",
       "productStructure": [
-        "關稅與原產地地圖",
-        "供應商風險清冊",
-        "客戶轉嫁條款",
-        "48 小時文件演練"
+        "AI capex 需求拆解",
+        "電力與資料中心部署地圖",
+        "訂單與租約品質判讀",
+        "反轉情境與庫存風險"
       ],
-      "copywriting": "供應鏈的下一個優勢，不是最低成本，而是客戶相信你能進得去、交得出、說得清。",
-      "openingFormat": "兩段式 war room：診斷＋情境演練",
+      "copywriting": "AI 訂單不能只看金額，要看誰付錢、誰用電、誰承擔取消與殘值風險。",
+      "openingFormat": "半天趨勢講座＋供應鏈風險地圖",
       "sourceBasis": [
-        "PwC Section 301 tariffs",
-        "Reuters Events Supply Chain",
-        "The Conference Board geopolitical policy backgrounder",
-        "World Bank GEP"
+        "BIS The AI investment race",
+        "Financial Times neocloud analysis",
+        "Financial Times Anthropic-Nscale deal",
+        "IEA Energy and AI"
       ]
     },
     {
-      "id": "course-ai-transparency-b2b-trust-20260822",
-      "title": "可信 AI 與透明文件包：從 EU AI Act 到 B2B 客戶稽核",
+      "id": "course-eu-ai-transparency-b2b-trust-20260829",
+      "title": "EU AI Act 透明文件包：從 Article 50 到 B2B 客戶稽核",
       "category": "治理與社會信任",
       "priority": 4,
       "heat": 98,
       "confidence": "A",
       "trendIds": [
-        "ec-ai-act-transparency-enforcement-20260822",
-        "ec-ai-transparency-article50-guidelines-20260822",
-        "bbc-ai-decoded-enterprise-adoption-weak-signal-20260822",
-        "mckinsey-ai-transformation-trust-20260822"
+        "ec-ai-act-article50-transparency-20260829",
+        "ec-ai-continent-gigafactories-20260829",
+        "ft-ai-content-authenticity-transparency-20260829",
+        "deloitte-human-ai-interaction-design-20260829"
       ],
       "targetAudience": "CEO、CIO、法務長、產品主管、行銷主管、B2B 業務主管。",
-      "whyNow": "EU AI Act 透明義務已進入執法期，AI 信任從理念變成產品、內容、客服與供應商文件。",
+      "whyNow": "EU AI Act 透明義務已生效，AI 使用、生成內容與 deepfake 標示會進入客戶稽核與市場信任。",
       "teacherProfile": "AI governance 顧問、歐盟法規專家、產品經理、B2B 客戶成功主管。",
       "productStructure": [
         "AI 使用清冊",
         "Article 50 透明義務",
-        "AI 內容標示 SOP",
+        "內容標示 SOP",
         "客戶稽核答覆包"
       ],
       "copywriting": "當客戶問你 AI 怎麼用，真正的競爭力是 48 小時內交得出證據。",
       "openingFormat": "半天治理 sprint＋文件包範本",
       "sourceBasis": [
-        "European Commission AI Act enforcement",
         "European Commission Article 50 guidelines",
-        "McKinsey AI trust",
-        "BBC AI Decoded weak signal"
+        "European Commission AI Office",
+        "Financial Times AI authenticity analysis",
+        "Deloitte human-AI interaction design"
       ]
     },
     {
-      "id": "course-ai-energy-capacity-supply-chain-20260822",
-      "title": "AI 能源容量與資料中心成長：電力、電網、散熱與供應鏈機會",
+      "id": "course-supply-chain-human-rights-war-room-20260829",
+      "title": "供應鏈合規 War Room：volatility、forced-labor、人權資料與客戶信任",
       "category": "地緣政治與供應鏈",
       "priority": 5,
-      "heat": 95,
-      "confidence": "A",
-      "trendIds": [
-        "iea-data-centre-electricity-constraint-20260822",
-        "ec-ai-factories-gigafactories-capacity-20260822",
-        "ft-big-tech-ai-debt-credit-market-20260822",
-        "bis-ai-investment-race-overinvestment-20260822"
-      ],
-      "targetAudience": "企業主、供應鏈長、能源主管、伺服器/散熱/電源供應鏈主管、投資人。",
-      "whyNow": "資料中心用電倍增使能源與電網變成 AI 成長的實體瓶頸，也創造台灣供應鏈機會。",
-      "teacherProfile": "能源研究者、資料中心營運主管、供應鏈顧問、電力/散熱技術專家。",
-      "productStructure": [
-        "資料中心電力需求",
-        "電網與地方治理",
-        "散熱電源供應鏈",
-        "客戶部署地風險地圖"
-      ],
-      "copywriting": "AI 的下一個瓶頸不是模型，是電力、電網與交期。",
-      "openingFormat": "半天產業趨勢講座＋供應鏈機會地圖",
-      "sourceBasis": [
-        "IEA Energy and AI",
-        "European Commission AI factories",
-        "Financial Times AI debt",
-        "BIS AI investment race"
-      ]
-    },
-    {
-      "id": "course-organization-trust-adaptability-20260822",
-      "title": "組織速度與適應力：主管如何重配資源、任務與人機工作系統",
-      "category": "組織與人才",
-      "priority": 6,
       "heat": 94,
       "confidence": "B",
       "trendIds": [
-        "mckinsey-ai-transformation-trust-20260822",
-        "deloitte-human-capital-adaptability-20260822",
-        "mckinsey-august-highlights-economic-chokepoint-20260822",
-        "bbc-ai-decoded-enterprise-adoption-weak-signal-20260822"
+        "reuters-events-supply-chain-europe-volatility-20260829",
+        "thomson-reuters-forced-labor-ai-governance-20260829",
+        "ft-us-manufacturing-ai-aerospace-not-tariffs-20260829",
+        "worldbank-commodity-energy-inflation-20260829"
       ],
-      "targetAudience": "CEO、CHRO、COO、中高階主管、接班人、學習發展主管。",
-      "whyNow": "外部變動要求組織更快重配人、資源與決策權；AI 只是其中一個壓力源，真正瓶頸在主管與工作系統。",
-      "teacherProfile": "CHRO、組織發展顧問、AI 轉型實務主管、心理安全與領導教練。",
+      "targetAudience": "企業主、COO、供應鏈長、採購長、法務、業務主管。",
+      "whyNow": "供應鏈波動、法規、人權與客戶期待正在合流，企業需要能即時回答市場准入問題。",
+      "teacherProfile": "國際貿易律師、供應鏈顧問、人權稽核專家、實戰 COO。",
       "productStructure": [
-        "AI 信任診斷",
-        "人機流程重設",
-        "主管責任與覆核",
-        "組織適應力演練"
+        "volatility-ready 供應鏈地圖",
+        "forced-labor 風險清冊",
+        "人權與資料治理",
+        "客戶問卷與 48 小時答覆演練"
       ],
-      "copywriting": "工具可以買，組織速度買不到；主管必須學會在變動中重配資源與重設工作。",
-      "openingFormat": "一天主管工作坊＋團隊行動清單",
+      "copywriting": "供應鏈的下一個優勢，不是最低成本，而是客戶相信你進得去、交得出、說得清。",
+      "openingFormat": "兩段式 war room：診斷＋情境演練",
       "sourceBasis": [
+        "Reuters Events Supply Chain Europe",
+        "Thomson Reuters Institute forced labor and AI",
+        "Financial Times manufacturing analysis",
+        "World Bank commodity outlook"
+      ]
+    },
+    {
+      "id": "course-agentic-ai-work-redesign-20260829",
+      "title": "Agentic AI 工作重設：主管如何把工具採用變成流程、能力與信任",
+      "category": "組織與人才",
+      "priority": 6,
+      "heat": 95,
+      "confidence": "B",
+      "trendIds": [
+        "mckinsey-state-ai-2026-roi-20260829",
+        "mckinsey-agentic-adoption-gap-20260829",
+        "deloitte-human-capital-speed-adaptability-20260829",
+        "deloitte-ai-cultural-debt-20260829"
+      ],
+      "targetAudience": "CEO、CHRO、CIO、COO、中高階主管、學習發展主管。",
+      "whyNow": "企業正在擴大 agentic AI，但 McKinsey 與 Deloitte 都指向同一瓶頸：流程重設、能力建設、人機互動與信任。",
+      "teacherProfile": "CHRO、組織發展顧問、AI 轉型實務主管、流程設計與變革領導教練。",
+      "productStructure": [
+        "AI ROI 與流程選題",
+        "人機協作設計",
+        "主管覆核與責任",
+        "文化債與信任治理"
+      ],
+      "copywriting": "工具可以買，工作系統買不到；主管要學會把 AI 變成流程、責任與績效。",
+      "openingFormat": "一天主管工作坊＋三週任務 sprint",
+      "sourceBasis": [
+        "McKinsey State of AI 2026",
+        "McKinsey agentic adoption gap",
         "Deloitte Human Capital Trends",
-        "McKinsey Monthly Highlights",
-        "McKinsey AI transformations run on trust",
-        "BBC AI Decoded"
+        "Deloitte AI cultural debt"
       ]
     }
   ],
   "trends": [
+    {
+      "id": "conference-board-ceo-confidence-risk-stack-20260829",
+      "title": "CEO 信心回升但 AI/new technology、資安與地緣仍是董事會級風險組合",
+      "category": "CEO經營環境",
+      "sourceType": "CEO/董事會研究",
+      "sourceName": "The Conference Board CEO Confidence Q3 2026",
+      "sourceUrl": "https://www.conference-board.org/topics/CEO-Confidence/",
+      "sourceDate": "2026-08-06",
+      "heat": 99,
+      "confidence": "A",
+      "summary": "The Conference Board 顯示 Q3 CEO confidence 增加，但 AI/new technology 取代 geopolitics 成為第二大風險，cyber 與 geopolitical risk 仍在前三風險帶。",
+      "whyLeadersCare": "信心改善會推動投資與招聘，但董事會必須把成長、AI、資安與地緣放在同一張風險排序表，而不是讓各職能各自解讀。",
+      "taiwanImpact": "台灣供應鏈可能受惠科技需求回升，同時面對客戶資安、AI 治理與地緣敏感度升高。",
+      "opportunity": "CEO 季度外部風險與資本配置閉門班。",
+      "signals": [
+        "Q3 CEO confidence increased",
+        "AI/new technology 風險排序上升",
+        "cyber 與 geopolitical risk 仍在高階排序",
+        "投資與招聘討論重新升溫"
+      ],
+      "actions": [
+        "建立季度風險與資本節奏表",
+        "讓董事會同時審查 AI、資安與地緣曝險",
+        "設定加碼與停損觸發條件",
+        "要求 C-suite 共用外部風險指標"
+      ],
+      "categories": [
+        "CEO經營節奏與風險雷達",
+        "資本市場與金融風險",
+        "全球低成長與通膨",
+        "高階幕僚與決策智能"
+      ]
+    },
+    {
+      "id": "imf-tech-war-crosscurrents-growth-20260829",
+      "title": "IMF 把 2026 全球成長描述為戰爭與科技交錯下的韌性，而非全面復甦",
+      "category": "全球經濟與資本市場",
+      "sourceType": "官方經濟機構",
+      "sourceName": "IMF World Economic Outlook Update July 2026",
+      "sourceUrl": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026",
+      "sourceDate": "2026-07-08",
+      "heat": 96,
+      "confidence": "A",
+      "summary": "IMF 估 2026 全球成長約 3.0%，AI-driven demand 支撐科技價值鏈國家，但戰爭衝擊、能源與通膨讓成長保持不均。",
+      "whyLeadersCare": "CEO 與 CFO 不能把 AI 訂單熱度視為全面景氣復甦；資本支出、庫存與客戶信用仍要壓力測試。",
+      "taiwanImpact": "台灣科技鏈受惠 AI 需求，但非 AI 產業與能源進口壓力可能拉大企業間落差。",
+      "opportunity": "CFO 全球展望到現金流情境轉譯工作坊。",
+      "signals": [
+        "IMF 2026 growth 約 3.0%",
+        "AI demand 支撐科技價值鏈",
+        "war shock 壓抑能源進口經濟體",
+        "成長不均持續"
+      ],
+      "actions": [
+        "拆分 AI 與非 AI 客戶營收假設",
+        "重跑能源與匯率敏感度",
+        "檢查客戶 capex 與付款條件",
+        "把 IMF/OECD/World Bank 指標轉成月度儀表板"
+      ],
+      "categories": [
+        "全球低成長與通膨",
+        "資本市場與金融風險",
+        "地緣政治與能源風險",
+        "CEO經營節奏與風險雷達"
+      ]
+    },
+    {
+      "id": "worldbank-commodity-energy-inflation-20260829",
+      "title": "World Bank 商品展望提醒能源與肥料價格重新改寫成本、通膨與新興市場需求",
+      "category": "全球經濟與資本市場",
+      "sourceType": "官方經濟機構",
+      "sourceName": "World Bank Commodity Markets Outlook",
+      "sourceUrl": "https://www.worldbank.org/en/research/commodity-markets",
+      "sourceDate": "2026-08-04",
+      "heat": 94,
+      "confidence": "A",
+      "summary": "World Bank 8 月商品市場更新預估 2026 整體商品價格上升，能源與肥料價格壓力使通膨與糧食成本重新進入企業情境。",
+      "whyLeadersCare": "能源與肥料不是只影響採購部，而會傳導到定價、運費、客戶需求、薪資期待與政策風險。",
+      "taiwanImpact": "台灣能源進口與製造成本曝險高，企業要把電價、燃料、運費與客戶轉嫁能力納入報價。",
+      "opportunity": "能源與商品價格情境下的 CEO/CFO 成本韌性課。",
+      "signals": [
+        "能源價格上升",
+        "肥料價格壓力",
+        "新興市場通膨風險",
+        "商品成本進入企業定價"
+      ],
+      "actions": [
+        "更新能源與運費假設",
+        "檢查主要產品毛利敏感度",
+        "重談客戶價格調整條款",
+        "追蹤新興市場需求變化"
+      ],
+      "categories": [
+        "全球低成長與通膨",
+        "資本市場與金融風險",
+        "地緣政治與能源風險",
+        "CEO經營節奏與風險雷達"
+      ]
+    },
+    {
+      "id": "bis-ai-investment-race-overinvestment-20260829",
+      "title": "BIS 警示 AI 投資競賽可能過度投資，金融風險取決於生產力能否兌現",
+      "category": "全球經濟與資本市場",
+      "sourceType": "官方金融機構",
+      "sourceName": "BIS Working Paper: The AI investment race",
+      "sourceUrl": "https://www.bis.org/publ/work1367.htm",
+      "sourceDate": "2026-07-14",
+      "heat": 97,
+      "confidence": "A",
+      "summary": "BIS 工作論文指出 AI build-out 是美國史上大型科技投資潮之一，保守情境下可能超過社會效率水準約 50%，且債務與專用硬體放大下行風險。",
+      "whyLeadersCare": "AI 投資不只影響科技公司估值，也會改變信用市場、供應鏈付款條件與企業資本配置紀律。",
+      "taiwanImpact": "台灣 AI 供應鏈須準備需求急升與急降兩種情境，避免產能、庫存與客戶集中過度綁定單一投資循環。",
+      "opportunity": "AI 投資循環與供應鏈風險壓力測試。",
+      "signals": [
+        "AI build-out 規模巨大",
+        "over-investment risk",
+        "debt 與 circular equity ties",
+        "productivity realization 是關鍵"
+      ],
+      "actions": [
+        "評估客戶 AI capex 可持續性",
+        "設定產能擴張停損線",
+        "檢查信用與付款條件",
+        "建立 AI 需求反轉情境"
+      ],
+      "categories": [
+        "AI基礎建設與資料中心",
+        "AI供應鏈與半導體",
+        "資本市場與金融風險",
+        "地緣政治與能源風險"
+      ]
+    },
+    {
+      "id": "ft-neoclouds-ai-financing-risk-20260829",
+      "title": "FT 指出 neocloud 模式把 AI 基礎建設需求、供應商融資與租約風險綁在一起",
+      "category": "科技與AI轉型",
+      "sourceType": "國際財經媒體",
+      "sourceName": "Financial Times: Neoclouds show how to amplify risks in AI ecosystems",
+      "sourceUrl": "https://www.ft.com/content/7af605e0-b528-46f6-b86e-b90b46f03c4c",
+      "sourceDate": "2026-08-29",
+      "heat": 94,
+      "confidence": "B",
+      "summary": "FT 分析 CoreWeave、Nscale 等 neocloud 公司在 AI 算力稀缺下快速擴張，但長約、設備汰換、供應商融資與需求預測形成交互風險。",
+      "whyLeadersCare": "董事會看 AI 基礎建設時，不能只看訂單總額，也要看誰提供資金、誰承擔殘值、租約是否可提前終止。",
+      "taiwanImpact": "台灣伺服器、電源、散熱與零組件供應商要檢查終端需求、融資結構與客戶集中，而不只看短期拉貨。",
+      "opportunity": "AI 基礎建設訂單品質與信用風險判讀班。",
+      "signals": [
+        "neocloud demand high",
+        "supplier financing intertwined",
+        "termination clauses raise volatility",
+        "specialized hardware ages quickly"
+      ],
+      "actions": [
+        "審查 AI 客戶終端需求證據",
+        "檢查租約與取消條款",
+        "避免只依訂單金額擴產",
+        "建立殘值與庫存風險模型"
+      ],
+      "categories": [
+        "AI基礎建設與資料中心",
+        "AI供應鏈與半導體",
+        "資本市場與金融風險",
+        "地緣政治與能源風險"
+      ]
+    },
+    {
+      "id": "ft-anthropic-nscale-data-centre-deal-20260829",
+      "title": "Anthropic 與 Nscale 大型資料中心合約凸顯 AI 算力競賽進入電力、土地與地方治理",
+      "category": "科技與AI轉型",
+      "sourceType": "國際財經媒體",
+      "sourceName": "Financial Times: Anthropic agrees $45bn AI data centre deal with UK start-up Nscale",
+      "sourceUrl": "https://www.ft.com/content/0ec76ba3-5f7f-4085-88fb-acf21954bc85",
+      "sourceDate": "2026-08-27",
+      "heat": 93,
+      "confidence": "B",
+      "summary": "FT 報導 Anthropic 與 Nscale 簽署大型 AI data centre 合約，涉及高功率晶片、天然氣電廠、地方經濟效益與環境阻力。",
+      "whyLeadersCare": "AI 競爭已從模型能力延伸到能源取得、地方許可、社區信任與長期合約管理。",
+      "taiwanImpact": "台灣 AI 供應鏈機會增加，但客戶部署地電力與社區阻力可能影響交期與需求節奏。",
+      "opportunity": "資料中心成長的能源、地方治理與供應鏈機會地圖。",
+      "signals": [
+        "大型算力租賃合約",
+        "高功率 GPU/accelerator demand",
+        "co-located power plant",
+        "local resistance"
+      ],
+      "actions": [
+        "追蹤主要 AI 客戶資料中心部署地",
+        "把電力許可納入銷售預測",
+        "評估散熱與電源供應鏈機會",
+        "準備地方治理風險問答"
+      ],
+      "categories": [
+        "AI基礎建設與資料中心",
+        "AI供應鏈與半導體",
+        "資本市場與金融風險",
+        "地緣政治與能源風險"
+      ]
+    },
+    {
+      "id": "iea-data-centre-electricity-demand-20260829",
+      "title": "IEA：資料中心用電至 2030 約倍增，AI 將電力、電網與設備供應鏈變成成長限制",
+      "category": "地緣政治與供應鏈",
+      "sourceType": "能源/官方研究",
+      "sourceName": "IEA Energy and AI",
+      "sourceUrl": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
+      "sourceDate": "2026-04-10",
+      "heat": 96,
+      "confidence": "A",
+      "summary": "IEA 預估資料中心用電到 2030 約達 945 TWh，2024-2030 年增速約 15%/年，accelerated servers 用電增長更快。",
+      "whyLeadersCare": "數位策略的瓶頸不只是晶片，而是電力容量、電網排隊、冷卻、備援與能源合約。",
+      "taiwanImpact": "台灣硬體供應鏈受惠，但能源密集客戶會要求更完整的交期、低碳與可靠供電證據。",
+      "opportunity": "AI 能源容量與資料中心供應鏈高階講座。",
+      "signals": [
+        "data centre electricity doubles by 2030",
+        "accelerated servers grow about 30% annually",
+        "US/China/Europe remain largest regions",
+        "Southeast Asia demand more than doubles"
+      ],
+      "actions": [
+        "把電力限制納入需求預測",
+        "追蹤電網連接與設備交期",
+        "評估東南亞資料中心布局",
+        "建立低碳供應鏈敘事"
+      ],
+      "categories": [
+        "AI基礎建設與資料中心",
+        "AI供應鏈與半導體",
+        "資本市場與金融風險",
+        "地緣政治與能源風險"
+      ]
+    },
+    {
+      "id": "ec-ai-act-article50-transparency-20260829",
+      "title": "EU AI Act Article 50 透明義務生效，企業必須標示 AI 互動、生成內容與 deepfake",
+      "category": "治理與社會信任",
+      "sourceType": "歐洲官方/AI監管",
+      "sourceName": "European Commission AI transparency obligations guidelines",
+      "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations",
+      "sourceDate": "2026-08-06",
+      "heat": 98,
+      "confidence": "A",
+      "summary": "European Commission 指引說明 Article 50 自 2026-08-02 適用，涵蓋直接與 AI 系統互動告知、機器可讀標記、deepfake 與特定公共資訊標示。",
+      "whyLeadersCare": "AI 透明義務會進入產品、客服、行銷、內容、HR 與供應商管理，不再只是法務部的文件。",
+      "taiwanImpact": "服務歐洲市場或跨國客戶的台灣企業，需要準備 AI 使用清冊、標示 SOP 與客戶稽核答覆包。",
+      "opportunity": "可信 AI 與 B2B 客戶稽核文件包 sprint。",
+      "signals": [
+        "Article 50 applies from 2026-08-02",
+        "direct AI interaction disclosure",
+        "machine-readable marks",
+        "deepfake labelling"
+      ],
+      "actions": [
+        "盤點面向客戶的 AI 系統",
+        "建立內容標示與審核流程",
+        "準備供應商 AI 聲明",
+        "設計 48 小時稽核答覆包"
+      ],
+      "categories": [
+        "EU AI監管與合規",
+        "AI信任與透明度",
+        "董事會AI治理",
+        "資安與數位韌性"
+      ]
+    },
+    {
+      "id": "ec-ai-continent-gigafactories-20260829",
+      "title": "歐盟 AI Continent 與 gigafactories 讓 AI 主權從法規走向算力、產業與資金配置",
+      "category": "科技與AI轉型",
+      "sourceType": "歐洲官方/產業政策",
+      "sourceName": "European Commission Artificial Intelligence facts and figures",
+      "sourceUrl": "https://commission.europa.eu/topics/artificial-intelligence_en",
+      "sourceDate": "2026-08-29",
+      "heat": 92,
+      "confidence": "A",
+      "summary": "European Commission 公開頁面列示以 2000 億歐元推動 AI development、200 億歐元支援最多五座 AI gigafactories，以及 19 座 AI factories 支持產業與研究。",
+      "whyLeadersCare": "AI 競爭已是產業政策與主權基礎設施競爭，企業要看算力、補助、法規與市場准入一起變動。",
+      "taiwanImpact": "台灣半導體、伺服器與工業 AI 供應鏈可參與歐洲生態，但要符合歐盟透明、資安與資料治理要求。",
+      "opportunity": "歐洲 AI 主權與台灣供應鏈機會地圖。",
+      "signals": [
+        "€200bn AI development ambition",
+        "€20bn up to five gigafactories",
+        "19 AI factories",
+        "startup, industry and research support"
+      ],
+      "actions": [
+        "盤點歐洲 AI factories 合作窗口",
+        "評估客戶在歐盟補助鏈位置",
+        "把 EU compliance 放入銷售材料",
+        "追蹤 AI sovereignty 採購語言"
+      ],
+      "categories": [
+        "歐洲AI產業政策",
+        "新創與生態系合作",
+        "EU AI監管與合規",
+        "AI基礎建設與資料中心"
+      ]
+    },
+    {
+      "id": "sifted-europe-ai-infrastructure-efficiency-20260829",
+      "title": "Sifted 顯示歐洲 AI 新創焦點轉向高效率算力、robotics 與基礎設施瓶頸",
+      "category": "產業與商業模式",
+      "sourceType": "歐洲新創/弱訊號",
+      "sourceName": "Sifted Artificial Intelligence sector",
+      "sourceUrl": "https://sifted.eu/sector/artificial-intelligence",
+      "sourceDate": "2026-08-29",
+      "heat": 86,
+      "confidence": "B",
+      "summary": "Sifted AI 頻道近期聚焦讓 AI 更有效率的新創、AI infrastructure 融資與 robotics H1 2026 募資升溫，顯示歐洲從應用熱潮轉向底層能力。",
+      "whyLeadersCare": "當算力昂貴且受限，商業模式不只比模型功能，也比成本效率、硬體供應與產業場景。",
+      "taiwanImpact": "台灣製造與硬體生態可尋找歐洲效率型 AI、robotics 與資料中心供應鏈合作，而非只看美國 hyperscaler。",
+      "opportunity": "歐洲 AI 生態與台灣 B2B 合作機會掃描。",
+      "signals": [
+        "AI efficiency startups highlighted",
+        "robotics funding rises",
+        "AI infrastructure startup funding",
+        "European startup ecosystem focuses on compute bottlenecks"
+      ],
+      "actions": [
+        "建立歐洲 AI/robotics 觀察名單",
+        "尋找硬體與製造合作場景",
+        "追蹤 CVC repeat bets",
+        "區分應用型與基礎建設型投資"
+      ],
+      "categories": [
+        "歐洲AI產業政策",
+        "新創與生態系合作",
+        "EU AI監管與合規",
+        "AI基礎建設與資料中心"
+      ]
+    },
+    {
+      "id": "mckinsey-state-ai-2026-roi-20260829",
+      "title": "McKinsey State of AI 2026：企業正在擴大 agentic AI，但 ROI 仍取決於流程與工作重設",
+      "category": "科技與AI轉型",
+      "sourceType": "顧問公司/AI研究",
+      "sourceName": "McKinsey State of AI 2026",
+      "sourceUrl": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+      "sourceDate": "2026-08-24",
+      "heat": 95,
+      "confidence": "B",
+      "summary": "McKinsey 2026 State of AI 指出企業正在跨更多功能使用 AI，工具從 chatbots、coding agents 到可跨 workflow 自主行動的 agentic systems。",
+      "whyLeadersCare": "AI 擴大使用不等於價值自動出現；CEO、CIO、CHRO 必須共同重設流程、權責、能力與績效指標。",
+      "taiwanImpact": "台灣企業若只做工具訓練，可能無法取得 ROI；需要把 AI 導入接到營運流程與主管管理行為。",
+      "opportunity": "Agentic AI 從 adoption 到 ROI 的經營工作坊。",
+      "signals": [
+        "AI across more functions",
+        "agentic systems enter workflows",
+        "benefit capture remains uneven",
+        "costs and worker use both rising"
+      ],
+      "actions": [
+        "選定三個可重設流程",
+        "建立 AI ROI 指標",
+        "安排主管覆核責任",
+        "把個人使用轉為組織能力"
+      ],
+      "categories": [
+        "未來工作與人機協作",
+        "人才重配置與再學習",
+        "領導力接班與心理安全",
+        "AI規模化落地"
+      ]
+    },
+    {
+      "id": "mckinsey-agentic-adoption-gap-20260829",
+      "title": "McKinsey：agentic AI adoption gap 的核心不是技術，而是變革領導與能力建設",
+      "category": "組織與人才",
+      "sourceType": "顧問公司/組織研究",
+      "sourceName": "McKinsey How to close the agentic adoption gap",
+      "sourceUrl": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/how-to-close-the-agentic-adoption-gap",
+      "sourceDate": "2026-08-07",
+      "heat": 94,
+      "confidence": "B",
+      "summary": "McKinsey 主張成功的 AI 轉型應把更多資源投入流程重設、能力建設與行為改變，而非只把預算放在 agentic technology。",
+      "whyLeadersCare": "如果員工不相信、不知道如何改變流程、主管也不改變管理節奏，agentic AI 會停留在展示與零散效率。",
+      "taiwanImpact": "台灣企業需要補強中階主管的變革領導與工作重設能力，避免 AI 變成 IT 專案。",
+      "opportunity": "AI 變革領導與中階主管 adoption bootcamp。",
+      "signals": [
+        "technology receives too much executive attention",
+        "process redesign underfunded",
+        "capability building is central",
+        "behavior change requires operating system"
+      ],
+      "actions": [
+        "把 AI 預算拆成技術、流程、能力三類",
+        "訓練主管帶行為改變",
+        "用真實任務設計 adoption sprint",
+        "追蹤使用品質而非登入次數"
+      ],
+      "categories": [
+        "未來工作與人機協作",
+        "人才重配置與再學習",
+        "領導力接班與心理安全",
+        "AI規模化落地"
+      ]
+    },
+    {
+      "id": "deloitte-human-capital-speed-adaptability-20260829",
+      "title": "Deloitte Human Capital Trends：速度、適應力與人力資源編排成為未來三年競爭策略",
+      "category": "組織與人才",
+      "sourceType": "組織/人才研究",
+      "sourceName": "Deloitte 2026 Global Human Capital Trends",
+      "sourceUrl": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html",
+      "sourceDate": "2026-03-04",
+      "heat": 91,
+      "confidence": "A",
+      "summary": "Deloitte 調查指出 7 成企業領導者將 fast and nimble 視為未來三年主要競爭策略，重點是更快編排人與資源並提升適應力。",
+      "whyLeadersCare": "外部環境不穩時，競爭優勢來自資源重配速度、主管判斷與跨功能協作，而非年度組織圖。",
+      "taiwanImpact": "台灣企業面對缺工、接班與國際客戶變動，需要把學習設計接到真實任務與資源重配。",
+      "opportunity": "組織適應力與主管資源重配演練。",
+      "signals": [
+        "70% leaders prioritize fast and nimble",
+        "resource orchestration matters",
+        "adaptability becomes success driver",
+        "tipping point of work"
+      ],
+      "actions": [
+        "盤點關鍵任務與人力瓶頸",
+        "設計 30/60/90 天資源重配機制",
+        "建立跨部門決策演練",
+        "把主管學習接到真實專案"
+      ],
+      "categories": [
+        "未來工作與人機協作",
+        "人才重配置與再學習",
+        "領導力接班與心理安全",
+        "AI規模化落地"
+      ]
+    },
+    {
+      "id": "deloitte-ai-cultural-debt-20260829",
+      "title": "Deloitte：AI cultural debt 顯示企業很少評估 AI 對人的影響，信任成本正在累積",
+      "category": "組織與人才",
+      "sourceType": "組織/人才研究",
+      "sourceName": "Deloitte Dealing with AI cultural debt",
+      "sourceUrl": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2026/ai-cultural-debt.html",
+      "sourceDate": "2026-03-04",
+      "heat": 88,
+      "confidence": "A",
+      "summary": "Deloitte 指出 42% workers 表示組織很少評估 AI 對人的影響，AI 導入若缺乏文化與工作設計會形成 cultural debt。",
+      "whyLeadersCare": "AI 的隱性成本是信任、心理安全、績效認定與工作意義；這些若累積，會抵銷工具效率。",
+      "taiwanImpact": "台灣主管若只要求員工使用 AI，卻不重設績效、責任與覆核，就容易造成表面採用與私下抗拒。",
+      "opportunity": "AI cultural debt 與主管信任治理工作坊。",
+      "signals": [
+        "42% workers report rare evaluation of AI impact",
+        "cultural debt grows",
+        "trust and work design gaps",
+        "human impact undermeasured"
+      ],
+      "actions": [
+        "評估 AI 對職務與心理安全影響",
+        "建立 AI 使用透明規則",
+        "訓練主管討論責任與覆核",
+        "把文化風險納入 AI governance"
+      ],
+      "categories": [
+        "未來工作與人機協作",
+        "人才重配置與再學習",
+        "領導力接班與心理安全",
+        "AI規模化落地"
+      ]
+    },
+    {
+      "id": "deloitte-human-ai-interaction-design-20260829",
+      "title": "Deloitte：只有少數領導者擅長設計 human-AI interactions，工作設計成為 ROI 關鍵",
+      "category": "組織與人才",
+      "sourceType": "組織/人才研究",
+      "sourceName": "Deloitte Getting human and machine relationships right",
+      "sourceUrl": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2026/human-ai-interaction-design.html",
+      "sourceDate": "2026-03-04",
+      "heat": 89,
+      "confidence": "A",
+      "summary": "Deloitte 指出只有 14% 受訪領導者表示擅長塑造人機互動，顯示企業不能期待 AI collaboration 自然發生。",
+      "whyLeadersCare": "人機工作若沒有明確責任、handoff、覆核與例外處理，AI 導入會增加混亂而非提高績效。",
+      "taiwanImpact": "台灣企業需要把 AI 訓練從 prompt 技巧升級到流程設計、決策權與品質控管。",
+      "opportunity": "Human-AI workflow design for managers。",
+      "signals": [
+        "only 14% leaders adept at human-AI interactions",
+        "ROI speed gap",
+        "interaction design missing",
+        "augmentation vs automation tension"
+      ],
+      "actions": [
+        "繪製人機協作流程圖",
+        "定義 AI 可決策與需覆核範圍",
+        "建立例外處理 SOP",
+        "訓練主管做工作設計"
+      ],
+      "categories": [
+        "未來工作與人機協作",
+        "人才重配置與再學習",
+        "領導力接班與心理安全",
+        "AI規模化落地"
+      ]
+    },
+    {
+      "id": "pwc-ceo-survey-midyear-leadership-agenda-20260829",
+      "title": "PwC mid-year CEO snapshot 顯示領導議程同時被 AI、永續、製造回流與政策誘因重塑",
+      "category": "CEO經營環境",
+      "sourceType": "CEO/顧問研究",
+      "sourceName": "PwC Sustainability News Brief CEO Survey snapshot",
+      "sourceUrl": "https://www.pwc.com/us/en/services/esg/sustainability-news-brief.html",
+      "sourceDate": "2026-08-24",
+      "heat": 87,
+      "confidence": "B",
+      "summary": "PwC 8 月永續簡報列出對 CEO Survey 受訪者的 mid-year 回訪，並連結清潔能源、smart tech、製造回流與政策誘因。",
+      "whyLeadersCare": "CEO 議程不再能把成長、能源、政策、製造基地與 AI 分開討論，投資地點選擇本身就是策略。",
+      "taiwanImpact": "台灣企業若在美國或其他市場設廠，要把地方補助、能源、供應鏈、客戶 proximity 與合規成本一起評估。",
+      "opportunity": "全球製造基地與政策誘因的高階決策框架。",
+      "signals": [
+        "mid-year CEO agenda refresh",
+        "clean energy and smart tech manufacturing",
+        "location incentives matter",
+        "policy priorities affect enterprise strategy"
+      ],
+      "actions": [
+        "更新設廠決策模板",
+        "比較能源與補助條件",
+        "把政策變動納入投資委員會",
+        "檢查供應鏈近岸化敘事"
+      ],
+      "categories": [
+        "CEO經營節奏與風險雷達",
+        "資本市場與金融風險",
+        "全球低成長與通膨",
+        "高階幕僚與決策智能"
+      ]
+    },
+    {
+      "id": "reuters-events-supply-chain-europe-volatility-20260829",
+      "title": "Reuters Events 供應鏈議程把 volatility、people、data、technology 與 operations 整合為競爭力",
+      "category": "地緣政治與供應鏈",
+      "sourceType": "供應鏈/產業活動訊號",
+      "sourceName": "Reuters Events Supply Chain Europe 2026",
+      "sourceUrl": "https://events.reutersevents.com/supply-chain/europe",
+      "sourceDate": "2026-08-29",
+      "heat": 88,
+      "confidence": "B",
+      "summary": "Reuters Events Supply Chain Europe 2026 將 persistent cost pressures、inconsistent demand、geopolitical shocks、regulatory disruption 與 customer expectations 放在同一議程。",
+      "whyLeadersCare": "供應鏈韌性不再是備援庫存，而是人、資料、技術與營運能否在波動中一起行動。",
+      "taiwanImpact": "台灣供應鏈主管需要把客戶需求不穩、歐洲法規、成本壓力與資料能力整合進報價與交付節奏。",
+      "opportunity": "供應鏈 War Room：人、資料、技術與營運聯合作戰。",
+      "signals": [
+        "persistent cost pressures",
+        "inconsistent demand",
+        "geopolitical shocks",
+        "regulatory disruption"
+      ],
+      "actions": [
+        "建立供應鏈風險日會節奏",
+        "把資料品質納入供應鏈 KPI",
+        "訓練跨部門 war room",
+        "檢查客戶服務承諾與成本能見度"
+      ],
+      "categories": [
+        "供應鏈韌性",
+        "關稅貿易與區域布局",
+        "地緣政治與能源風險",
+        "AI供應鏈與半導體"
+      ]
+    },
+    {
+      "id": "thomson-reuters-forced-labor-ai-governance-20260829",
+      "title": "Thomson Reuters：用 AI 偵測 forced labor 反而暴露資料、治理與人權監督缺口",
+      "category": "地緣政治與供應鏈",
+      "sourceType": "供應鏈/風險治理研究",
+      "sourceName": "Thomson Reuters Institute: Deploying AI to end forced labor",
+      "sourceUrl": "https://www.thomsonreuters.com/en/institute/articles/deploying-ai-to-end-forced-labor",
+      "sourceDate": "2026-08-13",
+      "heat": 90,
+      "confidence": "B",
+      "summary": "Thomson Reuters Institute 指出供應鏈 AI 偵測 forced labor 面臨 AI-trained personnel shortage、缺乏國際監督機制、資料共享不足與訓練資料人權風險。",
+      "whyLeadersCare": "供應鏈合規不能把判斷外包給演算法；董事會需要確認資料品質、人類覆核與供應商透明度。",
+      "taiwanImpact": "台灣出口商面對人權與供應鏈稽核時，需要準備 worker testimony、供應商紀錄與 AI 工具治理證據。",
+      "opportunity": "供應鏈人權合規與 AI 監督文件包。",
+      "signals": [
+        "AI-trained personnel shortage",
+        "no central international monitoring body",
+        "human oversight required",
+        "worker testimony must ground systems"
+      ],
+      "actions": [
+        "建立 forced-labor 風險清冊",
+        "檢查 AI tool training data 來源",
+        "加入人類覆核流程",
+        "與供應商建立資料共享標準"
+      ],
+      "categories": [
+        "供應鏈韌性",
+        "關稅貿易與區域布局",
+        "地緣政治與能源風險",
+        "AI供應鏈與半導體"
+      ]
+    },
+    {
+      "id": "ft-us-manufacturing-ai-aerospace-not-tariffs-20260829",
+      "title": "FT 指出美國製造熱度主要由 AI 電子與航太支撐，關稅不是單一解釋",
+      "category": "產業與商業模式",
+      "sourceType": "國際財經媒體",
+      "sourceName": "Financial Times: US manufacturing is booming - but it is no thanks to tariffs",
+      "sourceUrl": "https://www.ft.com/content/b625e314-ecf9-4385-a687-7a8f8c1bec23",
+      "sourceDate": "2026-08-29",
+      "heat": 86,
+      "confidence": "B",
+      "summary": "FT 分析美國製造活動改善，主要受 AI-related computer and electronic products 與 aerospace 需求拉動，受關稅衝擊產業表現相對疲弱。",
+      "whyLeadersCare": "製造回流敘事需要拆解需求來源；如果成長來自 AI 與航太，企業投資、人才與供應鏈策略就不能用泛製造復甦判斷。",
+      "taiwanImpact": "台灣企業赴美布局要辨識真正需求來自哪個終端產業，避免把政策口號誤讀為長期訂單。",
+      "opportunity": "製造回流真需求與供應鏈定位判讀課。",
+      "signals": [
+        "AI electronics drive activity",
+        "aerospace supports growth",
+        "tariff-hit sectors weaker",
+        "policy narrative differs from data"
+      ],
+      "actions": [
+        "拆解美國製造客戶終端需求",
+        "評估 AI/航太供應鏈准入",
+        "避免只依關稅政策設廠",
+        "追蹤有效稅率與產業別投資"
+      ],
+      "categories": [
+        "新創與生態系合作",
+        "印度與新興市場",
+        "關稅貿易與區域布局",
+        "高階幕僚與決策智能"
+      ]
+    },
+    {
+      "id": "ft-ai-content-authenticity-transparency-20260829",
+      "title": "FT：AI 生成內容難辨識，企業聲譽風險從工具使用延伸到真實性與標示治理",
+      "category": "治理與社會信任",
+      "sourceType": "國際財經媒體",
+      "sourceName": "Financial Times: Did AI write this? It is getting harder to tell",
+      "sourceUrl": "https://www.ft.com/content/f100c90b-c138-4125-aaa7-853b77690db9",
+      "sourceDate": "2026-08-29",
+      "heat": 84,
+      "confidence": "B",
+      "summary": "FT 討論 AI writing detection、false positives、watermarking 與內容作者身份爭議，顯示企業外部溝通面臨真實性與誤判風險。",
+      "whyLeadersCare": "品牌、投資人關係、人資、法務與媒體溝通都需要清楚說明 AI 使用邊界，避免因 AI 偵測誤判或未標示而損害信任。",
+      "taiwanImpact": "台灣 B2B 企業面向國際客戶與人才市場時，需要建立 AI 內容使用、標示、覆核與申訴流程。",
+      "opportunity": "AI 內容真實性、標示與企業聲譽治理課。",
+      "signals": [
+        "AI-generated text harder to distinguish",
+        "detector accuracy disputes",
+        "watermarking imperfect",
+        "authorship standards evolving"
+      ],
+      "actions": [
+        "制定企業 AI 內容政策",
+        "建立人工覆核與責任歸屬",
+        "標示公共資訊用途",
+        "準備誤判申訴流程"
+      ],
+      "categories": [
+        "AI信任與透明度",
+        "資料治理與AI-ready",
+        "資安與數位韌性",
+        "董事會AI治理"
+      ]
+    },
+    {
+      "id": "bbc-public-service-algorithm-trust-20260829",
+      "title": "BBC 公共服務演算法構想反映平台信任與公共資訊治理成為領導議題",
+      "category": "治理與社會信任",
+      "sourceType": "國際媒體/平台治理弱訊號",
+      "sourceName": "The Guardian report on BBC public service algorithm proposal",
+      "sourceUrl": "https://www.theguardian.com/media/2026/aug/27/bbc-chief-proposes-public-service-algorithm-youtube-style-user-generated-content",
+      "sourceDate": "2026-08-27",
+      "heat": 79,
+      "confidence": "B",
+      "summary": "BBC 新任總監提出 public service algorithm 構想，想像一個不被商業平台利益主導、可容納創作者內容的公共服務媒體空間。",
+      "whyLeadersCare": "資訊信任、演算法治理與平台依賴已是社會與企業溝通風險，領導者不能只把它視為媒體業問題。",
+      "taiwanImpact": "台灣企業與學習品牌若依賴社群平台，需思考自有媒體、信任機制與內容治理。",
+      "opportunity": "高階主管內容信任與自有媒體策略。",
+      "signals": [
+        "public service algorithm proposal",
+        "concern over commercial platform incentives",
+        "UGC and public media convergence",
+        "platform trust debate"
+      ],
+      "actions": [
+        "檢查自有媒體與平台依賴",
+        "建立內容信任標準",
+        "設計非演算法單點依賴的受眾經營",
+        "追蹤公共媒體數位轉型案例"
+      ],
+      "categories": [
+        "高階學習產品與內容設計",
+        "未來工作與人機協作",
+        "人才重配置與再學習",
+        "CEO經營節奏與風險雷達"
+      ]
+    },
+    {
+      "id": "cnbc-anthropic-salesforce-saas-trust-20260829",
+      "title": "Anthropic 與 Salesforce 同台回應 SaaS 被顛覆焦慮，AI 平台競合進入 CEO 溝通議題",
+      "category": "產業與商業模式",
+      "sourceType": "國際財經影音弱訊號",
+      "sourceName": "CNBC interview cited by Business Insider",
+      "sourceUrl": "https://www.businessinsider.com/dario-amodei-anthropic-not-destroying-saas-2026-8",
+      "sourceDate": "2026-08-28",
+      "heat": 82,
+      "confidence": "C",
+      "summary": "Anthropic CEO Dario Amodei 與 Salesforce CEO Marc Benioff 同台說明合作與正和關係，回應市場對 AI 顛覆 SaaS 的焦慮。",
+      "whyLeadersCare": "企業採購 AI 時，不只選工具，也要判斷既有 SaaS 生態如何被重新定價、整合或取代。",
+      "taiwanImpact": "台灣軟體、系統整合與企業 IT 團隊需要重估 vendor roadmap、資料權限與平台鎖定風險。",
+      "opportunity": "AI 平台競合與企業軟體採購策略課。",
+      "signals": [
+        "SaaS disruption anxiety",
+        "Anthropic-Salesforce partnership narrative",
+        "data privacy reassurance",
+        "enterprise software valuation sensitivity"
+      ],
+      "actions": [
+        "盤點核心 SaaS 與 AI roadmap",
+        "檢查資料是否被預設訓練使用",
+        "設計多供應商退出條款",
+        "評估 AI plugin 對流程與職務影響"
+      ],
+      "categories": [
+        "新創與生態系合作",
+        "印度與新興市場",
+        "關稅貿易與區域布局",
+        "高階幕僚與決策智能"
+      ]
+    },
     {
       "id": "conference-board-ceo-confidence-risk-stack-20260822",
       "title": "CEO 信心改善但前三大風險變成 AI、新科技、資安與地緣的混合題",
@@ -5939,6 +6665,36 @@ window.LEADER_TREND_DATA = {
   ],
   "sources": [
     {
+      "name": "World Bank Commodity Markets Outlook",
+      "type": "官方經濟機構",
+      "use": "追蹤能源、肥料、商品價格與通膨壓力。",
+      "url": "https://www.worldbank.org/en/research/commodity-markets"
+    },
+    {
+      "name": "IEA Energy and AI",
+      "type": "能源/官方研究",
+      "use": "追蹤資料中心用電、電網、能源安全與 AI 基礎建設約束。",
+      "url": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai"
+    },
+    {
+      "name": "McKinsey State of AI and agentic adoption",
+      "type": "顧問公司/AI研究",
+      "use": "追蹤 AI 規模化、agentic systems、ROI、流程與能力建設。",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
+    },
+    {
+      "name": "Reuters Events Supply Chain Europe 2026",
+      "type": "供應鏈/產業活動訊號",
+      "use": "追蹤 volatility、cost pressures、regulatory disruption、people/data/technology operations。",
+      "url": "https://events.reutersevents.com/supply-chain/europe"
+    },
+    {
+      "name": "Thomson Reuters Institute forced labor and AI",
+      "type": "供應鏈/風險治理研究",
+      "use": "追蹤 forced labor、AI monitoring、人權資料與供應鏈合規治理。",
+      "url": "https://www.thomsonreuters.com/en/institute/articles/deploying-ai-to-end-forced-labor"
+    },
+    {
       "name": "WEF trade policy surge citing WTO/IMF",
       "type": "國際組織/貿易研究",
       "use": "追蹤關稅、限制、補貼與全球貿易政策活動。",
@@ -6415,124 +7171,124 @@ window.LEADER_TREND_DATA = {
   ],
   "weeklyMustReads": [
     {
-      "id": "must-ceo-risk-stack-20260822",
+      "id": "must-ceo-risk-capital-20260829",
       "rank": 1,
-      "trendId": "conference-board-ceo-confidence-risk-stack-20260822",
-      "headline": "CEO 信心回升後，最重要的工作是把成長、AI、新科技、資安與地緣放進同一張風險表",
-      "globalSignal": "The Conference Board Q3 2026 顯示 CEO confidence 上升，但 AI/new technology、cyber 與 geopolitical risk 仍是董事會級風險。",
-      "whyLeadersCare": "信心改善會帶來加碼衝動；CEO 必須用共同風險排序管理投資、招聘、資安與 AI，而不是讓各部門各自解讀景氣。",
-      "taiwanMeaning": "台灣出口與科技供應鏈若受惠需求回升，仍要同步處理客戶資安稽核、地緣敏感與 AI 風險治理。",
-      "joyceQuestion": "如果本季只能加碼三件事、暫停三件事，高階團隊會用哪些外部訊號決定？",
+      "trendId": "conference-board-ceo-confidence-risk-stack-20260829",
+      "headline": "CEO 信心回升後，董事會要把成長、AI、資安與地緣放進同一套資本節奏",
+      "globalSignal": "The Conference Board Q3 2026 顯示 CEO confidence 上升，但 AI/new technology、cyber 與 geopolitical risk 仍是高階風險排序核心。",
+      "whyLeadersCare": "信心回來會推動加碼，但真正的管理挑戰是判斷哪些投資值得加速、哪些風險需要先設停損條件。",
+      "taiwanMeaning": "台灣科技與出口企業可能受惠需求，但客戶會同步提高資安、AI 治理與地緣風險稽核。",
+      "joyceQuestion": "高階團隊是否有一張共同的季度風險與資本節奏表，能決定加碼、暫停與防守？",
       "keepWatching": [
-        "The Conference Board Q4 CEO confidence",
+        "Q4 CEO confidence",
         "AI/new technology 風險排序",
-        "重大資安事件",
-        "董事會資本支出與招聘決策"
+        "cyber incident 與董事會議程",
+        "科技客戶 capex 與招聘訊號"
       ]
     },
     {
-      "id": "must-low-growth-pressure-test-20260822",
+      "id": "must-macro-energy-cost-20260829",
       "rank": 2,
-      "trendId": "imf-low-growth-disinflation-stall-20260822",
-      "headline": "低成長與通膨停滯仍是基本盤，CFO 要把 AI 訂單熱度與現金流壓力拆開看",
-      "globalSignal": "IMF 估 2026 全球成長約 3.0%，World Bank 與 OECD 也提醒能源、衝突、政策不確定性與金融重估仍會壓抑成長。",
-      "whyLeadersCare": "科技投資可支撐部分需求，但不能取代現金流、匯率、能源與客戶 capex 壓力測試。",
-      "taiwanMeaning": "台灣企業要避免把 AI 供應鏈熱度視為全面復甦，尤其要檢查客戶集中、付款條件與庫存風險。",
-      "joyceQuestion": "我們最樂觀的營收假設，建立在哪三個外部條件上？若其中一個反轉，現金流能撐多久？",
+      "trendId": "worldbank-commodity-energy-inflation-20260829",
+      "headline": "能源與商品價格重新進入成本曲線，CFO 要把 AI 訂單與現金流韌性分開管理",
+      "globalSignal": "IMF 維持 2026 成長不均判斷，World Bank 8 月商品展望提醒能源、肥料與商品價格上升會壓迫通膨與成本。",
+      "whyLeadersCare": "成長動能若集中在 AI 與科技價值鏈，企業仍要面對能源、匯率、運費、客戶信用與轉嫁能力。",
+      "taiwanMeaning": "台灣企業能源進口曝險高，不能只用營收成長判斷景氣，必須同步看毛利、現金流與報價條款。",
+      "joyceQuestion": "如果能源、運費或主要客戶付款條件同時惡化，我們的營運現金流能撐多久？",
       "keepWatching": [
-        "IMF/OECD/World Bank 下一次展望",
-        "能源與商品價格",
-        "主要出口市場 PMI",
-        "大型科技客戶 capex 與信用利差"
+        "World Bank 商品價格更新",
+        "IMF/OECD 下一輪展望",
+        "能源與肥料價格",
+        "主要客戶信用利差"
       ]
     },
     {
-      "id": "must-tariff-supply-chain-compliance-20260822",
+      "id": "must-supply-chain-compliance-20260829",
       "rank": 3,
-      "trendId": "pwc-section301-forced-labor-tariffs-20260822",
-      "headline": "關稅、forced-labor 與原產地合規正在變成供應鏈報價前提",
-      "globalSignal": "PwC 8 月分析 USTR Section 301 forced-labor tariff 行動；Reuters Events 供應鏈議程也把 disruption、AI、資料、合作與人才放在同一主軸。",
-      "whyLeadersCare": "供應鏈不再只是成本部門，而是市場准入、毛利、客戶合約、合規文件與品牌信任的共同 owner。",
-      "taiwanMeaning": "台灣企業要把供應商文件、原產地、替代來源、客戶轉嫁條款與人權稽核放進報價流程。",
-      "joyceQuestion": "我們的供應鏈設計是在追最低成本，還是在管理下一輪市場准入？",
+      "trendId": "reuters-events-supply-chain-europe-volatility-20260829",
+      "headline": "供應鏈競爭力從低成本移向 volatility-ready：人、資料、技術與合規要一起運作",
+      "globalSignal": "Reuters Events Supply Chain Europe 將 cost pressure、demand inconsistency、geopolitical shocks、regulatory disruption 與 customer expectations 放在同一議程。",
+      "whyLeadersCare": "供應鏈不再只是採購效率，而是市場准入、合規文件、客戶承諾與營運速度的共同 owner。",
+      "taiwanMeaning": "台灣供應鏈主管需要把原產地、forced-labor、人權資料、客戶轉嫁與替代來源放進報價流程。",
+      "joyceQuestion": "我們的供應鏈會議是在追交期，還是在管理下一輪市場准入與客戶信任？",
       "keepWatching": [
-        "USTR forced-labor 與 Section 301 行動",
-        "客戶供應商稽核問卷",
-        "原產地與第三地生產要求",
-        "Reuters Events 供應鏈議程變化"
+        "Reuters Events 供應鏈議程",
+        "forced-labor 監督工具",
+        "客戶供應商問卷",
+        "歐洲與美國合規要求"
       ]
     },
     {
-      "id": "must-eu-ai-transparency-20260822",
+      "id": "must-ai-infrastructure-finance-20260829",
       "rank": 4,
-      "trendId": "ec-ai-act-transparency-enforcement-20260822",
-      "headline": "EU AI Act 透明義務進入執法期，可信 AI 變成產品、行銷、客服與 B2B 銷售能力",
-      "globalSignal": "European Commission 宣布 2026 年 8 月 2 日起執行 AI Act 規則與透明要求，並發布 Article 50 指引。",
-      "whyLeadersCare": "AI 透明不只是法遵文件，而是所有面向客戶的 AI 互動、生成內容與供應商管理都要留下證據。",
-      "taiwanMeaning": "服務歐洲客戶的台灣企業，需要準備 AI 使用清冊、標示政策、供應商聲明與 48 小時內可交付的稽核答覆。",
-      "joyceQuestion": "如果歐洲客戶明天要求 AI 透明與標示證據，我們能在 48 小時內交出什麼？",
+      "trendId": "bis-ai-investment-race-overinvestment-20260829",
+      "headline": "AI 基礎建設熱潮進入金融紀律期：算力需求、債務、能源與合約品質要一起看",
+      "globalSignal": "BIS 警示 AI 投資競賽可能出現過度投資；FT 同週討論 neocloud 與大型 data centre 合約的融資與需求風險。",
+      "whyLeadersCare": "AI 訂單看起來很大，但若融資、租約、終端需求與電力條件不穩，供應鏈與投資人會承受反轉風險。",
+      "taiwanMeaning": "台灣伺服器、電源、散熱與半導體鏈要避免只看拉貨，必須追蹤客戶的資料中心電力、融資與取消條款。",
+      "joyceQuestion": "我們有沒有辦法判斷 AI 訂單的「品質」，而不只是訂單的「金額」？",
+      "keepWatching": [
+        "BIS AI investment research",
+        "FT neocloud/data centre finance",
+        "hyperscaler capex",
+        "電網連接與能源合約"
+      ]
+    },
+    {
+      "id": "must-eu-ai-transparency-20260829",
+      "rank": 5,
+      "trendId": "ec-ai-act-article50-transparency-20260829",
+      "headline": "EU AI Act 透明義務生效，可信 AI 從理念變成產品、內容與客戶稽核文件",
+      "globalSignal": "European Commission Article 50 指引確認 2026-08-02 起適用 AI 互動告知、機器可讀標記、生成內容與 deepfake 標示要求。",
+      "whyLeadersCare": "AI governance 不能只停在政策宣示，必須落到產品標示、客服流程、行銷內容、HR 工具與供應商管理。",
+      "taiwanMeaning": "服務歐洲客戶的台灣企業，需要準備 AI 使用清冊、標示 SOP、供應商聲明與 48 小時內可交付的稽核答覆包。",
+      "joyceQuestion": "如果歐洲客戶明天要求 AI 透明證據，我們能在 48 小時內交出什麼？",
       "keepWatching": [
         "AI Office 執法案例",
-        "Article 50 實務問答",
+        "Article 50 FAQ",
         "客戶 AI 採購問卷",
-        "內容標示與 deepfake 規範"
+        "內容標示與 deepfake 實務"
       ]
     },
     {
-      "id": "must-data-centre-energy-20260822",
-      "rank": 5,
-      "trendId": "iea-data-centre-electricity-constraint-20260822",
-      "headline": "資料中心用電倍增讓能源容量成為數位成長的硬上限",
-      "globalSignal": "IEA 指出資料中心用電到 2030 年將倍增至約 945 TWh，AI 是主要驅動，且需求集中使地方電網更難承受。",
-      "whyLeadersCare": "數位成長不只看晶片與模型，也看電力、電網、冷卻、地方治理、能源契約與低碳要求。",
-      "taiwanMeaning": "台灣伺服器、散熱、電源與高階製造鏈有機會，但要把客戶部署地電力瓶頸與低碳條件納入交期與產品策略。",
-      "joyceQuestion": "我們把資料中心成長視為科技機會時，有沒有同步估算能源、地方治理與交期上限？",
-      "keepWatching": [
-        "IEA data centre electricity updates",
-        "美國與歐洲電網排隊",
-        "大型雲端商能源合約",
-        "散熱與電源供應鏈瓶頸"
-      ]
-    },
-    {
-      "id": "must-organization-adaptability-20260822",
+      "id": "must-organization-agentic-work-20260829",
       "rank": 6,
-      "trendId": "deloitte-human-capital-adaptability-20260822",
-      "headline": "外部變動加速下，組織速度、資源重配與主管適應力比單一工具更稀缺",
-      "globalSignal": "Deloitte Human Capital Trends 顯示領導者把 fast and nimble 視為未來三年競爭策略；McKinsey 八月訊號也把新事業、早期人才與下一個經濟 chokepoint 放入 CEO 議程。",
-      "whyLeadersCare": "外部條件變動時，競爭優勢不只來自策略正確，也來自組織能否快速重配人、資源、決策權與主管注意力。",
-      "taiwanMeaning": "台灣企業面對缺工、接班與中階主管斷層，需要把學習從課程升級為真實任務、資源重配與跨部門演練。",
-      "joyceQuestion": "我們公司遇到外部衝擊時，哪些決策會卡在層級、部門邊界或主管能力不足？",
+      "trendId": "mckinsey-agentic-adoption-gap-20260829",
+      "headline": "外部變動加速下，主管帶隊、工作重設與組織信任成為 ROI 瓶頸",
+      "globalSignal": "McKinsey 八月文章與 Deloitte Human Capital Trends 同時指向流程重設、能力建設、human-AI interaction 與文化信任，才是新工具能否變成組織績效的關鍵。",
+      "whyLeadersCare": "如果主管不會重設工作、責任與覆核，新工具會製造更多零散效率與信任債，而不是 enterprise ROI。",
+      "taiwanMeaning": "台灣企業應把學習從工具教學升級成主管工作設計、跨部門流程與真實任務演練。",
+      "joyceQuestion": "主管是否已經說清楚新工具導入後的權責、品質標準與例外處理？",
       "keepWatching": [
+        "McKinsey State of AI 2026",
         "Deloitte Human Capital Trends",
-        "McKinsey organization highlights",
-        "資源重配速度",
-        "中階主管決策品質與接班斷層"
+        "AI cultural debt",
+        "中階主管 adoption quality"
       ]
     }
   ],
   "perspectiveNote": {
-    "summary": "本週判讀：全球領導者不缺題目，缺的是把外部約束翻成內部節奏的能力。AI、能源、關稅、資本市場、法規與人才不是六個專案，而是一套共同的經營條件。",
+    "summary": "本週判讀：全球領導者面對的不是「AI 熱潮是否延續」這個單題，而是所有成長動能都開始被基礎條件重新定價。資本是否耐心、電力是否可得、供應鏈文件是否說得清、AI 是否可被客戶信任、主管是否能帶人改工作，正在成為同一套經營能力。",
     "notes": [
-      "信心回升不是風險消失，而是要求 CEO 更精準地決定何時加碼、何時暫停、何時防守。",
-      "AI 已從工具採購進入資本市場、能源容量、法規透明與員工信任；董事會必須用系統觀點管理。",
-      "關稅與 forced-labor 執法提醒供應鏈長：市場准入能力正在取代最低成本，成為高階競爭力。",
-      "歐洲 AI Act 的管理意義不是只看罰則，而是客戶信任會被文件化、標示化、流程化。",
-      "台灣企業最需要練習的是把全球訊號變成 30/60/90 天決策節奏，而不是一次性聽趨勢。"
+      "信心回升時，CEO 最容易忽略的是投資紀律；董事會要把 AI、資安、地緣與資本支出放在同一個節奏中討論。",
+      "AI 基礎建設的下一階段會更像基建與金融題：電力、土地、債務、長約、殘值與地方信任都會影響供應鏈。",
+      "供應鏈合規的重心正在從文件留存變成即時治理：forced-labor、原產地、資料共享與人類覆核都要能被客戶驗證。",
+      "歐洲 AI Act 的管理意義，是把 AI 信任變成可標示、可稽核、可交付的商業能力。",
+      "台灣企業最需要練習的是把全球訊號轉成 30/60/90 天行動：哪些指標進董事會、哪些進報價、哪些進主管訓練。"
     ],
     "discussionPrompts": [
-      "本季我們最可能被哪一個外部條件推翻：能源、關稅、客戶 capex、AI 法規、資安，還是人才？",
-      "如果 AI 投資循環反轉，我們的營收、庫存、現金流與人力計畫哪裡最脆弱？",
-      "供應鏈決策是否已經在報價前處理原產地、forced-labor、客戶轉嫁與替代來源？",
-      "我們是否有一份 48 小時內可交給跨國客戶的 AI 透明文件包？",
-      "中階主管是否有能力把 AI 導入後的責任、覆核與工作流程說清楚？"
+      "本季如果只能更新一張董事會儀表板，應該加入哪三個外部條件：能源、信用、AI 法規、供應鏈合規、資安還是人才？",
+      "我們的 AI 訂單是否有終端需求、融資條件、電力條件與取消條款的品質分級？",
+      "供應鏈是否能在客戶要求後 48 小時內交出原產地、forced-labor、人權與 AI 工具治理證據？",
+      "AI 導入後，主管是否重設了流程、權責、覆核與績效，而不只是要求員工多用工具？",
+      "如果能源或商品價格再次上升，哪些產品線、客戶與市場最先需要重新報價？"
     ],
     "writingAngles": [
-      "〈信心回來了，但 CEO 不能把風險交給景氣〉",
-      "〈AI 不是單一趨勢，而是一組新的經營約束〉",
-      "〈供應鏈的下一個競爭力：不是最低成本，是可被信任的市場准入〉",
-      "〈台灣企業進歐洲市場，AI 透明文件包會變成新名片〉",
-      "〈組織適應力：比工具訓練更稀缺的高階主管能力〉"
+      "〈AI 熱潮進入金融紀律期：台灣供應鏈不能只看訂單金額〉",
+      "〈可信 AI 的第一張名片，是 48 小時交得出的透明文件包〉",
+      "〈供應鏈的新競爭力：不是低成本，是 volatility-ready〉",
+      "〈CEO 信心回升後，最需要的是一套加碼與停損節奏〉",
+      "〈新工具不會自動帶來 ROI，主管才是工作重設的瓶頸〉"
     ]
   },
   "categoryDefinitions": [
