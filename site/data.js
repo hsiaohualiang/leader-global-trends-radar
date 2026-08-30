@@ -3,7 +3,7 @@ window.LEADER_TREND_DATA = {
     "generated_at": "2026-08-29",
     "next_review": "2026-09-05 20:00 Asia/Taipei",
     "scope": "追蹤全球領導者必看的外部經營環境，涵蓋 CEO 經營節奏、全球經濟與資本市場、地緣政治與供應鏈、科技與 AI、組織人才、產業商業模式、治理與社會信任，協助 Joyce 建立高階主管視野，而不是只追單一科技議題。",
-    "weekly_thesis": "本週全球領導者的共同題目，是「成長動能正在被基礎條件重新定價」。CEO 信心回升、AI 基礎建設與美國製造局部升溫，讓市場看見投資動能；但 IMF、World Bank 與 BIS 同時提醒，戰爭、能源、商品價格、AI 過度投資與信用市場會把樂觀重新拉回紀律。供應鏈端，Reuters Events 與 Thomson Reuters 顯示波動、法規與 forced-labor 監督已從合規部門走到營運現場；歐洲則把 AI Act 透明義務、AI factories 與 gigafactories 變成可信 AI 與產業主權的雙軌議題。對台灣企業而言，本週不是問「AI 還熱不熱」，而是問：我們能不能同時管理訂單、電力、資本、法規、供應鏈文件與主管帶隊能力。",
+    "weekly_thesis": "本週全球領導者的共同題目，是「成長樂觀必須重新接受基礎條件檢驗」。CEO 信心回升與科技需求讓企業想加速，但 IMF、OECD、World Bank 與 BIS 同時提醒：戰爭、能源、商品、信用、資本支出與金融重估，會把成長拉回紀律。供應鏈端，Reuters Events 與 Thomson Reuters 顯示波動、關稅、法規、人權資料與跨部門協作已從後勤議題升到企業風險；歐洲則把 AI 透明義務與產業主權推向客戶稽核與市場信任。對台灣企業而言，本週不是問「AI 還熱不熱」，而是問：董事會能不能同時管理資本節奏、能源成本、供應鏈准入、可信科技與主管帶隊能力。",
     "recommendation_note": "學習產品作為下游轉化：本週六個機會聚焦 CEO 風險與資本節奏、CFO 能源與現金流壓力測試、AI 基礎建設訂單品質、歐盟 AI 透明治理、供應鏈人權與合規 War Room，以及 agentic AI 下的人機工作設計。"
   },
   "methodology": {
@@ -7174,25 +7174,41 @@ window.LEADER_TREND_DATA = {
       "id": "must-ceo-risk-capital-20260829",
       "rank": 1,
       "trendId": "conference-board-ceo-confidence-risk-stack-20260829",
-      "headline": "CEO 信心回升後，董事會要把成長、AI、資安與地緣放進同一套資本節奏",
-      "globalSignal": "The Conference Board Q3 2026 顯示 CEO confidence 上升，但 AI/new technology、cyber 與 geopolitical risk 仍是高階風險排序核心。",
+      "headline": "CEO 信心回升後，董事會要把成長、資本、資安與地緣風險放進同一套節奏",
+      "globalSignal": "The Conference Board Q3 2026 顯示 CEO confidence 上升，但 new technology、cyber 與 geopolitical risk 仍是高階風險排序核心。",
       "whyLeadersCare": "信心回來會推動加碼，但真正的管理挑戰是判斷哪些投資值得加速、哪些風險需要先設停損條件。",
       "taiwanMeaning": "台灣科技與出口企業可能受惠需求，但客戶會同步提高資安、AI 治理與地緣風險稽核。",
       "joyceQuestion": "高階團隊是否有一張共同的季度風險與資本節奏表，能決定加碼、暫停與防守？",
       "keepWatching": [
         "Q4 CEO confidence",
-        "AI/new technology 風險排序",
+        "new technology 風險排序",
         "cyber incident 與董事會議程",
         "科技客戶 capex 與招聘訊號"
       ]
     },
     {
-      "id": "must-macro-energy-cost-20260829",
+      "id": "must-macro-crosscurrents-20260829",
       "rank": 2,
+      "trendId": "imf-tech-war-crosscurrents-growth-20260829",
+      "headline": "全球成長沒有全面復甦，CEO 要在戰爭、科技需求與金融重估之間管理速度",
+      "globalSignal": "IMF 估 2026 全球成長約 3.0%，但強調成長不均、通膨降溫停滯，以及衝突與金融市場重估的下行風險。",
+      "whyLeadersCare": "外部景氣不是單一路徑，企業不能只用總體成長率做預算，必須建立加速、延後投資與防守的觸發條件。",
+      "taiwanMeaning": "台灣企業位在科技價值鏈與能源進口端，會同時感受到訂單機會、匯率成本、客戶信用與市場分化。",
+      "joyceQuestion": "高階團隊是否能說清楚：哪些成長訊號值得加碼，哪些只是短期拉貨或金融市場樂觀？",
+      "keepWatching": [
+        "IMF/OECD 下一輪展望",
+        "金融市場 repricing",
+        "主要出口市場需求分化",
+        "科技價值鏈訂單可持續性"
+      ]
+    },
+    {
+      "id": "must-energy-cost-cfo-20260829",
+      "rank": 3,
       "trendId": "worldbank-commodity-energy-inflation-20260829",
-      "headline": "能源與商品價格重新進入成本曲線，CFO 要把 AI 訂單與現金流韌性分開管理",
+      "headline": "能源與商品價格重新進入成本曲線，CFO 要把成長、毛利與現金流分開管理",
       "globalSignal": "IMF 維持 2026 成長不均判斷，World Bank 8 月商品展望提醒能源、肥料與商品價格上升會壓迫通膨與成本。",
-      "whyLeadersCare": "成長動能若集中在 AI 與科技價值鏈，企業仍要面對能源、匯率、運費、客戶信用與轉嫁能力。",
+      "whyLeadersCare": "即使營收端有成長，企業仍要面對能源、匯率、運費、客戶信用與轉嫁能力，CFO 必須把景氣判讀翻成毛利與現金流壓力測試。",
       "taiwanMeaning": "台灣企業能源進口曝險高，不能只用營收成長判斷景氣，必須同步看毛利、現金流與報價條款。",
       "joyceQuestion": "如果能源、運費或主要客戶付款條件同時惡化，我們的營運現金流能撐多久？",
       "keepWatching": [
@@ -7204,9 +7220,9 @@ window.LEADER_TREND_DATA = {
     },
     {
       "id": "must-supply-chain-compliance-20260829",
-      "rank": 3,
+      "rank": 4,
       "trendId": "reuters-events-supply-chain-europe-volatility-20260829",
-      "headline": "供應鏈競爭力從低成本移向 volatility-ready：人、資料、技術與合規要一起運作",
+      "headline": "供應鏈競爭力從低成本移向 volatility-ready：人、資料、營運與合規要一起運作",
       "globalSignal": "Reuters Events Supply Chain Europe 將 cost pressure、demand inconsistency、geopolitical shocks、regulatory disruption 與 customer expectations 放在同一議程。",
       "whyLeadersCare": "供應鏈不再只是採購效率，而是市場准入、合規文件、客戶承諾與營運速度的共同 owner。",
       "taiwanMeaning": "台灣供應鏈主管需要把原產地、forced-labor、人權資料、客戶轉嫁與替代來源放進報價流程。",
@@ -7220,7 +7236,7 @@ window.LEADER_TREND_DATA = {
     },
     {
       "id": "must-ai-infrastructure-finance-20260829",
-      "rank": 4,
+      "rank": 5,
       "trendId": "bis-ai-investment-race-overinvestment-20260829",
       "headline": "AI 基礎建設熱潮進入金融紀律期：算力需求、債務、能源與合約品質要一起看",
       "globalSignal": "BIS 警示 AI 投資競賽可能出現過度投資；FT 同週討論 neocloud 與大型 data centre 合約的融資與需求風險。",
@@ -7236,7 +7252,7 @@ window.LEADER_TREND_DATA = {
     },
     {
       "id": "must-eu-ai-transparency-20260829",
-      "rank": 5,
+      "rank": 6,
       "trendId": "ec-ai-act-article50-transparency-20260829",
       "headline": "EU AI Act 透明義務生效，可信 AI 從理念變成產品、內容與客戶稽核文件",
       "globalSignal": "European Commission Article 50 指引確認 2026-08-02 起適用 AI 互動告知、機器可讀標記、生成內容與 deepfake 標示要求。",
@@ -7251,43 +7267,43 @@ window.LEADER_TREND_DATA = {
       ]
     },
     {
-      "id": "must-organization-agentic-work-20260829",
-      "rank": 6,
-      "trendId": "mckinsey-agentic-adoption-gap-20260829",
-      "headline": "外部變動加速下，主管帶隊、工作重設與組織信任成為 ROI 瓶頸",
-      "globalSignal": "McKinsey 八月文章與 Deloitte Human Capital Trends 同時指向流程重設、能力建設、human-AI interaction 與文化信任，才是新工具能否變成組織績效的關鍵。",
-      "whyLeadersCare": "如果主管不會重設工作、責任與覆核，新工具會製造更多零散效率與信任債，而不是 enterprise ROI。",
-      "taiwanMeaning": "台灣企業應把學習從工具教學升級成主管工作設計、跨部門流程與真實任務演練。",
-      "joyceQuestion": "主管是否已經說清楚新工具導入後的權責、品質標準與例外處理？",
+      "id": "must-organization-adaptability-20260829",
+      "rank": 7,
+      "trendId": "deloitte-human-capital-speed-adaptability-20260829",
+      "headline": "組織速度成為競爭策略，主管要把適應力設計進日常工作",
+      "globalSignal": "Deloitte Human Capital Trends 顯示，多數領導者把 fast and nimble 視為未來三年主要競爭策略，但真正擅長持續適應與工作重設的企業仍少。",
+      "whyLeadersCare": "外部變動愈快，傳統年度變革與一次性訓練愈追不上；主管必須能重設工作、資源配置、決策節奏與學習方式。",
+      "taiwanMeaning": "台灣企業應把主管訓練從工具與制度宣導，升級成跨部門情境演練、任務授權、快速覆盤與現場學習。",
+      "joyceQuestion": "我們的主管是在執行變革專案，還是已經讓團隊具備持續感知、調整與學習的工作能力？",
       "keepWatching": [
-        "McKinsey State of AI 2026",
         "Deloitte Human Capital Trends",
-        "AI cultural debt",
-        "中階主管 adoption quality"
+        "change effectiveness 指標",
+        "中階主管授權品質",
+        "always-on learning 需求"
       ]
     }
   ],
   "perspectiveNote": {
-    "summary": "本週判讀：全球領導者面對的不是「AI 熱潮是否延續」這個單題，而是所有成長動能都開始被基礎條件重新定價。資本是否耐心、電力是否可得、供應鏈文件是否說得清、AI 是否可被客戶信任、主管是否能帶人改工作，正在成為同一套經營能力。",
+    "summary": "本週判讀：全球領導者面對的不是「AI 熱潮是否延續」這個單題，而是成長樂觀正在被基礎條件重新檢驗。資本是否有紀律、能源與商品成本是否可轉嫁、供應鏈文件是否說得清、科技投資是否禁得起金融壓力、主管是否能讓組織持續適應，正在成為同一套經營能力。",
     "notes": [
-      "信心回升時，CEO 最容易忽略的是投資紀律；董事會要把 AI、資安、地緣與資本支出放在同一個節奏中討論。",
-      "AI 基礎建設的下一階段會更像基建與金融題：電力、土地、債務、長約、殘值與地方信任都會影響供應鏈。",
-      "供應鏈合規的重心正在從文件留存變成即時治理：forced-labor、原產地、資料共享與人類覆核都要能被客戶驗證。",
-      "歐洲 AI Act 的管理意義，是把 AI 信任變成可標示、可稽核、可交付的商業能力。",
-      "台灣企業最需要練習的是把全球訊號轉成 30/60/90 天行動：哪些指標進董事會、哪些進報價、哪些進主管訓練。"
+      "信心回升時，CEO 最容易忽略的是投資紀律；董事會要把資本支出、資安、地緣、能源與客戶需求放在同一個節奏中討論。",
+      "宏觀環境不是全面復甦，而是分化成長；台灣企業要用情境與觸發條件管理加碼，而不是用單一景氣敘事管理預算。",
+      "供應鏈合規的重心正在從文件留存變成即時治理：關稅、原產地、forced-labor、資料共享與跨部門決策都要能被客戶驗證。",
+      "AI 基礎建設與 EU AI Act 是本週的科技治理重點，但管理意義不在工具本身，而在資本紀律、透明文件與商業信任。",
+      "台灣企業最需要練習的是把全球訊號轉成 30/60/90 天行動：哪些指標進董事會、哪些進報價、哪些進供應鏈 War Room、哪些進主管訓練。"
     ],
     "discussionPrompts": [
-      "本季如果只能更新一張董事會儀表板，應該加入哪三個外部條件：能源、信用、AI 法規、供應鏈合規、資安還是人才？",
-      "我們的 AI 訂單是否有終端需求、融資條件、電力條件與取消條款的品質分級？",
-      "供應鏈是否能在客戶要求後 48 小時內交出原產地、forced-labor、人權與 AI 工具治理證據？",
-      "AI 導入後，主管是否重設了流程、權責、覆核與績效，而不只是要求員工多用工具？",
+      "本季如果只能更新一張董事會儀表板，應該加入哪三個外部條件：能源、信用、供應鏈合規、資安、AI 法規還是人才？",
+      "哪些投資應該加速，哪些投資必須等到需求、融資或客戶承諾更清楚？",
+      "供應鏈是否能在客戶要求後 48 小時內交出原產地、forced-labor、人權與科技工具治理證據？",
+      "主管是否已把適應力變成日常工作設計，而不只是等待下一個變革專案？",
       "如果能源或商品價格再次上升，哪些產品線、客戶與市場最先需要重新報價？"
     ],
     "writingAngles": [
-      "〈AI 熱潮進入金融紀律期：台灣供應鏈不能只看訂單金額〉",
-      "〈可信 AI 的第一張名片，是 48 小時交得出的透明文件包〉",
+      "〈成長樂觀回來了，但董事會要先問基礎條件〉",
+      "〈能源、商品與匯率：CFO 如何把全球展望翻成三張表〉",
       "〈供應鏈的新競爭力：不是低成本，是 volatility-ready〉",
-      "〈CEO 信心回升後，最需要的是一套加碼與停損節奏〉",
+      "〈可信 AI 的第一張名片，是 48 小時交得出的透明文件包〉",
       "〈新工具不會自動帶來 ROI，主管才是工作重設的瓶頸〉"
     ]
   },

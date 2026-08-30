@@ -6,31 +6,31 @@ window.LEADER_TREND_HISTORY = {
       "date": "2026-08-29",
       "label": "2026-08-29 完整週報",
       "status": "complete",
-      "summary": "本週全球領導者的共同題目，是「成長動能正在被基礎條件重新定價」。CEO 信心回升、AI 基礎建設與美國製造局部升溫，讓市場看見投資動能；但 IMF、World Bank 與 BIS 同時提醒，戰爭、能源、商品價格、AI 過度投資與信用市場會把樂觀重新拉回紀律。供應鏈端，Reuters Events 與 Thomson Reuters 顯示波動、法規與 forced-labor 監督已從合規部門走到營運現場；歐洲則把 AI Act 透明義務、AI factories 與 gigafactories 變成可信 AI 與產業主權的雙軌議題。對台灣企業而言，本週不是問「AI 還熱不熱」，而是問：我們能不能同時管理訂單、電力、資本、法規、供應鏈文件與主管帶隊能力。",
+      "summary": "本週全球領導者的共同題目，是「成長樂觀必須重新接受基礎條件檢驗」。CEO 信心回升與科技需求讓企業想加速，但 IMF、OECD、World Bank 與 BIS 同時提醒：戰爭、能源、商品、信用、資本支出與金融重估，會把成長拉回紀律。供應鏈端，Reuters Events 與 Thomson Reuters 顯示波動、關稅、法規、人權資料與跨部門協作已從後勤議題升到企業風險；歐洲則把 AI 透明義務與產業主權推向客戶稽核與市場信任。對台灣企業而言，本週不是問「AI 還熱不熱」，而是問：董事會能不能同時管理資本節奏、能源成本、供應鏈准入、可信科技與主管帶隊能力。",
       "interpretation": [
-        "信心回升時，CEO 最容易忽略的是投資紀律；董事會要把 AI、資安、地緣與資本支出放在同一個節奏中討論。",
-        "AI 基礎建設的下一階段會更像基建與金融題：電力、土地、債務、長約、殘值與地方信任都會影響供應鏈。",
-        "供應鏈合規的重心正在從文件留存變成即時治理：forced-labor、原產地、資料共享與人類覆核都要能被客戶驗證。",
-        "歐洲 AI Act 的管理意義，是把 AI 信任變成可標示、可稽核、可交付的商業能力。",
-        "台灣企業最需要練習的是把全球訊號轉成 30/60/90 天行動：哪些指標進董事會、哪些進報價、哪些進主管訓練。"
+        "信心回升時，CEO 最容易忽略的是投資紀律；董事會要把資本支出、資安、地緣、能源與客戶需求放在同一個節奏中討論。",
+        "宏觀環境不是全面復甦，而是分化成長；台灣企業要用情境與觸發條件管理加碼，而不是用單一景氣敘事管理預算。",
+        "供應鏈合規的重心正在從文件留存變成即時治理：關稅、原產地、forced-labor、資料共享與跨部門決策都要能被客戶驗證。",
+        "AI 基礎建設與 EU AI Act 是本週的科技治理重點，但管理意義不在工具本身，而在資本紀律、透明文件與商業信任。",
+        "台灣企業最需要練習的是把全球訊號轉成 30/60/90 天行動：哪些指標進董事會、哪些進報價、哪些進供應鏈 War Room、哪些進主管訓練。"
       ],
       "discussionPrompts": [
-        "本季如果只能更新一張董事會儀表板，應該加入哪三個外部條件：能源、信用、AI 法規、供應鏈合規、資安還是人才？",
-        "我們的 AI 訂單是否有終端需求、融資條件、電力條件與取消條款的品質分級？",
-        "供應鏈是否能在客戶要求後 48 小時內交出原產地、forced-labor、人權與 AI 工具治理證據？",
-        "AI 導入後，主管是否重設了流程、權責、覆核與績效，而不只是要求員工多用工具？",
+        "本季如果只能更新一張董事會儀表板，應該加入哪三個外部條件：能源、信用、供應鏈合規、資安、AI 法規還是人才？",
+        "哪些投資應該加速，哪些投資必須等到需求、融資或客戶承諾更清楚？",
+        "供應鏈是否能在客戶要求後 48 小時內交出原產地、forced-labor、人權與科技工具治理證據？",
+        "主管是否已把適應力變成日常工作設計，而不只是等待下一個變革專案？",
         "如果能源或商品價格再次上升，哪些產品線、客戶與市場最先需要重新報價？"
       ],
       "mustReads": [
         {
           "rank": 1,
-          "headline": "CEO 信心回升後，董事會要把成長、AI、資安與地緣放進同一套資本節奏",
+          "headline": "CEO 信心回升後，董事會要把成長、資本、資安與地緣風險放進同一套節奏",
           "whyLeadersCare": "信心回來會推動加碼，但真正的管理挑戰是判斷哪些投資值得加速、哪些風險需要先設停損條件。",
           "taiwanMeaning": "台灣科技與出口企業可能受惠需求，但客戶會同步提高資安、AI 治理與地緣風險稽核。",
           "joyceQuestion": "高階團隊是否有一張共同的季度風險與資本節奏表，能決定加碼、暫停與防守？",
           "keepWatching": [
             "Q4 CEO confidence",
-            "AI/new technology 風險排序",
+            "new technology 風險排序",
             "cyber incident 與董事會議程",
             "科技客戶 capex 與招聘訊號"
           ],
@@ -41,8 +41,25 @@ window.LEADER_TREND_HISTORY = {
         },
         {
           "rank": 2,
-          "headline": "能源與商品價格重新進入成本曲線，CFO 要把 AI 訂單與現金流韌性分開管理",
-          "whyLeadersCare": "成長動能若集中在 AI 與科技價值鏈，企業仍要面對能源、匯率、運費、客戶信用與轉嫁能力。",
+          "headline": "全球成長沒有全面復甦，CEO 要在戰爭、科技需求與金融重估之間管理速度",
+          "whyLeadersCare": "外部景氣不是單一路徑，企業不能只用總體成長率做預算，必須建立加速、延後投資與防守的觸發條件。",
+          "taiwanMeaning": "台灣企業位在科技價值鏈與能源進口端，會同時感受到訂單機會、匯率成本、客戶信用與市場分化。",
+          "joyceQuestion": "高階團隊是否能說清楚：哪些成長訊號值得加碼，哪些只是短期拉貨或金融市場樂觀？",
+          "keepWatching": [
+            "IMF/OECD 下一輪展望",
+            "金融市場 repricing",
+            "主要出口市場需求分化",
+            "科技價值鏈訂單可持續性"
+          ],
+          "sourceName": "IMF World Economic Outlook Update July 2026",
+          "sourceUrl": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026",
+          "heat": 96,
+          "confidence": "A"
+        },
+        {
+          "rank": 3,
+          "headline": "能源與商品價格重新進入成本曲線，CFO 要把成長、毛利與現金流分開管理",
+          "whyLeadersCare": "即使營收端有成長，企業仍要面對能源、匯率、運費、客戶信用與轉嫁能力，CFO 必須把景氣判讀翻成毛利與現金流壓力測試。",
           "taiwanMeaning": "台灣企業能源進口曝險高，不能只用營收成長判斷景氣，必須同步看毛利、現金流與報價條款。",
           "joyceQuestion": "如果能源、運費或主要客戶付款條件同時惡化，我們的營運現金流能撐多久？",
           "keepWatching": [
@@ -57,8 +74,8 @@ window.LEADER_TREND_HISTORY = {
           "confidence": "A"
         },
         {
-          "rank": 3,
-          "headline": "供應鏈競爭力從低成本移向 volatility-ready：人、資料、技術與合規要一起運作",
+          "rank": 4,
+          "headline": "供應鏈競爭力從低成本移向 volatility-ready：人、資料、營運與合規要一起運作",
           "whyLeadersCare": "供應鏈不再只是採購效率，而是市場准入、合規文件、客戶承諾與營運速度的共同 owner。",
           "taiwanMeaning": "台灣供應鏈主管需要把原產地、forced-labor、人權資料、客戶轉嫁與替代來源放進報價流程。",
           "joyceQuestion": "我們的供應鏈會議是在追交期，還是在管理下一輪市場准入與客戶信任？",
@@ -74,7 +91,7 @@ window.LEADER_TREND_HISTORY = {
           "confidence": "B"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "headline": "AI 基礎建設熱潮進入金融紀律期：算力需求、債務、能源與合約品質要一起看",
           "whyLeadersCare": "AI 訂單看起來很大，但若融資、租約、終端需求與電力條件不穩，供應鏈與投資人會承受反轉風險。",
           "taiwanMeaning": "台灣伺服器、電源、散熱與半導體鏈要避免只看拉貨，必須追蹤客戶的資料中心電力、融資與取消條款。",
@@ -91,7 +108,7 @@ window.LEADER_TREND_HISTORY = {
           "confidence": "A"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "headline": "EU AI Act 透明義務生效，可信 AI 從理念變成產品、內容與客戶稽核文件",
           "whyLeadersCare": "AI governance 不能只停在政策宣示，必須落到產品標示、客服流程、行銷內容、HR 工具與供應商管理。",
           "taiwanMeaning": "服務歐洲客戶的台灣企業，需要準備 AI 使用清冊、標示 SOP、供應商聲明與 48 小時內可交付的稽核答覆包。",
@@ -108,21 +125,21 @@ window.LEADER_TREND_HISTORY = {
           "confidence": "A"
         },
         {
-          "rank": 6,
-          "headline": "外部變動加速下，主管帶隊、工作重設與組織信任成為 ROI 瓶頸",
-          "whyLeadersCare": "如果主管不會重設工作、責任與覆核，新工具會製造更多零散效率與信任債，而不是 enterprise ROI。",
-          "taiwanMeaning": "台灣企業應把學習從工具教學升級成主管工作設計、跨部門流程與真實任務演練。",
-          "joyceQuestion": "主管是否已經說清楚新工具導入後的權責、品質標準與例外處理？",
+          "rank": 7,
+          "headline": "組織速度成為競爭策略，主管要把適應力設計進日常工作",
+          "whyLeadersCare": "外部變動愈快，傳統年度變革與一次性訓練愈追不上；主管必須能重設工作、資源配置、決策節奏與學習方式。",
+          "taiwanMeaning": "台灣企業應把主管訓練從工具與制度宣導，升級成跨部門情境演練、任務授權、快速覆盤與現場學習。",
+          "joyceQuestion": "我們的主管是在執行變革專案，還是已經讓團隊具備持續感知、調整與學習的工作能力？",
           "keepWatching": [
-            "McKinsey State of AI 2026",
             "Deloitte Human Capital Trends",
-            "AI cultural debt",
-            "中階主管 adoption quality"
+            "change effectiveness 指標",
+            "中階主管授權品質",
+            "always-on learning 需求"
           ],
-          "sourceName": "McKinsey How to close the agentic adoption gap",
-          "sourceUrl": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/how-to-close-the-agentic-adoption-gap",
-          "heat": 94,
-          "confidence": "B"
+          "sourceName": "Deloitte 2026 Global Human Capital Trends",
+          "sourceUrl": "https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends.html",
+          "heat": 91,
+          "confidence": "A"
         }
       ],
       "recommendations": [
