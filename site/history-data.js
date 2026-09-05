@@ -1,6 +1,249 @@
 window.LEADER_TREND_HISTORY = {
-  "generated_at": "2026-08-29",
+  "generated_at": "2026-09-05",
   "reports": [
+    {
+      "id": "2026-09-05",
+      "date": "2026-09-05",
+      "label": "2026-09-05 完整週報",
+      "status": "complete",
+      "summary": "本週全球領導者的共同題目，是「成長窗口仍在，但承載成長的基礎設施、信任與組織能力正在變成硬約束」。IMF 在 G20 後提醒全球成長約 3% 但分化與高債務仍重；World Bank 9 月商品價格顯示能源、金屬與貴金屬重新上行；The Conference Board 與 PwC 顯示 CEO 信心有支撐，但資安、AI/new technology、能源成本與關稅仍在風險前排。科技端只保留兩個本週高權重題：AI 基礎建設的信用/電力紀律，以及 EU AI Act 透明與 GPAI 文件義務。對台灣企業而言，這週的管理問題是：能不能把外部衝擊翻成董事會節奏、報價與現金流壓力測試、供應鏈合規證據、可信 AI 文件，以及主管與組織適應力。",
+      "interpretation": [
+        "成長不是消失，而是變得更有條件；CEO 要把成長窗口與硬約束放在同一張圖上。",
+        "能源與商品價格重新上行，對台灣企業不是總經新聞，而是毛利、報價、庫存與現金流管理題。",
+        "AI 基礎建設已從科技樂觀轉向金融紀律與地方治理；訂單品質要看電力、信用、租約與社會授權。",
+        "EU AI Act 的管理意義，是把「可信 AI」變成文件、流程、標示與客戶稽核速度。",
+        "組織適應力是成長落地的條件：主管能否重設工作、維持信任、培育初階人才，而不是只要求員工追新工具。"
+      ],
+      "discussionPrompts": [
+        "本季董事會是否能用 30 分鐘看懂公司面對的能源、信用、AI、供應鏈與人才硬約束？",
+        "哪些 AI 或產能投資應該加速，哪些需要先通過電力、客戶需求、租約與現金流檢查？",
+        "如果客戶要求 AI 透明、forced-labor 或原產地證據，我們能否在 48 小時內交付？",
+        "採購與供應鏈主管是否已被授權成為壓力下的決策者，而不只是成本執行者？",
+        "主管是否已被訓練成工作設計者，能在外部衝擊下維持信任、培育新人並重配任務？"
+      ],
+      "mustReads": [
+        {
+          "rank": 1,
+          "headline": "成長窗口仍在，但 CEO 要先管理能源、債務與 AI 投資帶來的硬約束",
+          "whyLeadersCare": "CEO 需要把成長敘事轉成外部條件管理：哪些投資能加速，哪些必須先通過能源、信用與現金流檢驗。",
+          "taiwanMeaning": "台灣企業同時受惠 AI 供應鏈與承受能源進口/金融條件壓力，不能只用訂單熱度判斷景氣。",
+          "joyceQuestion": "我們的董事會是否有一張表能同時看 AI 訂單、能源成本、利率、債務與客戶信用？",
+          "keepWatching": [
+            "IMF/OECD 下一輪展望",
+            "能源供應與油氣庫存",
+            "AI capex 是否延續",
+            "主要客戶信用與付款條件"
+          ],
+          "sourceName": "IMF G20 Finance Ministers statement September 2026",
+          "sourceUrl": "https://www.imf.org/en/news/articles/2026/09/01/pr26284-imf-md-statement-conclusion-g20-finance-ministers-central-bank-governors-meeting",
+          "heat": 99,
+          "confidence": "A"
+        },
+        {
+          "rank": 2,
+          "headline": "能源、金屬與貴金屬重新上行，CFO 要把商品訊號翻成毛利與現金流",
+          "whyLeadersCare": "企業若只看營收成長，會低估成本、庫存、報價與客戶條款對現金流的侵蝕。",
+          "taiwanMeaning": "台灣製造與出口企業應把能源、金屬、匯率與運費敏感度納入每月報價會議。",
+          "joyceQuestion": "如果能源與金屬再上漲一季，哪些產品線會先失去毛利紀律？",
+          "keepWatching": [
+            "World Bank 10 月商品更新",
+            "天然氣與原油價格",
+            "金屬與半導體材料價格",
+            "客戶轉嫁接受度"
+          ],
+          "sourceName": "World Bank Commodity Markets September 2026",
+          "sourceUrl": "https://www.worldbank.org/en/research/commodity-markets",
+          "heat": 96,
+          "confidence": "A"
+        },
+        {
+          "rank": 3,
+          "headline": "CEO 信心回升後，資安與 AI/new technology 必須進入同一套風險排序",
+          "whyLeadersCare": "信心回來會讓組織想加碼，但若資安、AI、地緣與 capex 各自決策，會形成新的風險盲點。",
+          "taiwanMeaning": "台灣供應商面對國際客戶時，AI 使用、資安與地緣合規會成為業務信任的一部分。",
+          "joyceQuestion": "我們是否把 AI/new technology 當成投資題，同時也當成董事會級風險題？",
+          "keepWatching": [
+            "Q4 CEO confidence",
+            "cyber incident 與客戶稽核",
+            "AI/new technology 風險排序",
+            "capex 增減計畫"
+          ],
+          "sourceName": "The Conference Board CEO Confidence Q3 2026",
+          "sourceUrl": "https://www.conference-board.org/topics/CEO-Confidence/index.cfm?_sp=9c2fe0fd-7899-401c-8d60-523b97df9269",
+          "heat": 98,
+          "confidence": "A"
+        },
+        {
+          "rank": 4,
+          "headline": "AI 基礎建設進入信用與電力紀律期，訂單品質比訂單金額更重要",
+          "whyLeadersCare": "AI 熱潮若無法轉成可量化回報，金融、地方治理與能源瓶頸會回頭限制部署速度。",
+          "taiwanMeaning": "台灣 AI 伺服器、電源、散熱與半導體鏈需要追蹤客戶建廠地點、電力排隊、租約與信用條件。",
+          "joyceQuestion": "我們有沒有辦法判斷 AI 訂單背後的電力、融資、租約與終端需求是否健康？",
+          "keepWatching": [
+            "hyperscaler capex 指引",
+            "信用評等報告",
+            "資料中心地方反彈",
+            "IEA/Bloomberg 電力需求訊號"
+          ],
+          "sourceName": "Financial Times AI hyperscaler credit risk September 2026",
+          "sourceUrl": "https://www.ft.com/content/623c286b-c973-4488-83f3-97e9016e85f6",
+          "heat": 97,
+          "confidence": "B"
+        },
+        {
+          "rank": 5,
+          "headline": "EU AI 透明與 GPAI 文件要求，把可信 AI 變成可稽核的營運能力",
+          "whyLeadersCare": "AI governance 不能只靠政策宣示，必須落到產品、客服、行銷、HR、供應商與客戶稽核流程。",
+          "taiwanMeaning": "台灣企業若服務歐洲客戶，需要 AI 使用清冊、供應商文件、內容標示 SOP 與 48 小時答覆包。",
+          "joyceQuestion": "如果歐洲客戶明天問 AI 透明與 GPAI 文件，我們能交出哪些證據？",
+          "keepWatching": [
+            "AI Office 執法動態",
+            "Article 50 Q&A",
+            "GPAI provider 文件模板",
+            "客戶 AI 採購問卷"
+          ],
+          "sourceName": "European Commission AI transparency obligations guidelines",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations",
+          "heat": 99,
+          "confidence": "A"
+        },
+        {
+          "rank": 6,
+          "headline": "採購與供應鏈從成本角色升級為壓力下的決策函數",
+          "whyLeadersCare": "供應鏈競爭力不只是低成本，而是能否在壓力下同時維持交付、合規、客戶信任與現金紀律。",
+          "taiwanMeaning": "台灣製造業應讓採購、供應鏈、法務、財務與業務共同回答關稅、forced-labor 與市場准入問題。",
+          "joyceQuestion": "我們的採購會議是在談價格，還是在管理下一輪客戶信任與市場准入？",
+          "keepWatching": [
+            "Reuters Events 採購議程",
+            "客戶供應商問卷",
+            "forced-labor 執法",
+            "關稅與原產地規則"
+          ],
+          "sourceName": "Reuters Events Sourcing & Procurement USA 2026",
+          "sourceUrl": "https://events.reutersevents.com/supply-chain/sourcing-procurement-usa",
+          "heat": 89,
+          "confidence": "B"
+        },
+        {
+          "rank": 7,
+          "headline": "組織適應力與信任，成為成長能否落地的管理條件",
+          "whyLeadersCare": "當外部變動加快，組織若沒有清楚的決策節奏、工作重設與人才形成機制，投資與策略會停在口號。",
+          "taiwanMeaning": "台灣企業應把主管訓練從任務管理升級為適應力、跨部門協作、初階人才培育與技能導向配置。",
+          "joyceQuestion": "我們的主管是在分派工作，還是在設計讓組織能持續學習與調整的工作系統？",
+          "keepWatching": [
+            "Deloitte adaptability 指標",
+            "OECD 青年就業與技能證據",
+            "員工信任與心理安全指標",
+            "主管工作重設案例"
+          ],
+          "sourceName": "Deloitte 2026 Global Human Capital Trends",
+          "sourceUrl": "https://www.deloitte.com/us/en/about/press-room/deloitte-report-winning-organizations-will-build-the-human-advantage.html",
+          "heat": 93,
+          "confidence": "A"
+        }
+      ],
+      "recommendations": [
+        {
+          "priority": 1,
+          "title": "CEO 成長硬約束雷達：把能源、債務、AI capex 與風險排序放進季度節奏",
+          "category": "CEO經營環境",
+          "heat": 99
+        },
+        {
+          "priority": 2,
+          "title": "CFO 能源與商品壓力測試：把全球價格訊號翻成毛利、報價與現金流",
+          "category": "CEO經營環境",
+          "heat": 96
+        },
+        {
+          "priority": 3,
+          "title": "AI 基礎建設信用與電力風險：從 hyperscaler capex 到資料中心社會授權",
+          "category": "科技與AI轉型",
+          "heat": 97
+        },
+        {
+          "priority": 4,
+          "title": "EU AI 透明與 GPAI 文件包：把可信 AI 變成客戶稽核能力",
+          "category": "治理與社會信任",
+          "heat": 99
+        },
+        {
+          "priority": 5,
+          "title": "採購與供應鏈 War Room：在結構性波動下管理關稅、合規與客戶信任",
+          "category": "地緣政治與供應鏈",
+          "heat": 94
+        },
+        {
+          "priority": 6,
+          "title": "AI 時代主管工作重設：從 agentic adoption 到初階人才入口",
+          "category": "組織與人才",
+          "heat": 95
+        }
+      ],
+      "metrics": {
+        "trends": 223,
+        "categories": 25,
+        "sources": 91,
+        "recommendations": 6,
+        "highConfidence": 121,
+        "hotSignals": 179
+      },
+      "sourceLinks": [
+        {
+          "name": "IMF G20 Finance Ministers statement September 2026",
+          "url": "https://www.imf.org/en/news/articles/2026/09/01/pr26284-imf-md-statement-conclusion-g20-finance-ministers-central-bank-governors-meeting"
+        },
+        {
+          "name": "World Bank Commodity Markets September 2026",
+          "url": "https://www.worldbank.org/en/research/commodity-markets"
+        },
+        {
+          "name": "The Conference Board CEO Confidence Q3 2026",
+          "url": "https://www.conference-board.org/topics/CEO-Confidence/index.cfm?_sp=9c2fe0fd-7899-401c-8d60-523b97df9269"
+        },
+        {
+          "name": "Financial Times AI hyperscaler credit risk September 2026",
+          "url": "https://www.ft.com/content/623c286b-c973-4488-83f3-97e9016e85f6"
+        },
+        {
+          "name": "European Commission AI transparency obligations guidelines",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-transparency-obligations"
+        },
+        {
+          "name": "Reuters Events Sourcing & Procurement USA 2026",
+          "url": "https://events.reutersevents.com/supply-chain/sourcing-procurement-usa"
+        },
+        {
+          "name": "McKinsey agentic AI adoption gap",
+          "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/how-to-close-the-agentic-adoption-gap"
+        },
+        {
+          "name": "PwC CEO Survey Mid-Year Snapshot 2026",
+          "url": "https://www.pwc.com/gx/en/news-room/press-releases/2026/ceo-survey-mid-year-snapshot.html"
+        },
+        {
+          "name": "IEA Electricity Mid-Year Update 2026",
+          "url": "https://www.iea.org/news/global-electricity-demand-growth-set-to-accelerate-as-power-systems-adjust-to-recent-shocks"
+        },
+        {
+          "name": "Stanford AI Economic Indicators",
+          "url": "https://digitaleconomy.stanford.edu/project/indicators/"
+        },
+        {
+          "name": "Deloitte 2026 Global Human Capital Trends",
+          "url": "https://www.deloitte.com/us/en/about/press-room/deloitte-report-winning-organizations-will-build-the-human-advantage.html"
+        },
+        {
+          "name": "OECD young people labour markets and AI",
+          "url": "https://www.oecd.org/en/blogs/2026/08/young-people-labour-markets-and-ai-what-oecd-evidence-shows.html"
+        }
+      ],
+      "gaps": [
+        "Financial Times、Bloomberg、The Economist 部分內容可能受 paywall 限制；本週未直接引用付費全文，只使用可驗證公開摘要、官方頁與來源連結。",
+        "Bloomberg、Economist、Reuters Events、Sifted 作為國際媒體或活動弱訊號使用；未查驗社群互動或留言量，因此不做社群熱度宣稱。",
+        "OECD 2026 年 9 月 interim outlook 尚未以官方 2026 頁面確認；本週宏觀主軸以 IMF 2026-09-01、World Bank 2026-09-02 與既有 OECD 技能/AI 證據補強。"
+      ]
+    },
     {
       "id": "2026-08-29",
       "date": "2026-08-29",
