@@ -1,6 +1,241 @@
 window.LEADER_TREND_HISTORY = {
-  "generated_at": "2026-09-05",
+  "generated_at": "2026-09-12",
   "reports": [
+    {
+      "id": "2026-09-12",
+      "date": "2026-09-12",
+      "label": "2026-09-12 完整週報",
+      "status": "complete",
+      "summary": "本週全球領導者的共同題目，是「成長不只看需求，而要看誰能承擔基礎設施、信用、能源、合規與信任成本」。IMF 與 World Bank 仍提醒能源、債務與商品價格壓力；BIS 9 月 10 日把 AI 投資、私募信貸、全球貿易條件與金融穩定放在央行視角；FT、Bloomberg 與 Reuters 弱訊號顯示資料中心從科技投資變成地方治理與資本紀律題；The Conference Board 與 PwC 顯示 CEO 信心有支撐，但能源成本、資安、AI/new technology 與定價/供應鏈決策難度升高。對台灣企業而言，本週的管理問題是：能不能把 AI 訂單、能源與商品成本、客戶合規、採購資料、供應鏈資安、員工信任與主管工作重設，放進同一套高階決策節奏。",
+      "interpretation": [
+        "成長不是消失，而是變得更有條件；高階團隊要把成長機會與基礎條件放在同一張圖。",
+        "AI 投資已從科技敘事進入金融穩定敘事；台灣供應鏈要從訂單金額轉向訂單品質。",
+        "資料中心是 AI 時代的新工廠，但它的瓶頸不只在晶片，也在電力、水、地方政治、融資與社會授權。",
+        "EU AI governance 的管理意義，是把可信 AI 變成可交付的清冊、標示、供應商文件與客戶稽核 SLA。",
+        "組織信任正在成為 AI ROI 的前提；主管要設計人機分工、揭露規則與覆核責任，而不是只要求員工會用工具。"
+      ],
+      "discussionPrompts": [
+        "本季董事會是否能用 30 分鐘看懂公司面對的能源、信用、AI、供應鏈與信任成本？",
+        "哪些 AI 訂單或投資看似高速成長，但其實受融資、電力、地方許可或客戶回報不確定性限制？",
+        "若歐洲客戶要求 AI 透明、GPAI、資安或供應鏈證據，公司能否在 48 小時內回覆？",
+        "採購資料是否足以支撐 CFO 做關稅、供應商集中、working capital 與客戶承諾決策？",
+        "主管是否已把 AI 使用規範、工作重設與團隊信任，變成日常管理的一部分？"
+      ],
+      "mustReads": [
+        {
+          "rank": 1,
+          "headline": "成長仍有窗口，但能源、商品與高債務會重新定價每個決策",
+          "whyLeadersCare": "CEO 與 CFO 必須把景氣判斷轉成毛利、報價、庫存、現金流與投資觸發條件。",
+          "taiwanMeaning": "台灣企業受惠科技需求時，也承受能源進口、金屬成本、匯率與客戶轉嫁壓力。",
+          "joyceQuestion": "我們有沒有一張表能同時看能源、商品、利率、客戶信用與產品線毛利？",
+          "keepWatching": [
+            "World Bank 10 月商品更新",
+            "OECD 9 月 23 日 interim outlook",
+            "油氣與金屬價格",
+            "主要客戶付款條件"
+          ],
+          "sourceName": "IMF G20 statement and World Bank Commodity Markets September 2026",
+          "sourceUrl": "https://www.imf.org/en/news/articles/2026/09/01/pr26284-imf-md-statement-conclusion-g20-finance-ministers-central-bank-governors-meeting",
+          "heat": 98,
+          "confidence": "A"
+        },
+        {
+          "rank": 2,
+          "headline": "CEO 信心回升後，真正要管理的是韌性是否跟得上加碼速度",
+          "whyLeadersCare": "信心會推動投資，但若資安、能源、供應鏈與 techno-resilience 沒有同步，成長會放大脆弱性。",
+          "taiwanMeaning": "台灣企業應把國際客戶需求、資安稽核、供應鏈韌性與能源成本放進同一個季度節奏。",
+          "joyceQuestion": "高階團隊的投資節奏，是由機會驅動，還是也由硬約束與韌性指標校準？",
+          "keepWatching": [
+            "Q4 CEO confidence",
+            "資安事件與客戶稽核",
+            "能源成本 surprise",
+            "pricing decision 難度"
+          ],
+          "sourceName": "The Conference Board CEO Confidence Q3 2026 and PwC CEO Survey Mid-Year Snapshot",
+          "sourceUrl": "https://www.conference-board.org/topics/CEO-Confidence/index.cfm",
+          "heat": 97,
+          "confidence": "A"
+        },
+        {
+          "rank": 3,
+          "headline": "AI 投資已變成金融穩定題，訂單品質要看融資、信用與回報",
+          "whyLeadersCare": "企業若只看 AI 訂單金額，會忽略客戶融資、信用集中、估值回檔與供應鏈付款風險。",
+          "taiwanMeaning": "台灣 AI 供應鏈要建立客戶信用、付款條件、取消條款與終端需求的訂單品質檢查。",
+          "joyceQuestion": "我們是否能分辨 AI 訂單是由真實需求、金融槓桿，還是短期市場樂觀推動？",
+          "keepWatching": [
+            "BIS/信用評等機構 AI debt 訊號",
+            "hyperscaler capex 指引",
+            "私募信貸曝險",
+            "AI 供應鏈付款條件"
+          ],
+          "sourceName": "BIS speech: Artificial intelligence, growth and financial stability",
+          "sourceUrl": "https://www.bis.org/speeches/20260910-artificial-intelligence-growth-and-financial-stability-challenges-central-banks",
+          "heat": 99,
+          "confidence": "A"
+        },
+        {
+          "rank": 4,
+          "headline": "資料中心熱潮的瓶頸，正在從晶片轉向電力、地方政治與社會授權",
+          "whyLeadersCare": "AI 基礎建設能否落地，取決於能源、水、許可、社區、長約與資本紀律。",
+          "taiwanMeaning": "台灣供應鏈評估 AI 客戶時，要追蹤建置地點、電力排隊、地方反彈與融資狀態。",
+          "joyceQuestion": "我們的 AI infrastructure 機會地圖，有沒有把能源、地方治理與合約條件放進來？",
+          "keepWatching": [
+            "data center backlash",
+            "AI gigafactory tender",
+            "電網接入與電價",
+            "資料中心融資條款"
+          ],
+          "sourceName": "Bloomberg Data Center Backlash tracker",
+          "sourceUrl": "https://bloomberg.com/latest/data-center-backlash",
+          "heat": 95,
+          "confidence": "B"
+        },
+        {
+          "rank": 5,
+          "headline": "EU AI 透明與 GPAI 執行，把可信 AI 變成 48 小時證據包",
+          "whyLeadersCare": "AI governance 的競爭力，是客戶稽核時能交出清冊、標示、供應商文件、風險通報與責任人。",
+          "taiwanMeaning": "台灣企業若服務歐洲或跨國客戶，需要把 AI 合規文件化，並能快速回答客戶問卷。",
+          "joyceQuestion": "如果客戶明天要求 AI 使用清冊與 GPAI 供應商文件，我們能在 48 小時內交出什麼？",
+          "keepWatching": [
+            "AI Office enforcement",
+            "Article 50 實務案例",
+            "GPAI 文件模板",
+            "B2B AI 採購問卷"
+          ],
+          "sourceName": "European Commission AI transparency and GPAI provider guidelines",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems",
+          "heat": 99,
+          "confidence": "A"
+        },
+        {
+          "rank": 6,
+          "headline": "採購與供應鏈升級為 CFO 可相信的壓力決策系統",
+          "whyLeadersCare": "採購若沒有可信資料，就無法支撐關稅曝險、供應商集中、working capital 與客戶承諾決策。",
+          "taiwanMeaning": "台灣製造業應讓採購、財務、工程、法務與業務共同管理 BOM、原產地、替代來源與客戶合約。",
+          "joyceQuestion": "我們的採購資料，CFO 敢不敢拿來做關稅、供應風險與現金流決策？",
+          "keepWatching": [
+            "tariff exposure",
+            "spend data quality",
+            "供應鏈資安",
+            "design-to-source 案例"
+          ],
+          "sourceName": "Reuters Events Sourcing & Procurement USA 2026 agenda",
+          "sourceUrl": "https://events.reutersevents.com/supply-chain/sourcing-procurement-usa/agenda",
+          "heat": 94,
+          "confidence": "B"
+        },
+        {
+          "rank": 7,
+          "headline": "AI 進入日常工作後，主管要設計信任、揭露與覆核規則",
+          "whyLeadersCare": "如果主管不能把 AI 使用變成清楚工作規範，效率工具會反過來削弱公平、品質與團隊信任。",
+          "taiwanMeaning": "台灣企業需要把主管訓練從工具教學升級為工作重設、人機分工、揭露規則與學習節奏。",
+          "joyceQuestion": "我們的團隊是否能公開討論何時用 AI、如何標示、誰覆核、績效如何認定？",
+          "keepWatching": [
+            "AI workplace trust",
+            "文化債與員工 sentiment",
+            "主管工作重設案例",
+            "AI 使用規範落地率"
+          ],
+          "sourceName": "Deloitte 2026 Global Human Capital Trends",
+          "sourceUrl": "https://www.deloitte.com/us/en/about/press-room/deloitte-report-winning-organizations-will-build-the-human-advantage.html",
+          "heat": 94,
+          "confidence": "A"
+        }
+      ],
+      "recommendations": [
+        {
+          "priority": 1,
+          "title": "CEO 基礎條件雷達：把成長、能源、信用、AI 與信任成本放進季度節奏",
+          "category": "CEO經營環境",
+          "heat": 99
+        },
+        {
+          "priority": 2,
+          "title": "CFO 能源、商品與信用壓力測試：把外部價格翻成毛利與現金流",
+          "category": "CEO經營環境",
+          "heat": 98
+        },
+        {
+          "priority": 3,
+          "title": "AI 投資金融穩定與訂單品質：從 capex 熱潮到私募信貸風險",
+          "category": "科技與AI轉型",
+          "heat": 99
+        },
+        {
+          "priority": 4,
+          "title": "資料中心社會授權與供應鏈機會：從電力、地方反彈到歐洲 Gigafactories",
+          "category": "地緣政治與供應鏈",
+          "heat": 95
+        },
+        {
+          "priority": 5,
+          "title": "EU AI 合規證據包：把透明、GPAI 與客戶稽核變成 48 小時交付能力",
+          "category": "治理與社會信任",
+          "heat": 99
+        },
+        {
+          "priority": 6,
+          "title": "人機共事信任管理：主管如何把 AI 使用、責任與學習設計進日常工作",
+          "category": "組織與人才",
+          "heat": 96
+        }
+      ],
+      "metrics": {
+        "trends": 248,
+        "categories": 25,
+        "sources": 101,
+        "recommendations": 6,
+        "highConfidence": 129,
+        "hotSignals": 194
+      },
+      "sourceLinks": [
+        {
+          "name": "BIS AI growth and financial stability speech",
+          "url": "https://www.bis.org/speeches/20260910-artificial-intelligence-growth-and-financial-stability-challenges-central-banks"
+        },
+        {
+          "name": "IMF G20 Finance Ministers statement September 2026",
+          "url": "https://www.imf.org/en/news/articles/2026/09/01/pr26284-imf-md-statement-conclusion-g20-finance-ministers-central-bank-governors-meeting"
+        },
+        {
+          "name": "World Bank Commodity Markets September 2026",
+          "url": "https://www.worldbank.org/en/research/commodity-markets"
+        },
+        {
+          "name": "The Conference Board CEO Confidence Q3 2026",
+          "url": "https://www.conference-board.org/topics/CEO-Confidence/index.cfm"
+        },
+        {
+          "name": "PwC CEO Survey Mid-Year Snapshot 2026",
+          "url": "https://www.pwc.com/gx/en/news-room/press-releases/2026/ceo-survey-mid-year-snapshot.html"
+        },
+        {
+          "name": "European Commission AI transparency guidelines",
+          "url": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems"
+        },
+        {
+          "name": "European Commission GPAI provider guidelines",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers"
+        },
+        {
+          "name": "Reuters Events Sourcing & Procurement USA 2026 agenda",
+          "url": "https://events.reutersevents.com/supply-chain/sourcing-procurement-usa/agenda"
+        },
+        {
+          "name": "Bloomberg Data Center Backlash",
+          "url": "https://bloomberg.com/latest/data-center-backlash"
+        },
+        {
+          "name": "Deloitte 2026 Global Human Capital Trends",
+          "url": "https://www.deloitte.com/us/en/about/press-room/deloitte-report-winning-organizations-will-build-the-human-advantage.html"
+        }
+      ],
+      "gaps": [
+        "Financial Times、Bloomberg、Wall Street Journal、Axios、Business Insider 部分內容可能受 paywall 或公開摘要限制；本週未直接引用付費全文，只使用可驗證摘要與來源連結。",
+        "Reuters Connect、CNBC CEO Council、Reuters Events、Reuters NEXT Europe 作為可信活動/影片弱訊號使用；未查驗社群互動或留言量，因此不做社群熱度宣稱。",
+        "OECD 2026 年 9 月 Interim Economic Outlook 官方發布日為 2026-09-23；本週宏觀判讀以 IMF 2026-09-01、World Bank 2026-09-02、BIS 2026-09-10 作為主要 current evidence。"
+      ]
+    },
     {
       "id": "2026-09-05",
       "date": "2026-09-05",
