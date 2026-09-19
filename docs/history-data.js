@@ -1,6 +1,236 @@
 window.LEADER_TREND_HISTORY = {
-  "generated_at": "2026-09-12",
+  "generated_at": "2026-09-19",
   "reports": [
+    {
+      "id": "2026-09-19",
+      "date": "2026-09-19",
+      "label": "2026-09-19 完整週報",
+      "status": "complete",
+      "summary": "本週全球領導者的共同題目，是「AI 與成長都進入資本、能源、治理與工作設計的壓力測試」。IMF 與 World Bank 仍把 3% 成長、高債務、能源與商品價格列為硬約束；BIS 9 月 18 日把 agentic AI 納入銀行監理、模型風險與第三方依賴；McKinsey 9 月中旬連續指出 agentic AI 不能只靠工具導入，必須重設流程、決策權與 workflow handoff；The Conference Board 9 月 15 日提出 AI workforce 四種情境；PwC 9 月 17 日提醒 controller 要處理 AI 成本資本化、長約、產品融資與關稅會計；EU AI Act 透明與 GPAI 文件義務已進入可執行狀態，Bloomberg/FT 弱訊號則顯示資料中心與 AI 資金網絡正在受到地方政治、能源與金融透明度考驗。對台灣企業而言，本週的管理問題是：成長機會能不能通過資本紀律、能源成本、合規證據、供應鏈資料、董事會 AI fluency 與人機工作設計的共同壓力測試。",
+      "interpretation": [
+        "成長還在，但要先問公司能不能承擔能源、商品、債務與客戶信用的基礎條件。",
+        "AI 投資從科技敘事進入金融監理、現金流、供應商依賴與訂單品質檢查。",
+        "agentic AI 的管理重點不是更多工具，而是誰重設流程、誰負責 handoff、誰衡量 EBIT。",
+        "EU AI governance 正在把信任變成可交付文件；透明標示、模型來源與供應商文件是 B2B 競爭力。",
+        "AI workforce 需要情境式人力規劃；主管要設計工作、覆核、學習與信任，而不是只追使用率。"
+      ],
+      "discussionPrompts": [
+        "本季董事會能否同時看懂能源/商品、AI 投資、資料中心、合規與人才重設五張圖？",
+        "哪些 AI 專案已經應該從創新試驗轉為 CFO 可審核的投資組合？",
+        "公司最昂貴的三個 workflow handoff 是什麼？是否值得先做 agentic AI 重設？",
+        "若歐洲客戶要求 AI 透明與 GPAI 文件，公司能否在 48 小時內回覆？",
+        "我們的人力規劃是否同時準備 AI 增強、集中收益、替代與不均衡衝擊四種情境？"
+      ],
+      "mustReads": [
+        {
+          "rank": 1,
+          "headline": "成長仍有窗口，但 CEO 要先通過能源、商品與高債務壓力測試",
+          "whyLeadersCare": "CEO 與 CFO 必須把宏觀訊號轉成報價、庫存、毛利、現金流與資本支出觸發條件。",
+          "taiwanMeaning": "台灣企業受惠 AI/科技需求時，不能忽略能源、金屬、匯率、客戶付款與高利率對現金流的再定價。",
+          "joyceQuestion": "我們今年的成長計畫，有沒有用能源、商品、利率與客戶信用做過壓力測試？",
+          "keepWatching": [
+            "OECD 9 月 23 日 Interim Economic Outlook",
+            "World Bank 10 月商品更新",
+            "能源與金屬價格",
+            "主要客戶付款條件"
+          ],
+          "sourceName": "IMF G20 statement and World Bank Commodity Markets",
+          "sourceUrl": "https://www.imf.org/en/news/articles/2026/09/01/pr26284-imf-md-statement-conclusion-g20-finance-ministers-central-bank-governors-meeting",
+          "heat": 95,
+          "confidence": "A"
+        },
+        {
+          "rank": 2,
+          "headline": "AI 已從技術題升級為金融監理、模型風險與第三方依賴題",
+          "whyLeadersCare": "AI governance 會影響融資、保險、客戶稽核與董事會風險責任，不再只是 CIO 或創新團隊的工具導入。",
+          "taiwanMeaning": "台灣企業若導入 AI agent 或提供金融/跨國客戶服務，需要能交出模型、資料、權限、供應商與覆核清冊。",
+          "joyceQuestion": "我們的 AI agent 若出錯，誰能停用、誰負責、哪些紀錄能被稽核？",
+          "keepWatching": [
+            "BIS/FSI AI supervision",
+            "銀行與保險 AI 問卷",
+            "AI 第三方供應商管理",
+            "資安事故通報要求"
+          ],
+          "sourceName": "BIS speech: Supervising banks in an AI-shaped economy",
+          "sourceUrl": "https://www.bis.org/speeches/20260918-supervising-banks-ai-shaped-economy",
+          "heat": 99,
+          "confidence": "A"
+        },
+        {
+          "rank": 3,
+          "headline": "agentic AI 的價值不在更多工具，而在消除流程交接與協調稅",
+          "whyLeadersCare": "董事會與 CFO 會要求 AI 從 PoC 轉為流程績效、週期時間、錯誤率與財務回報。",
+          "taiwanMeaning": "台灣企業可以從報價、工程變更、採購、交期、客訴與跨部門簽核切入，而不是分散做工具展示。",
+          "joyceQuestion": "公司最貴的三個跨部門 handoff 在哪裡？AI agent 能否把週期時間減半？",
+          "keepWatching": [
+            "McKinsey agentic AI ROI",
+            "workflow redesign 案例",
+            "CFO AI budget gate",
+            "COO/CHRO/CIO 共管模式"
+          ],
+          "sourceName": "McKinsey: Cutting the coordination tax",
+          "sourceUrl": "https://www.mckinsey.com/industries/industrials/our-insights/cutting-the-coordination-tax-how-agentic-ai-can-reshape-workflows",
+          "heat": 99,
+          "confidence": "A"
+        },
+        {
+          "rank": 4,
+          "headline": "AI workforce 不該用單一裁員敘事，要用四情境重設人才與主管責任",
+          "whyLeadersCare": "CHRO 與事業主管需要針對增強、集中收益、大規模替代與不均衡衝擊，分別設計職務、技能與溝通。",
+          "taiwanMeaning": "台灣企業應把初階職務、主管覆核、再訓練與內部流動納入 AI 導入，不宜只要求員工自己會用工具。",
+          "joyceQuestion": "如果三年內多數知識工作都有人機協作，我們現在的主管訓練還缺哪一塊？",
+          "keepWatching": [
+            "The Conference Board AI workforce scenarios",
+            "Stanford AI Index 勞動資料",
+            "青年職涯入口",
+            "員工信任與心理契約"
+          ],
+          "sourceName": "The Conference Board: AI Could Reshape the US Workforce in 4 Very Different Ways",
+          "sourceUrl": "https://www.conference-board.org/press/ai-could-reshape-the-us-workforce-in-4-very-different-ways",
+          "heat": 98,
+          "confidence": "A"
+        },
+        {
+          "rank": 5,
+          "headline": "EU AI 透明與 GPAI 義務，正在把可信 AI 變成可交付證據包",
+          "whyLeadersCare": "AI 信任不再是價值宣言，而是客戶問卷、稽核資料、模型文件、內容標示與責任人。",
+          "taiwanMeaning": "服務歐洲與跨國客戶的台灣企業，要能在 48 小時內回答 AI 使用清冊、模型來源、標示方式與人類覆核。",
+          "joyceQuestion": "如果客戶今天要求 AI 透明證據包，我們能交出清冊、標示 SOP 與供應商文件嗎？",
+          "keepWatching": [
+            "AI Office enforcement",
+            "Article 50 case practice",
+            "GPAI signatories and documentation",
+            "B2B AI procurement questionnaires"
+          ],
+          "sourceName": "European Commission: Code of Practice on Transparency of AI-generated Content",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content",
+          "heat": 97,
+          "confidence": "A"
+        },
+        {
+          "rank": 6,
+          "headline": "資料中心熱潮進入地方政治考驗，供應鏈要看社會授權與地點風險",
+          "whyLeadersCare": "AI infrastructure 能否落地取決於地方許可、能源、水、居民信任、長約與融資，而不只是晶片與伺服器需求。",
+          "taiwanMeaning": "台灣供應鏈評估 AI 客戶時，需追蹤建置地點、許可進度、電力接入、地方反彈與合約延期條款。",
+          "joyceQuestion": "我們的 AI infrastructure 客戶地圖，有沒有把地方反彈與能源接入列為交付風險？",
+          "keepWatching": [
+            "Bloomberg Data Center Backlash",
+            "AI Gigafactories",
+            "電力與水資源承諾",
+            "資料中心融資與許可"
+          ],
+          "sourceName": "Bloomberg: Small Town America Confronts Data Centers",
+          "sourceUrl": "https://bloomberg.com/news/videos/2026-09-17/small-town-america-confronts-data-centers-rejects-plans-video",
+          "heat": 96,
+          "confidence": "B"
+        },
+        {
+          "rank": 7,
+          "headline": "AI 成本與關稅不只影響策略，也開始進入 controller 的季度結帳清單",
+          "whyLeadersCare": "AI 與供應鏈壓力會轉成成本資本化、庫存、負債、收入認列、毛利與揭露風險。",
+          "taiwanMeaning": "台灣上市櫃與跨國供應鏈企業需要讓 CFO、controller、採購與法務共同檢查 AI 專案、長約與關稅條款。",
+          "joyceQuestion": "我們是否把 AI 專案成本、長約、產品融資與關稅變動放進季度 close checklist？",
+          "keepWatching": [
+            "PwC controller updates",
+            "AI cost capitalization",
+            "tariff accounting",
+            "long-term supply and product financing"
+          ],
+          "sourceName": "PwC Q3 2026 Closing statements",
+          "sourceUrl": "https://www.pwc.com/us/en/services/audit-assurance/national-office/q3-2026-closing-statements.html",
+          "heat": 97,
+          "confidence": "A"
+        }
+      ],
+      "recommendations": [
+        {
+          "priority": 1,
+          "title": "CEO 成長與 AI 壓力測試：把能源、資本、合規與人才放進季度節奏",
+          "category": "CEO經營環境",
+          "heat": 99
+        },
+        {
+          "priority": 2,
+          "title": "AI 訂單品質與資金鏈：從金融穩定、現金流到供應鏈曝險",
+          "category": "科技與AI轉型",
+          "heat": 98
+        },
+        {
+          "priority": 3,
+          "title": "Agentic workflow 重設：從個人生產力到 EBIT 的跨部門流程課",
+          "category": "組織與人才",
+          "heat": 99
+        },
+        {
+          "priority": 4,
+          "title": "EU AI 合規證據包：透明標示、GPAI 文件與客戶稽核",
+          "category": "治理與社會信任",
+          "heat": 98
+        },
+        {
+          "priority": 5,
+          "title": "資料中心社會授權與 AI 基礎建設：能源、地方政治與供應鏈交付",
+          "category": "地緣政治與供應鏈",
+          "heat": 96
+        },
+        {
+          "priority": 6,
+          "title": "CFO/controller AI 與關稅結帳風險：成本、長約、庫存與揭露",
+          "category": "全球經濟與資本市場",
+          "heat": 97
+        }
+      ],
+      "metrics": {
+        "trends": 269,
+        "categories": 25,
+        "sources": 109,
+        "recommendations": 6,
+        "highConfidence": 143,
+        "hotSignals": 215
+      },
+      "sourceLinks": [
+        {
+          "name": "BIS Supervising banks in an AI-shaped economy",
+          "url": "https://www.bis.org/speeches/20260918-supervising-banks-ai-shaped-economy"
+        },
+        {
+          "name": "McKinsey Cutting the coordination tax",
+          "url": "https://www.mckinsey.com/industries/industrials/our-insights/cutting-the-coordination-tax-how-agentic-ai-can-reshape-workflows"
+        },
+        {
+          "name": "The Conference Board AI workforce scenarios",
+          "url": "https://www.conference-board.org/press/ai-could-reshape-the-us-workforce-in-4-very-different-ways"
+        },
+        {
+          "name": "PwC Q3 2026 Closing statements",
+          "url": "https://www.pwc.com/us/en/services/audit-assurance/national-office/q3-2026-closing-statements.html"
+        },
+        {
+          "name": "European Commission Transparency Code of Practice",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"
+        },
+        {
+          "name": "European Commission AI Act enforcement framework",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act"
+        },
+        {
+          "name": "Bloomberg Small Town America Confronts Data Centers",
+          "url": "https://bloomberg.com/news/videos/2026-09-17/small-town-america-confronts-data-centers-rejects-plans-video"
+        },
+        {
+          "name": "Stanford HAI 2026 AI Index Economy",
+          "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/economy"
+        },
+        {
+          "name": "IMF G20 Finance Ministers statement September 2026",
+          "url": "https://www.imf.org/en/news/articles/2026/09/01/pr26284-imf-md-statement-conclusion-g20-finance-ministers-central-bank-governors-meeting"
+        },
+        {
+          "name": "World Bank Commodity Markets September 2026",
+          "url": "https://www.worldbank.org/en/research/commodity-markets"
+        }
+      ]
+    },
     {
       "id": "2026-09-12",
       "date": "2026-09-12",
