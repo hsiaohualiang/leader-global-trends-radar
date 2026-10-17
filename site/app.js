@@ -107,10 +107,16 @@ function parentCategories() {
   categoryDefinitions.forEach((item) => {
     if (item.parent && !names.includes(item.parent)) names.push(item.parent);
   });
-  payload.trends.forEach((item) => {
-    if (item.category && !names.includes(item.category)) names.push(item.category);
-  });
   return names;
+}
+
+function primaryLane(item) {
+  const aliases = {
+    "全球經濟與資本市場": "CEO經營環境",
+    "AI治理與社會信任": "治理與社會信任",
+    "科技與AI": "科技與AI轉型",
+  };
+  return aliases[item.category] || categoryInfo(item.category).parent || item.category;
 }
 
 function parentCategoriesForTrend(item) {
@@ -497,8 +503,8 @@ function renderRadar(rows) {
     .map((category) => {
       const categoryRows = selectedCategory
         ? rows.filter((item) => trendCategories(item).includes(category))
-        : rows.filter((item) => parentCategoriesForTrend(item).includes(category));
-      const sorted = [...categoryRows].sort((a, b) => Number(b.heat || 0) - Number(a.heat || 0));
+        : rows.filter((item) => primaryLane(item) === category);
+      const sorted = [...categoryRows].sort((a, b) => Date.parse(b.reviewedAt || b.sourceDate) - Date.parse(a.reviewedAt || a.sourceDate) || Number(b.heat || 0) - Number(a.heat || 0));
       const subcategories = selectedCategory
         ? []
         : categoryDefinitions.filter((item) => item.parent === category).map((item) => item.name);

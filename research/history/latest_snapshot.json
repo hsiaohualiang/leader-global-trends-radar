@@ -1,44 +1,45 @@
 {
-  "recorded_at": "2026-10-10T12:14:23.943Z",
-  "generated_at": "2026-10-10",
-  "next_review": "2026-10-17 20:00 Asia/Taipei",
-  "trend_count": 358,
+  "recorded_at": "2026-10-17T13:59:19.150Z",
+  "generated_at": "2026-10-17",
+  "next_review": "2026-10-24 20:00 Asia/Taipei",
+  "trend_count": 367,
   "recommendation_count": 6,
-  "source_count": 137,
+  "source_count": 144,
   "category_count": 25,
   "category_counts": {
     "AI投資ROI": 57,
     "AI成本治理": 28,
     "AI基礎建設與資料中心": 77,
-    "資本市場與金融風險": 91,
+    "資本市場與金融風險": 92,
     "Agentic AI與流程自動化": 22,
     "資料治理與AI-ready": 48,
-    "AI規模化落地": 55,
+    "AI規模化落地": 56,
     "高階幕僚與決策智能": 46,
-    "AI信任與透明度": 85,
+    "AI信任與透明度": 86,
     "董事會AI治理": 70,
     "資安與數位韌性": 36,
-    "EU AI監管與合規": 46,
-    "地緣政治與能源風險": 98,
-    "全球低成長與通膨": 65,
-    "關稅貿易與區域布局": 55,
-    "印度與新興市場": 16,
-    "供應鏈韌性": 77,
+    "EU AI監管與合規": 47,
+    "地緣政治與能源風險": 99,
+    "全球低成長與通膨": 66,
+    "關稅貿易與區域布局": 56,
+    "印度與新興市場": 17,
+    "供應鏈韌性": 78,
     "AI供應鏈與半導體": 54,
-    "歐洲AI產業政策": 46,
-    "新創與生態系合作": 38,
+    "歐洲AI產業政策": 48,
+    "新創與生態系合作": 41,
     "未來工作與人機協作": 66,
-    "人才重配置與再學習": 53,
-    "CEO經營節奏與風險雷達": 109,
-    "領導力接班與心理安全": 54,
-    "高階學習產品與內容設計": 30
+    "人才重配置與再學習": 55,
+    "CEO經營節奏與風險雷達": 112,
+    "領導力接班與心理安全": 56,
+    "高階學習產品與內容設計": 31
   },
   "parent_category_counts": {
-    "CEO經營環境": 65,
-    "治理與社會信任": 5,
-    "地緣政治與供應鏈": 55,
-    "科技與AI轉型": 57,
-    "組織與人才": 58,
+    "CEO經營環境": 67,
+    "地緣政治與供應鏈": 56,
+    "組織與人才": 60,
+    "產業與商業模式": 2,
+    "治理與社會信任": 6,
+    "科技與AI轉型": 58,
     "全球經濟與資本市場": 23,
     "AI治理與社會信任": 2,
     "科技與AI": 3,
@@ -46,11 +47,13 @@
     "新創與生態系合作": 33
   },
   "confidence_counts": {
-    "A": 205,
-    "B": 140,
+    "A": 212,
+    "B": 142,
     "C": 13
   },
   "source_type_counts": {
+    "官方資料／一手研究": 7,
+    "國際媒體／議程弱訊號": 2,
     "官方經濟與財金治理": 1,
     "官方金融穩定報告": 1,
     "官方經濟展望": 6,
@@ -219,6 +222,13 @@
   },
   "top_hot_trends": [
     {
+      "id": "weo-20261017",
+      "title": "預算要保留修正空間：全球韌性正付出代價",
+      "category": "CEO經營環境",
+      "heat": 99,
+      "confidence": "A"
+    },
+    {
       "id": "imf-annual-meetings-debt-ai-financial-stability-20261010",
       "title": "IMF 年會前把債務、金融穩定與 AI 監管推上財金領導議程",
       "category": "CEO經營環境",
@@ -280,57 +290,50 @@
       "category": "AI信任與透明度",
       "heat": 99,
       "confidence": "A"
-    },
-    {
-      "id": "imf-g20-growth-energy-debt-20260905",
-      "title": "IMF G20 後把 3% 成長、能源衝擊、AI 投資與高債務放在同一張風險圖",
-      "category": "CEO經營環境",
-      "heat": 99,
-      "confidence": "A"
     }
   ],
   "recommended_courses": [
     {
-      "id": "course-board-stress-test-debt-ai-energy-20261010",
-      "title": "董事會年度壓力測試：債務、AI、能源與現金流",
+      "id": "learning-20261017-0",
+      "title": "預算修正與客戶投資判讀",
       "priority": 1,
       "category": "CEO經營環境",
-      "heat": 99
-    },
-    {
-      "id": "course-ai-order-quality-private-credit-20261010",
-      "title": "AI 訂單品質與私募信貸風險",
-      "priority": 2,
-      "category": "CEO經營環境",
-      "heat": 98
-    },
-    {
-      "id": "course-energy-shipping-margin-defense-20261010",
-      "title": "能源、航運與關稅的毛利防守",
-      "priority": 3,
-      "category": "地緣政治與供應鏈",
-      "heat": 97
-    },
-    {
-      "id": "course-ai-operating-model-trust-ebit-20261010",
-      "title": "AI operating model：責任、信任與 EBIT",
-      "priority": 4,
-      "category": "組織與人才",
-      "heat": 96
-    },
-    {
-      "id": "course-eu-ai-transparency-evidence-pack-20261010",
-      "title": "EU AI 透明證據包與客戶問卷演練",
-      "priority": 5,
-      "category": "治理與社會信任",
       "heat": 94
     },
     {
-      "id": "course-data-center-social-license-power-20261010",
-      "title": "AI 資料中心：電力制度、地方反彈與供應鏈交期",
+      "id": "learning-20261017-1",
+      "title": "流動性壓力與備援授信",
+      "priority": 2,
+      "category": "CEO經營環境",
+      "heat": 93
+    },
+    {
+      "id": "learning-20261017-2",
+      "title": "能源與運輸成本的毛利防守",
+      "priority": 3,
+      "category": "地緣政治與供應鏈",
+      "heat": 92
+    },
+    {
+      "id": "learning-20261017-3",
+      "title": "主管信任與變革容量",
+      "priority": 4,
+      "category": "組織與人才",
+      "heat": 91
+    },
+    {
+      "id": "learning-20261017-4",
+      "title": "AI 透明標示與責任清冊",
+      "priority": 5,
+      "category": "治理與社會信任",
+      "heat": 90
+    },
+    {
+      "id": "learning-20261017-5",
+      "title": "垂直流程合作的商業驗證",
       "priority": 6,
       "category": "科技與AI轉型",
-      "heat": 92
+      "heat": 89
     }
   ]
 }
