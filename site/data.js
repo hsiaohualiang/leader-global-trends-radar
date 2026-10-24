@@ -1,10 +1,10 @@
 window.LEADER_TREND_DATA = {
   "meta": {
-    "generated_at": "2026-10-17",
-    "next_review": "2026-10-24 20:00 Asia/Taipei",
+    "generated_at": "2026-10-24",
+    "next_review": "2026-10-31 20:00 Asia/Taipei",
     "scope": "追蹤全球領導者必看的外部經營環境，涵蓋 CEO 經營節奏、全球經濟與資本市場、地緣政治與供應鏈、科技與 AI、組織人才、產業商業模式、治理與社會信任，協助 Joyce 建立高階主管視野，而不是只追單一科技議題。",
-    "weekly_thesis": "本週值得追問的是：當成長、信心與執行能力不同步，企業如何調整承諾？IMF 正式展望提醒韌性有成本；美國 CEO 信心下滑但投資意向仍在；IEA 把柴油與運費壓力拉回毛利；DDI 則指出信任與主管承載力的缺口。Joyce 的管理判讀是：把年度計畫拆成可驗證、可調整的承諾，讓資金、交期與主管工作量都有明確觸發點。AI 的兩個觀察焦點是透明標示實作與垂直流程價值。",
-    "recommendation_note": "下游學習機會：預算修正、流動性、毛利、主管信任、透明標示及垂直流程驗證。"
+    "weekly_thesis": "本週的管理焦點不是再增加一份成長預測，而是把「可交付能力」放回董事會議程。世界銀行年會把 12 億青年進入勞動市場、僅約 4 億職缺的缺口，與民間資本、基礎建設及中小企業資料連在一起；IEA 的柴油與戰略儲備行動提醒供應安全仍會回到毛利；IMF 則把 AI 估值、債券殖利率、私募信貸與資安放在同一張金融穩定圖。Joyce 的判讀是：領導者要用「資本是否轉成工作與現金流、能源是否轉成可履約交期、AI 是否轉成可稽核成果」三個問題，檢查策略是否真的能落地。",
+    "recommendation_note": "下游學習機會：海外投資與就業、可投資專案、能源毛利、聯合金融壓力、AI 流程重設、EU AI 證據包。"
   },
   "methodology": {
     "confidence": "A=官方機構、一手調查、年度報告或可追溯原始資料；B=國際主流媒體、活動頁、專家訪談或影音訊號；C=弱訊號，需持續追蹤互動、轉載與後續資料。",
@@ -22,175 +22,398 @@ window.LEADER_TREND_DATA = {
   },
   "topRecommendations": [
     {
-      "id": "learning-20261017-0",
-      "title": "預算修正與客戶投資判讀",
+      "id": "learning-20261024-1",
+      "title": "海外投資、在地就業與社會授權",
       "category": "CEO經營環境",
       "priority": 1,
-      "heat": 94,
+      "heat": 96,
       "confidence": "A",
       "trendIds": [
-        "weo-20261017",
-        "confidence-20261017",
-        "gfsr-20261017"
+        "wb-jobs-gap-20261024",
+        "wb-private-capital-jobs-20261024",
+        "wb-20261017"
       ],
-      "targetAudience": "CEO、CFO、策略長",
-      "whyNow": "管理判讀：年度預算應設修正觸發點，避免把總體成長當作個別市場的需求保證。",
+      "targetAudience": "CEO、策略長、海外事業主管",
+      "whyNow": "管理判讀：把產能、技能、供應商與工作成果放進同一份投資案。",
       "teacherProfile": "具相關決策經驗的企業主管與領域專家，邀請前需確認案例及利益衝突。",
       "productStructure": [
-        "情境假設",
-        "客戶投資證據",
-        "觸發門檻"
+        "決策情境",
+        "風險與證據",
+        "30 天行動"
       ],
       "copywriting": "帶著企業自己的案例，形成一份可回到團隊使用的決策清單。",
       "openingFormat": "半天案例工作坊＋30 天行動追蹤",
       "sourceBasis": [
-        "IMF October WEO",
-        "The Conference Board Q4 CEO Confidence",
+        "World Bank 2026 Annual Meetings Highlights",
+        "World Bank 2026 Annual Meetings Highlights",
+        "World Bank Annual Meetings — public agenda"
+      ]
+    },
+    {
+      "id": "learning-20261024-2",
+      "title": "新興市場專案的資金與風險結構",
+      "category": "全球經濟與資本市場",
+      "priority": 2,
+      "heat": 95,
+      "confidence": "A",
+      "trendIds": [
+        "wb-private-capital-jobs-20261024",
+        "wb-msme-data-collateral-20261024",
+        "gfsr-20261017"
+      ],
+      "targetAudience": "CEO、CFO、投資主管",
+      "whyNow": "管理判讀：從保證、當地貨幣、收款與風險承擔者檢查專案可投資性。",
+      "teacherProfile": "具相關決策經驗的企業主管與領域專家，邀請前需確認案例及利益衝突。",
+      "productStructure": [
+        "決策情境",
+        "風險與證據",
+        "30 天行動"
+      ],
+      "copywriting": "帶著企業自己的案例，形成一份可回到團隊使用的決策清單。",
+      "openingFormat": "半天案例工作坊＋30 天行動追蹤",
+      "sourceBasis": [
+        "World Bank 2026 Annual Meetings Highlights",
+        "World Bank 2026 Annual Meetings Highlights",
         "IMF October GFSR"
       ]
     },
     {
-      "id": "learning-20261017-1",
-      "title": "流動性壓力與備援授信",
-      "category": "CEO經營環境",
-      "priority": 2,
+      "id": "learning-20261024-3",
+      "title": "能源、柴油與產品線毛利防守",
+      "category": "地緣政治與供應鏈",
+      "priority": 3,
+      "heat": 94,
+      "confidence": "A",
+      "trendIds": [
+        "iea-diesel-reserves-20261024",
+        "oil-20261017",
+        "weo-20261017"
+      ],
+      "targetAudience": "COO、CFO、採購與業務主管",
+      "whyNow": "管理判讀：把政策緩衝轉成公司自己的成本、調價與交期情境。",
+      "teacherProfile": "具相關決策經驗的企業主管與領域專家，邀請前需確認案例及利益衝突。",
+      "productStructure": [
+        "決策情境",
+        "風險與證據",
+        "30 天行動"
+      ],
+      "copywriting": "帶著企業自己的案例，形成一份可回到團隊使用的決策清單。",
+      "openingFormat": "半天案例工作坊＋30 天行動追蹤",
+      "sourceBasis": [
+        "IEA Governing Board energy security statement",
+        "IEA October Oil Market Report",
+        "IMF October WEO"
+      ]
+    },
+    {
+      "id": "learning-20261024-4",
+      "title": "AI 訂單、融資與資安聯合壓力測試",
+      "category": "全球經濟與資本市場",
+      "priority": 4,
       "heat": 93,
       "confidence": "A",
       "trendIds": [
+        "imf-risk-stack-20261024",
         "gfsr-20261017",
-        "weo-20261017",
         "confidence-20261017"
       ],
-      "targetAudience": "CFO、財務主管、董事會",
-      "whyNow": "管理判讀：企業財務需要同時看授信可用度、交易對手與資金到期集中度。",
+      "targetAudience": "董事會、CEO、CFO、CIO",
+      "whyNow": "管理判讀：用一個壓力情境檢查客戶承諾、授信、交易對手與復原能力。",
       "teacherProfile": "具相關決策經驗的企業主管與領域專家，邀請前需確認案例及利益衝突。",
       "productStructure": [
-        "資金到期",
-        "授信可用度",
-        "交易對手"
+        "決策情境",
+        "風險與證據",
+        "30 天行動"
       ],
       "copywriting": "帶著企業自己的案例，形成一份可回到團隊使用的決策清單。",
       "openingFormat": "半天案例工作坊＋30 天行動追蹤",
       "sourceBasis": [
+        "IMF October 2026 GFSR",
         "IMF October GFSR",
-        "IMF October WEO",
         "The Conference Board Q4 CEO Confidence"
       ]
     },
     {
-      "id": "learning-20261017-2",
-      "title": "能源與運輸成本的毛利防守",
-      "category": "地緣政治與供應鏈",
-      "priority": 3,
-      "heat": 92,
-      "confidence": "A",
-      "trendIds": [
-        "oil-20261017",
-        "weo-20261017",
-        "confidence-20261017"
-      ],
-      "targetAudience": "COO、採購長、業務主管",
-      "whyNow": "管理判讀：成本傳導速度與調價權，會決定企業能否保住毛利。",
-      "teacherProfile": "具相關決策經驗的企業主管與領域專家，邀請前需確認案例及利益衝突。",
-      "productStructure": [
-        "到岸成本",
-        "產品毛利",
-        "調價條款"
-      ],
-      "copywriting": "帶著企業自己的案例，形成一份可回到團隊使用的決策清單。",
-      "openingFormat": "半天案例工作坊＋30 天行動追蹤",
-      "sourceBasis": [
-        "IEA October Oil Market Report",
-        "IMF October WEO",
-        "The Conference Board Q4 CEO Confidence"
-      ]
-    },
-    {
-      "id": "learning-20261017-3",
-      "title": "主管信任與變革容量",
+      "id": "learning-20261024-5",
+      "title": "從個人生產力到 EBIT 的流程重設",
       "category": "組織與人才",
-      "priority": 4,
-      "heat": 91,
-      "confidence": "A",
-      "trendIds": [
-        "trust-20261017",
-        "capacity-20261017",
-        "confidence-20261017"
-      ],
-      "targetAudience": "CHRO、中高階主管、企業主",
-      "whyNow": "管理判讀：策略會議之後，應檢查主管是否有能力解釋取捨、接住疑慮與履行承諾。",
-      "teacherProfile": "具相關決策經驗的企業主管與領域專家，邀請前需確認案例及利益衝突。",
-      "productStructure": [
-        "分層信任",
-        "承諾追蹤",
-        "工作刪減"
-      ],
-      "copywriting": "帶著企業自己的案例，形成一份可回到團隊使用的決策清單。",
-      "openingFormat": "半天案例工作坊＋30 天行動追蹤",
-      "sourceBasis": [
-        "DDI Global Leadership Forecast 2027 — Trust",
-        "DDI GLF 2027 release",
-        "The Conference Board Q4 CEO Confidence"
-      ]
-    },
-    {
-      "id": "learning-20261017-4",
-      "title": "AI 透明標示與責任清冊",
-      "category": "治理與社會信任",
       "priority": 5,
-      "heat": 90,
-      "confidence": "A",
+      "heat": 92,
+      "confidence": "B",
       "trendIds": [
-        "eu-20261017",
-        "vertical-20261017",
+        "mckinsey-org-readiness-20261024",
+        "capacity-20261017",
         "trust-20261017"
       ],
-      "targetAudience": "法務、產品、CIO、內容主管",
-      "whyNow": "管理判讀：企業要追蹤技術實作與揭露設計，不能把簽署自願準則視為所有義務均已完成。",
+      "targetAudience": "CEO、CHRO、CIO、事業部主管",
+      "whyNow": "管理判讀：選一條跨部門流程，重設 owner、交接、例外與財務指標。",
       "teacherProfile": "具相關決策經驗的企業主管與領域專家，邀請前需確認案例及利益衝突。",
       "productStructure": [
-        "角色清冊",
-        "標示流程",
-        "人工覆核"
+        "決策情境",
+        "風險與證據",
+        "30 天行動"
       ],
       "copywriting": "帶著企業自己的案例，形成一份可回到團隊使用的決策清單。",
       "openingFormat": "半天案例工作坊＋30 天行動追蹤",
       "sourceBasis": [
-        "European Commission — Transparency Task Forces",
-        "Sifted AI 100",
+        "McKinsey — AI is changing work",
+        "DDI GLF 2027 release",
         "DDI Global Leadership Forecast 2027 — Trust"
       ]
     },
     {
-      "id": "learning-20261017-5",
-      "title": "垂直流程合作的商業驗證",
-      "category": "科技與AI轉型",
+      "id": "learning-20261024-6",
+      "title": "EU AI Act 角色清冊與證據包",
+      "category": "治理與社會信任",
       "priority": 6,
-      "heat": 89,
-      "confidence": "B",
+      "heat": 91,
+      "confidence": "A",
       "trendIds": [
-        "vertical-20261017",
-        "wb-20261017",
-        "confidence-20261017"
+        "eu-ai-enforcement-timeline-20261024",
+        "eu-20261017",
+        "vertical-20261017"
       ],
-      "targetAudience": "策略長、事業部主管、創新主管",
-      "whyNow": "管理判讀：採購與合作評估應從特定流程成果出發，檢查可靠性與付費需求。",
+      "targetAudience": "法務、產品、CIO、業務主管",
+      "whyNow": "管理判讀：把適用時程、系統角色、透明標示與客戶文件做成可稽核交付物。",
       "teacherProfile": "具相關決策經驗的企業主管與領域專家，邀請前需確認案例及利益衝突。",
       "productStructure": [
-        "付費問題",
-        "合作盡調",
-        "續約指標"
+        "決策情境",
+        "風險與證據",
+        "30 天行動"
       ],
       "copywriting": "帶著企業自己的案例，形成一份可回到團隊使用的決策清單。",
       "openingFormat": "半天案例工作坊＋30 天行動追蹤",
       "sourceBasis": [
-        "Sifted AI 100",
-        "World Bank Annual Meetings — public agenda",
-        "The Conference Board Q4 CEO Confidence"
+        "European Commission AI Act enforcement framework",
+        "European Commission — Transparency Task Forces",
+        "Sifted AI 100"
       ]
     }
   ],
   "trends": [
+    {
+      "id": "wb-jobs-gap-20261024",
+      "title": "全球就業缺口成為成長與社會穩定的共同壓力測試",
+      "category": "CEO經營環境",
+      "categories": [
+        "全球低成長與通膨",
+        "人才重配置與再學習",
+        "CEO經營節奏與風險雷達"
+      ],
+      "sourceName": "World Bank 2026 Annual Meetings Highlights",
+      "sourceUrl": "https://www.worldbank.org/en/news/immersive-story/2026/10/18/jobs-small-ai-private-capital-annual-meetings",
+      "sourceDate": "2026-10-18",
+      "sourceType": "官方資料／一手整理",
+      "summary": "世界銀行年會閉幕整理指出，未來 10 至 15 年約有 12 億青年進入開發中國家勞動市場，但預估僅創造約 4 億個工作；就業因此成為基礎建設、教育、技能、投資與科技議程的共同成果指標。",
+      "whyLeadersCare": "成長投資若沒有形成生產力、供應商能力與工作機會，容易失去員工、社會與政策支持。",
+      "taiwanImpact": "台灣企業拓展東南亞與新興市場時，應把在地職能、供應商培育及就業成果納入投資案，而非只看產能與成本。",
+      "opportunity": "設計「海外投資的在地價值與人才供給」董事會工作坊。",
+      "signals": [
+        "12 億青年進入勞動市場",
+        "約 4 億職缺預估",
+        "就業成為投資成果指標"
+      ],
+      "actions": [
+        "海外投資案加入在地技能與職缺指標",
+        "追蹤人才供給與社會授權",
+        "區分投資金額與實際就業成果"
+      ],
+      "heat": 99,
+      "confidence": "A",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "wb-private-capital-jobs-20261024",
+      "title": "民間資本動員不能只算金額，必須追到工作與專案可投資性",
+      "category": "全球經濟與資本市場",
+      "categories": [
+        "資本市場與金融風險",
+        "印度與新興市場",
+        "新創與生態系合作",
+        "CEO經營節奏與風險雷達"
+      ],
+      "sourceName": "World Bank 2026 Annual Meetings Highlights",
+      "sourceUrl": "https://www.worldbank.org/en/news/immersive-story/2026/10/18/jobs-small-ai-private-capital-annual-meetings",
+      "sourceDate": "2026-10-18",
+      "sourceType": "官方資料／一手整理",
+      "summary": "世界銀行表示 2026 財年動員 1,120 億美元民間資本，並推動多邊開發銀行將專案標準化、打包成退休基金與保險資金可持有的資產；低收入與脆弱國家的動員仍約 30 億美元。",
+      "whyLeadersCare": "資本充裕不等於專案可投資；風險分配、規則可預測、當地貨幣融資與執行速度才決定資金是否落地。",
+      "taiwanImpact": "台灣企業進入新興市場可利用保證、當地融資與共同投資，但需把政治、匯率、收款與合作夥伴風險拆開。",
+      "opportunity": "建立「新興市場投資可行性與資金結構」案例模組。",
+      "signals": [
+        "1,120 億美元民間資本",
+        "專案資產標準化",
+        "脆弱市場資金落差"
+      ],
+      "actions": [
+        "投資案先拆風險承擔者",
+        "檢查當地貨幣與保證工具",
+        "用就業與現金流追蹤成果"
+      ],
+      "heat": 98,
+      "confidence": "A",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "wb-msme-data-collateral-20261024",
+      "title": "中小企業的交易資料正從營運紀錄變成融資抵押品",
+      "category": "產業與商業模式",
+      "categories": [
+        "資料治理與AI-ready",
+        "新創與生態系合作",
+        "印度與新興市場"
+      ],
+      "sourceName": "World Bank 2026 Annual Meetings Highlights",
+      "sourceUrl": "https://www.worldbank.org/en/news/immersive-story/2026/10/18/jobs-small-ai-private-capital-annual-meetings",
+      "sourceDate": "2026-10-18",
+      "sourceType": "官方資料／一手整理",
+      "summary": "世界銀行 MSME 策略把可信的交易、發票與付款紀錄視為新的融資基礎；中小企業在開發中國家僱用約 75% 勞工，但傳統抵押品不足。",
+      "whyLeadersCare": "數位化的價值不只是效率，而是把供應商的營運品質轉成可被銀行與大企業驗證的信用。",
+      "taiwanImpact": "大型企業可用訂單、驗收與付款資料協助供應商融資，同時降低單一供應商斷鏈風險。",
+      "opportunity": "發展「供應鏈資料、信用與韌性」高階案例。",
+      "signals": [
+        "交易資料成為新抵押品",
+        "MSME 僱用 75% 勞工",
+        "供應鏈資料連結融資"
+      ],
+      "actions": [
+        "盤點可授權的交易資料",
+        "與金融機構設計供應鏈融資",
+        "建立資料同意與品質規則"
+      ],
+      "heat": 96,
+      "confidence": "A",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "iea-diesel-reserves-20261024",
+      "title": "柴油緊張迫使政府加速釋放戰略儲備，企業仍要自行管理毛利風險",
+      "category": "地緣政治與供應鏈",
+      "categories": [
+        "地緣政治與能源風險",
+        "供應鏈韌性",
+        "全球低成長與通膨",
+        "CEO經營節奏與風險雷達"
+      ],
+      "sourceName": "IEA Governing Board energy security statement",
+      "sourceUrl": "https://www.iea.org/news/iea-governing-board-statement-on-energy-markets-and-security",
+      "sourceDate": "2026-10-15",
+      "sourceType": "官方能源安全聲明",
+      "summary": "IEA 表示約 3.3 億桶戰略儲備已釋出，將加速剩餘約 1 億桶，包含逾 2,000 萬桶柴油；政策行動可緩衝市場，但不能消除煉油與運輸瓶頸。",
+      "whyLeadersCare": "戰略儲備是時間緩衝，不是永久降價；COO 與 CFO 仍須把柴油、附加費與交期放進產品線損益。",
+      "taiwanImpact": "高度依賴進口能源與海運的台灣製造業，需避免用單一油價假設承諾全年價格與交期。",
+      "opportunity": "深化「能源、運輸與毛利情境」實作課。",
+      "signals": [
+        "已釋出約 3.3 億桶",
+        "剩餘約 1 億桶加速釋放",
+        "逾 2,000 萬桶柴油"
+      ],
+      "actions": [
+        "每週更新到岸成本情境",
+        "重談燃料附加費條款",
+        "標出最慢調價產品線"
+      ],
+      "heat": 98,
+      "confidence": "A",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "imf-risk-stack-20261024",
+      "title": "AI 估值、主權債、私募信貸與資安已成同一張董事會風險圖",
+      "category": "全球經濟與資本市場",
+      "categories": [
+        "資本市場與金融風險",
+        "AI投資ROI",
+        "資安與數位韌性",
+        "董事會AI治理"
+      ],
+      "sourceName": "IMF October 2026 GFSR",
+      "sourceUrl": "https://www.imf.org/en/Publications/GFSR/Issues/2026/10/13/Global-Financial-Stability-Report-October-2026",
+      "sourceDate": "2026-10-13",
+      "sourceType": "官方金融穩定報告",
+      "summary": "IMF 最新 GFSR 指出，AI 獲利或投資不如預期、主權債殖利率上升及資安攻擊都可能收緊金融條件；非銀行金融與私募信貸的槓桿、流動性錯配會放大壓力。",
+      "whyLeadersCare": "科技投資、融資與營運不中斷不能分三場會議管理；同一衝擊可能同時傷害估值、授信與關鍵服務。",
+      "taiwanImpact": "AI 供應鏈企業應對客戶承諾、應收帳款、融資來源與資安依賴做聯合壓力測試。",
+      "opportunity": "設計「AI 訂單品質與金融壓力測試」董事會演練。",
+      "signals": [
+        "AI 相關價格修正",
+        "主權債殖利率衝擊",
+        "私募信貸流動性",
+        "金融資安"
+      ],
+      "actions": [
+        "整合客戶與融資曝險",
+        "測試估值修正情境",
+        "確認關鍵服務復原時間"
+      ],
+      "heat": 99,
+      "confidence": "A",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "eu-ai-enforcement-timeline-20261024",
+      "title": "EU AI Act 進入執法期，企業需要可交付的角色、時程與證據清冊",
+      "category": "治理與社會信任",
+      "categories": [
+        "EU AI監管與合規",
+        "AI信任與透明度",
+        "董事會AI治理",
+        "資料治理與AI-ready"
+      ],
+      "sourceName": "European Commission AI Act enforcement framework",
+      "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
+      "sourceDate": "2026-10-20",
+      "sourceType": "歐盟官方 AI 治理",
+      "summary": "歐盟 10 月 20 日更新執法框架，明列 AI Office 與各國主管機關的權限、GPAI 與透明義務，以及高風險系統與新增禁止行為的分階段適用時程。",
+      "whyLeadersCare": "合規焦點已從知道法規轉為能否交出系統清冊、供應者與部署者角色、標示、技術文件及事件處理紀錄。",
+      "taiwanImpact": "對歐出口與數位服務企業應由產品、法務、資訊與業務共同確認適用範圍，不能只交給資訊部門。",
+      "opportunity": "更新「EU AI Act 證據包與客戶問卷」工作坊。",
+      "signals": [
+        "執法權限已生效",
+        "透明與 GPAI 義務",
+        "高風險系統分期適用"
+      ],
+      "actions": [
+        "建立 AI 系統與角色清冊",
+        "逐項標記適用日期",
+        "準備客戶可驗證證據"
+      ],
+      "heat": 97,
+      "confidence": "A",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "mckinsey-org-readiness-20261024",
+      "title": "個人生產力提升不等於企業價值，組織設計成為 AI 回報瓶頸",
+      "category": "組織與人才",
+      "categories": [
+        "未來工作與人機協作",
+        "AI規模化落地",
+        "AI投資ROI",
+        "人才重配置與再學習"
+      ],
+      "sourceName": "McKinsey — AI is changing work",
+      "sourceUrl": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/ai-is-changing-work-now-it-has-to-change-the-organization",
+      "sourceDate": "2026-10-05",
+      "sourceType": "管理顧問／組織研究",
+      "summary": "McKinsey 2026 調查顯示 80% 受訪者認為 AI 改善個人生產力，但僅 37% 回報正向 EBIT 影響，6% 被歸為 AI 高績效者；文章主張價值瓶頸在跨職能組織設計。",
+      "whyLeadersCare": "若權責、流程交接與績效制度不變，工具採用率可能上升，企業成果仍停在局部效率。",
+      "taiwanImpact": "台灣企業應選一條跨部門流程重設責任與決策權，而不是再辦一輪通用工具訓練。",
+      "opportunity": "發展「從個人生產力到 EBIT 的流程重設」主管實作。",
+      "signals": [
+        "80% 個人生產力改善",
+        "37% 正向 EBIT",
+        "6% AI 高績效"
+      ],
+      "actions": [
+        "選定跨部門價值流程",
+        "定義流程 owner 與 EBIT 指標",
+        "刪除重複人工交接"
+      ],
+      "heat": 96,
+      "confidence": "B",
+      "reviewedAt": "2026-10-24"
+    },
     {
       "id": "weo-20261017",
       "title": "預算要保留修正空間：全球韌性正付出代價",
@@ -12071,6 +12294,48 @@ window.LEADER_TREND_DATA = {
   ],
   "sources": [
     {
+      "name": "World Bank 2026 Annual Meetings Highlights",
+      "url": "https://www.worldbank.org/en/news/immersive-story/2026/10/18/jobs-small-ai-private-capital-annual-meetings",
+      "type": "官方資料／一手整理",
+      "use": "全球就業缺口成為成長與社會穩定的共同壓力測試"
+    },
+    {
+      "name": "World Bank 2026 Annual Meetings Highlights",
+      "url": "https://www.worldbank.org/en/news/immersive-story/2026/10/18/jobs-small-ai-private-capital-annual-meetings",
+      "type": "官方資料／一手整理",
+      "use": "民間資本動員不能只算金額，必須追到工作與專案可投資性"
+    },
+    {
+      "name": "World Bank 2026 Annual Meetings Highlights",
+      "url": "https://www.worldbank.org/en/news/immersive-story/2026/10/18/jobs-small-ai-private-capital-annual-meetings",
+      "type": "官方資料／一手整理",
+      "use": "中小企業的交易資料正從營運紀錄變成融資抵押品"
+    },
+    {
+      "name": "IEA Governing Board energy security statement",
+      "url": "https://www.iea.org/news/iea-governing-board-statement-on-energy-markets-and-security",
+      "type": "官方能源安全聲明",
+      "use": "柴油緊張迫使政府加速釋放戰略儲備，企業仍要自行管理毛利風險"
+    },
+    {
+      "name": "IMF October 2026 GFSR",
+      "url": "https://www.imf.org/en/Publications/GFSR/Issues/2026/10/13/Global-Financial-Stability-Report-October-2026",
+      "type": "官方金融穩定報告",
+      "use": "AI 估值、主權債、私募信貸與資安已成同一張董事會風險圖"
+    },
+    {
+      "name": "European Commission AI Act enforcement framework",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
+      "type": "歐盟官方 AI 治理",
+      "use": "EU AI Act 進入執法期，企業需要可交付的角色、時程與證據清冊"
+    },
+    {
+      "name": "McKinsey — AI is changing work",
+      "url": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/ai-is-changing-work-now-it-has-to-change-the-organization",
+      "type": "管理顧問／組織研究",
+      "use": "個人生產力提升不等於企業價值，組織設計成為 AI 回報瓶頸"
+    },
+    {
       "name": "London Business School / Sifted: Solving Europe's AI adoption puzzle",
       "type": "歐洲 AI 產業研究",
       "use": "London Business School 與 Sifted 報告指出，歐洲 AI 競爭路徑可能不在單純 scale，而在組織採用能力與信任。",
@@ -12369,12 +12634,6 @@ window.LEADER_TREND_DATA = {
       "type": "會計/財務治理研究",
       "use": "追蹤 AI 成本、長約、產品融資、關稅與季度結帳風險。",
       "url": "https://www.pwc.com/us/en/services/audit-assurance/national-office/q3-2026-closing-statements.html"
-    },
-    {
-      "name": "European Commission AI Act enforcement framework",
-      "type": "歐洲AI治理",
-      "use": "追蹤 AI Office、會員國主管機關與 AI Act 執法時程。",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act"
     },
     {
       "name": "Bloomberg data center local backlash video",
@@ -12937,131 +13196,131 @@ window.LEADER_TREND_DATA = {
   ],
   "weeklyMustReads": [
     {
-      "id": "read-weo-20261017",
+      "id": "read-20261024-1",
       "rank": 1,
-      "trendId": "weo-20261017",
-      "headline": "預算要保留修正空間：全球韌性正付出代價",
-      "globalSignal": "IMF 正式展望預估全球成長 2026 年為 3.1%、2027 年為 3.4%，並指出韌性不均、成本升高與下行風險。",
-      "whyLeadersCare": "管理判讀：年度預算應設修正觸發點，避免把總體成長當作個別市場的需求保證。",
-      "taiwanMeaning": "管理建議：出口企業應分市場檢查訂單、收款與成本假設。",
-      "joyceQuestion": "哪個假設一變，我們就必須重排資本支出？",
+      "trendId": "wb-jobs-gap-20261024",
+      "headline": "全球就業缺口，正在改寫企業海外成長的社會契約",
+      "globalSignal": "世界銀行指出未來 10 至 15 年約 12 億青年進入開發中國家勞動市場，但預估僅有約 4 億個工作。",
+      "whyLeadersCare": "海外投資不能只交付產能，也要交付技能、供應商能力與可持續工作。",
+      "taiwanMeaning": "台灣企業在東南亞與新興市場布局時，應把在地人才與就業成果列入董事會投資檢核。",
+      "joyceQuestion": "我們的海外成長，為當地創造了什麼可持續能力？",
       "keepWatching": [
-        "區域成長差異",
-        "通膨與融資成本"
+        "在地職缺與技能",
+        "投資的社會授權"
       ],
       "aiLed": false
     },
     {
-      "id": "read-gfsr-20261017",
+      "id": "read-20261024-2",
       "rank": 2,
-      "trendId": "gfsr-20261017",
-      "headline": "金融市場平靜時，也要測試流動性突然消失",
-      "globalSignal": "正式 GFSR 說明避險基金槓桿、擁擠部位與同步贖回可能放大去槓桿及資產出售壓力；已公開 Chapter 1 與資料。",
-      "whyLeadersCare": "管理判讀：企業財務需要同時看授信可用度、交易對手與資金到期集中度。",
-      "taiwanMeaning": "管理建議：美元融資與海外收款企業應測試備用額度及短期資金缺口。",
-      "joyceQuestion": "市場突然失去流動性時，我們的備用資金能撐多久？",
+      "trendId": "wb-private-capital-jobs-20261024",
+      "headline": "資本很多，真正稀缺的是可投資、可交付的專案",
+      "globalSignal": "世界銀行 2026 財年動員 1,120 億美元民間資本，並推動專案標準化與風險分擔；脆弱市場的資金落差仍大。",
+      "whyLeadersCare": "董事會要區分「宣布投資」與「完成融資、開工、形成現金流」。",
+      "taiwanMeaning": "台灣企業進入新興市場時，要同步確認保證、當地貨幣融資及收款風險。",
+      "joyceQuestion": "這個專案卡住的是資金、風險分配，還是執行能力？",
       "keepWatching": [
-        "槓桿與贖回壓力",
-        "授信額度可動用性"
+        "專案融資落地",
+        "當地貨幣與保證"
       ],
       "aiLed": false
     },
     {
-      "id": "read-oil-20261017",
+      "id": "read-20261024-3",
       "rank": 3,
-      "trendId": "oil-20261017",
-      "headline": "柴油與運費壓力，應進入產品線毛利決策",
-      "globalSignal": "IEA 公開摘要指出柴油供應吃緊、庫存緩衝下降，運費與原油到岸成本壓縮歐亞煉油利潤；供應復甦仍脆弱。",
-      "whyLeadersCare": "管理判讀：成本傳導速度與調價權，會決定企業能否保住毛利。",
-      "taiwanMeaning": "管理建議：製造與物流業應把燃料附加費、交期承諾及安全庫存一起重算。",
-      "joyceQuestion": "哪條產品線的成本上升最快，卻最慢調價？",
+      "trendId": "iea-diesel-reserves-20261024",
+      "headline": "戰略儲備只能買時間，不能替企業守住毛利",
+      "globalSignal": "IEA 表示已釋出約 3.3 億桶儲備，並加速剩餘約 1 億桶、含逾 2,000 萬桶柴油，以回應持續緊張的能源市場。",
+      "whyLeadersCare": "政策緩衝不代表成本壓力消失；產品線調價、合約與交期仍需主動管理。",
+      "taiwanMeaning": "台灣製造與物流業應避免用單一油價假設承諾全年毛利。",
+      "joyceQuestion": "哪條產品線最依賴政策緩衝，卻沒有自己的備案？",
       "keepWatching": [
-        "柴油庫存",
-        "到岸成本與附加費"
+        "柴油供給與庫存",
+        "燃料附加費與交期"
       ],
       "aiLed": false
     },
     {
-      "id": "read-trust-20261017",
+      "id": "read-20261024-4",
       "rank": 4,
-      "trendId": "trust-20261017",
-      "headline": "執行落差可能來自信任，而非策略說明不足",
-      "globalSignal": "DDI 新研究中，基層員工信任高階領導者的比例為 21%，信任直屬主管為 25%。信任與決策落地呈關聯，不能解讀成因果保證。",
-      "whyLeadersCare": "管理判讀：策略會議之後，應檢查主管是否有能力解釋取捨、接住疑慮與履行承諾。",
-      "taiwanMeaning": "管理建議：家族企業與轉型團隊可分層衡量信任，不用高階團隊感受代替前線經驗。",
-      "joyceQuestion": "我們如何知道前線理解並相信這項決策？",
+      "trendId": "imf-risk-stack-20261024",
+      "headline": "金融穩定不是財務部門單題：AI、債券、私募信貸與資安正在連動",
+      "globalSignal": "IMF GFSR 把 AI 相關價格修正、主權債殖利率、非銀行槓桿與資安列為可能互相放大的風險。",
+      "whyLeadersCare": "董事會要用聯合情境測試科技投資、授信、交易對手與營運不中斷。",
+      "taiwanMeaning": "AI 供應鏈企業應把客戶承諾、應收帳款、融資與資安依賴放在同一張圖。",
+      "joyceQuestion": "若 AI 訂單下修又遇到融資收緊，我們先失去哪一個緩衝？",
       "keepWatching": [
-        "分層信任差距",
-        "承諾完成率"
+        "AI 訂單品質",
+        "授信與資安韌性"
       ],
-      "aiLed": false
+      "aiLed": true
     },
     {
-      "id": "read-confidence-20261017",
+      "id": "read-20261024-5",
       "rank": 5,
-      "trendId": "confidence-20261017",
-      "headline": "CEO 信心下降，投資計畫卻未同步收縮",
-      "globalSignal": "美國 CEO 信心由 Q3 的 52 降至 Q4 的 46；53% 維持資本支出計畫、36% 計畫提高。調查涵蓋 131 位 CEO，訪問期為 9/21–10/5。",
-      "whyLeadersCare": "管理判讀：信心與投資意向可能分歧；銷售與產能判斷需追到客戶實際專案。",
-      "taiwanMeaning": "管理建議：台灣供應商應區分客戶口頭審慎、核定預算與實際下單三種訊號。",
-      "joyceQuestion": "客戶說保守，究竟是延後付款、延後驗收，還是取消投資？",
+      "trendId": "mckinsey-org-readiness-20261024",
+      "headline": "AI 成效卡住的不是使用率，而是組織沒有重設",
+      "globalSignal": "McKinsey 調查中 80% 受訪者認為 AI 改善個人生產力，但僅 37% 回報正向 EBIT 影響，只有 6% 被歸為高績效者。",
+      "whyLeadersCare": "管理重點要從工具滲透率轉向跨部門流程、權責與財務成果。",
+      "taiwanMeaning": "台灣企業可先選一條端到端流程，明確指定 owner、例外處理與 EBIT 指標。",
+      "joyceQuestion": "哪一個流程即使每個人都更快，整體仍沒有更好？",
       "keepWatching": [
-        "客戶核定投資",
-        "實際訂單與驗收節奏"
+        "跨部門流程重設",
+        "EBIT 與例外處理"
+      ],
+      "aiLed": true
+    },
+    {
+      "id": "read-20261024-6",
+      "rank": 6,
+      "trendId": "eu-ai-enforcement-timeline-20261024",
+      "headline": "EU AI 執法進入證據交付期，法遵不能只靠政策聲明",
+      "globalSignal": "歐盟 10 月更新執法框架，明列主管權限、GPAI 與透明義務，以及高風險系統分階段適用時程。",
+      "whyLeadersCare": "領導者要確保產品、法務、資訊與業務交出一致的角色清冊與客戶證據。",
+      "taiwanMeaning": "對歐企業應逐項確認系統角色、適用日期、標示與技術文件；正式適用仍需法律意見。",
+      "joyceQuestion": "客戶明天稽核時，我們能否在一天內交出完整 AI 證據包？",
+      "keepWatching": [
+        "角色與適用時程",
+        "客戶稽核證據"
       ],
       "aiLed": false
     },
     {
-      "id": "read-eu-20261017",
-      "rank": 6,
-      "trendId": "eu-20261017",
-      "headline": "AI 透明標示走向實作協調，產品與法務須共用清冊",
-      "globalSignal": "歐盟公開資訊顯示，9/30 成立標記偵測與標示兩個工作小組；互通性等工作預定於 10–11 月啟動，部分互動標示工作預定 2027 年開始。",
-      "whyLeadersCare": "管理判讀：企業要追蹤技術實作與揭露設計，不能把簽署自願準則視為所有義務均已完成。",
-      "taiwanMeaning": "管理建議：對歐產品與內容服務應區分供應者、部署者角色，逐項核對適用義務及時程。",
-      "joyceQuestion": "客戶要求透明標示時，產品、法務與業務能交出同一份說明嗎？",
-      "keepWatching": [
-        "互通性工作進展",
-        "產業標示實務"
-      ],
-      "aiLed": true
-    },
-    {
-      "id": "read-vertical-20261017",
+      "id": "read-20261024-7",
       "rank": 7,
-      "trendId": "vertical-20261017",
-      "headline": "歐洲 AI 新創觀察：從通用能力走向垂直工作流程",
-      "globalSignal": "Sifted 2026 AI 100 公開摘要把 Tandem Health 列為首位，並指出醫療、企業代理與工業自動化是前列方向。榜單代表編輯篩選，不等於投資回報或市場占有率。",
-      "whyLeadersCare": "管理判讀：採購與合作評估應從特定流程成果出發，檢查可靠性與付費需求。",
-      "taiwanMeaning": "管理建議：台灣產業可尋找與製造、醫療流程結合的合作機會；跨境資料要求仍需個別查核。",
-      "joyceQuestion": "這項工具解決哪個流程問題，誰願意為成果付費？",
+      "trendId": "wb-msme-data-collateral-20261024",
+      "headline": "供應鏈資料開始變成信用，數位化也要能改善融資",
+      "globalSignal": "世界銀行把交易、發票與付款紀錄視為中小企業的新抵押品；MSME 僱用開發中國家約 75% 勞工。",
+      "whyLeadersCare": "大企業掌握的訂單與驗收資料，可轉成供應商融資與韌性工具。",
+      "taiwanMeaning": "台灣大型企業可與金融機構設計供應鏈融資，但要同步處理資料同意、品質與用途限制。",
+      "joyceQuestion": "我們擁有哪些資料，可以降低供應商的資金成本？",
       "keepWatching": [
-        "付費續約",
-        "可驗證流程成效"
+        "供應鏈融資",
+        "資料品質與同意"
       ],
-      "aiLed": true
+      "aiLed": false
     }
   ],
   "perspectiveNote": {
-    "summary": "本週值得追問的是：當成長、信心與執行能力不同步，企業如何調整承諾？IMF 正式展望提醒韌性有成本；美國 CEO 信心下滑但投資意向仍在；IEA 把柴油與運費壓力拉回毛利；DDI 則指出信任與主管承載力的缺口。Joyce 的管理判讀是：把年度計畫拆成可驗證、可調整的承諾，讓資金、交期與主管工作量都有明確觸發點。AI 的兩個觀察焦點是透明標示實作與垂直流程價值。",
+    "summary": "本週的管理焦點不是再增加一份成長預測，而是把「可交付能力」放回董事會議程。世界銀行年會把 12 億青年進入勞動市場、僅約 4 億職缺的缺口，與民間資本、基礎建設及中小企業資料連在一起；IEA 的柴油與戰略儲備行動提醒供應安全仍會回到毛利；IMF 則把 AI 估值、債券殖利率、私募信貸與資安放在同一張金融穩定圖。Joyce 的判讀是：領導者要用「資本是否轉成工作與現金流、能源是否轉成可履約交期、AI 是否轉成可稽核成果」三個問題，檢查策略是否真的能落地。",
     "notes": [
-      "宏觀預測是情境起點，不能代替客戶訂單證據。",
-      "信心下降與資本支出維持可以同時成立，須分開判讀。",
-      "能源成本要追到產品線與合約條款。",
-      "信任調查是關聯證據；應以自身組織診斷驗證。",
-      "AI 合規與新創榜單各有不同證據邊界，不可當成成效保證。"
+      "海外成長的品質，要看是否形成在地能力與持續工作，而不只看資本支出。",
+      "資本動員的核心瓶頸是風險分配與可交付專案，不是資金總量。",
+      "能源政策可以爭取時間，企業仍需把成本傳導與交期責任做到產品線。",
+      "AI、融資與資安需要聯合壓力測試，不能分開治理。",
+      "AI 個人生產力與企業 EBIT 之間的差距，本質上是組織設計問題。"
     ],
     "discussionPrompts": [
-      "哪個假設一變，我們就必須重排資本支出？",
-      "市場突然失去流動性時，我們的備用資金能撐多久？",
-      "哪條產品線的成本上升最快，卻最慢調價？",
-      "我們如何知道前線理解並相信這項決策？",
-      "客戶說保守，究竟是延後付款、延後驗收，還是取消投資？"
+      "我們的海外成長，為當地創造了什麼可持續能力？",
+      "這個專案卡住的是資金、風險分配，還是執行能力？",
+      "哪條產品線最依賴政策緩衝，卻沒有自己的備案？",
+      "若 AI 訂單下修又遇到融資收緊，我們先失去哪一個緩衝？",
+      "哪一個流程即使每個人都更快，整體仍沒有更好？"
     ],
     "writingAngles": [
-      "〈景氣轉弱，客戶為何仍投資？〉",
-      "〈策略落不了地，先檢查承諾與信任〉",
-      "〈董事會需要的，是可以修正的年度計畫〉"
+      "〈資本不缺，為什麼好專案仍然稀缺？〉",
+      "〈海外投資的新 KPI：不只產能，還有在地能力〉",
+      "〈AI 人人都變快，公司為何沒有更賺錢？〉"
     ]
   },
   "categoryDefinitions": [
