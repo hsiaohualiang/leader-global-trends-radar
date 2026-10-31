@@ -1,42 +1,112 @@
 # 領導者全球趨勢雷達｜2026-10-31
 
-本週判讀：領導者應檢查策略假設如何轉成實際成本與執行能力。IEA 的油輪分析提醒企業看到岸成本；IMF 的財政與公司稅研究提醒海外投資不能只看優惠；DDI 與 Conference Board 則顯示信任、信心與實際投資並不會自動同步。Joyce 的核心問題是：每項成長承諾是否都有成本情境、負責主管與可查核成果？AI 是其中兩項治理與組織議題，不能取代整體經營視野。
+Joyce 觀點草稿：2027 年預算需要同時管理成本、需求與執行承諾。世界銀行最新展望提醒投入成本仍受衝擊，美國消費者信心雖回升，支出計畫卻仍審慎。領導團隊應把成長目標拆成可查核的訂單、毛利、現金與主管責任；海外投資及 AI 擴張也必須通過同一套交付檢驗。
 
-## 本週七則領導者必讀
+## 本週七則必讀
 
-1. **能源補貼不會永遠存在**：IMF 建議生活成本衝擊優先使用暫時、精準支持。企業應把能源支持延續、縮減、終止做成三種預算情境。[IMF October WEO](https://www.imf.org/en/Publications/WEO/Issues/2026/10/13/world-economic-outlook-october-2026)
-2. **能源成本要看到岸價**：IEA 指出航線改道與船舶周轉下降推升油輪運費，亞洲煉油利潤已受壓。採購與財務應共同管理運費、庫存資金與成本傳導。[IEA shipping analysis](https://www.iea.org/commentaries/the-soaring-cost-of-shipping-is-lifting-the-price-of-oil-for-consumers)
-3. **執行落差可能來自信任**：DDI 的跨國研究顯示前線對高階主管與直屬主管的信任偏低；這是關聯訊號，不是因果保證。變革排程應加入主管負荷與承諾完成率。[DDI Global Leadership Forecast 2027](https://www.ddi.com/research/global-leadership-forecast-2027/trust-in-the-workplace)
-4. **CEO 信心下降，投資未同步收縮**：Conference Board 的 Q4 調查顯示信心與資本支出意向分歧。台灣供應商要追核定預算、實際下單與驗收，而非只聽客戶語氣。[The Conference Board CEO Confidence](https://www.conference-board.org/topics/CEO-Confidence/)
-5. **海外布局應回到真實營運**：IMF 指出公司稅政策的結果取決於融資方式與反避稅規則。投資委員會應一起比較稅後現金流、電力、技能、物流與優惠期限。[IMF October WEO](https://www.imf.org/en/Publications/WEO/Issues/2026/10/13/world-economic-outlook-october-2026)
-6. **個人生產力不等於企業價值**：McKinsey 將 AI 回報瓶頸指向跨職能流程、責任與組織設計。企業應選一條端到端流程驗證 EBIT 或服務成果。[McKinsey organization research](https://www.mckinsey.com/capabilities/people-and-organization/our-insights/ai-is-changing-work-now-it-has-to-change-the-organization)
-7. **AI 透明義務要落到產品角色**：歐盟 Article 50 指引要求提供者與部署者釐清告知及標示責任。對歐產品需由產品、法務與稽核共同確認適用情境。[European Commission Article 50 guidelines](https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems)
+### 1. 商品價格壓力擴散：年度預算應分開測試能源、金屬與食品
 
-## Joyce 本週判讀
+世界銀行 10 月商品展望預測 2026 年整體商品價格上升 23%，並指出能源、金屬及糧食供應風險。這是全年預測，不是本週漲幅。
 
-- 把採購報價、到岸成本與現金占用放在一起，才能判斷毛利。
-- 把政策支持視為情境變數，避免用暫時優惠合理化長期投資。
-- CEO 信心是調查訊號；核定預算、訂單與驗收才是企業自己的證據。
-- 信任及主管容量應納入變革排程；調查關聯不等於績效因果。
-- AI 專案要同時交付流程成果與透明證據，並指定負責人。
+管理判讀：不同投入成本的方向與時點不一致，單一通膨假設會掩蓋產品組合的毛利差異。 管理建議：製造、食品與零售業應依實際採購權重重算毛利，並區分現貨、長約與庫存成本。
 
-## 新增與升溫主題
+Joyce 可追問：哪一項成本假設改變，會讓明年成長變成虧損？
 
-本週由 10/27 證據補充升級為正式週報，維持 378 張趨勢卡、25 類研究分類與六條不重複視角。10/28–10/30 查得的 EU–Canada EuroHPC 合作、Deloitte 工作重設觀點與歐洲 AI agent 資安市場訊號，先列為下週觀察；目前不足以取代七則核心必讀或形成新的跨來源確證。
+來源：[World Bank — Commodity Markets Outlook October 2026](https://www.worldbank.org/en/research/commodity-markets)（2026-10-28）
 
-## 六項下游學習機會
+### 2. 消費者信心回升，購買意願仍保守：別急著擴大備貨
 
-- 到岸成本與毛利情境演練
-- 海外投資與政策退場壓力測試
-- 從信任到變革交付
-- 從 CEO 信心到客戶投資訊號
-- AI 端到端流程價值
-- AI 透明治理的產品證據
+美國 10 月消費者信心升至 91.7，但未來六個月服務與耐久財支出計畫減少。調查期間為 10/1–21；情緒回升不能等同消費已復甦。
 
-## 驗證與人工確認缺口
+管理判讀：需求判斷要同時看意向、通路庫存與實際銷售，避免把總體情緒當成產品需求。 管理建議：出口品牌與代工企業可要求客戶提供終端銷售及補貨依據，再分批承諾產能。
 
-- Bloomberg、Financial Times、The Economist、CNBC 與 Sifted 的付費或摘要內容未作全文證據。
-- Reuters 本輪未取得可直接核對的本週原文；BBC 影音未核對逐字稿、觀看數及留言，因此不宣稱社群熱度。
-- DDI、Conference Board、McKinsey 等跨國調查不可直接當成台灣企業比例或因果證據。
-- IMF 跨境稅務與 EU AI 個案適用仍需稅務或法律專業確認。
-- Joyce 觀點為可直接審閱的編輯草稿。
+Joyce 可追問：客戶說信心回來了，實際補貨與終端銷售有跟上嗎？
+
+來源：[The Conference Board — October Consumer Confidence](https://www.conference-board.org/topics/consumer-confidence/)（2026-10-27）
+
+### 3. 能源成本要看到岸價：油輪運費正在侵蝕亞洲煉油利潤
+
+IEA 指出航線改道、轉運與船舶周轉下降推升油輪運費；9 月運輸成本上升使處理中東原油的亞洲煉油商利潤承壓。這是油輪市場訊號，不能直接等同貨櫃運價。
+
+管理判讀：原料報價下降也不保證到岸成本下降，採購與財務必須共同管理運輸及庫存資金。 管理建議：石化、製造與物流企業應向供應商確認燃料附加費、報價有效期與交貨責任。
+
+Joyce 可追問：我們追的是原料報價，還是含運費與資金的到岸成本？
+
+來源：[IEA — soaring cost of shipping](https://www.iea.org/commentaries/the-soaring-cost-of-shipping-is-lifting-the-price-of-oil-for-consumers)（2026-10-21）
+
+### 4. 執行落差可能來自信任，而非策略說明不足
+
+DDI 新研究中，基層員工信任高階領導者的比例為 21%，信任直屬主管為 25%。信任與決策落地呈關聯，不能解讀成因果保證。
+
+管理判讀：策略會議之後，應檢查主管是否有能力解釋取捨、接住疑慮與履行承諾。 管理建議：家族企業與轉型團隊可分層衡量信任，不用高階團隊感受代替前線經驗。
+
+Joyce 可追問：主管對前線做出的承諾，有多少真的完成？
+
+來源：[DDI Global Leadership Forecast 2027 — Trust](https://www.ddi.com/about/media/global-leadership-forecast-2027)（2026-10-14）
+
+### 5. 海外布局應回到真實營運：租稅誘因要連同融資與公共投資評估
+
+IMF 第三章討論公司稅政策的跨境影響，指出減稅如何融資會改變結果；反避稅規則也使利潤與實際活動更趨一致。此為研究結論，非個別國家稅務建議。
+
+管理判讀：選址若只比較名目稅率，會漏掉基礎建設、財政可持續性與實際投資條件。 管理建議：海外投資委員會可一起比較稅後現金流、電力、技能與物流，個案交由稅務顧問核對。
+
+Joyce 可追問：拿掉租稅優惠後，這個據點仍具競爭力嗎？
+
+來源：[IMF October WEO — corporate taxation](https://www.imf.org/en/Publications/WEO/Issues/2026/10/13/world-economic-outlook-october-2026)（2026-10-13）
+
+### 6. AI 擴大使用之前，董事會先確立風險承擔與生命週期責任
+
+FSB 10/15 發布金融機構負責任採用 AI 的最終實務報告，涵蓋董事會責任、生命週期風險、人工監督與第三方依賴。本週重讀既有報告，並非新法律。
+
+管理判讀：導入核准之後仍需持續驗證品質與依賴風險，不能把責任一次交給供應商。 管理建議：金融業可對照既有治理制度；其他產業僅作管理參考，先挑高影響流程建立負責人與停用條件。
+
+Joyce 可追問：AI 供應商停機時，誰有權接管、停用與通知客戶？
+
+來源：[FSB — Sound Practices for Responsible Adoption of AI](https://www.fsb.org/2026/10/fsb-finalises-sound-practices-for-the-responsible-adoption-of-artificial-intelligence-ai/)（2026-10-15）
+
+### 7. AI 透明義務要落到產品角色與使用情境
+
+歐盟 7 月發布 Article 50 指引，協助 AI 系統提供者及部署者理解自 8 月 2 日適用的透明義務。本次重讀既有指引，並非本週新增法規。
+
+管理判讀：簽署原則還不夠，必須釐清誰負責告知使用者、標示內容與保留交付證據。 管理建議：對歐產品團隊應逐一盤點互動介面及生成內容，由法務確認義務、例外與實際角色。
+
+Joyce 可追問：AI 告知與標示由誰驗收，證據放在哪裡？
+
+來源：[European Commission — Article 50 guidelines](https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems)（2026-07-20）
+
+## Joyce 判讀（編輯草稿）
+
+- 成本情境要落到產品毛利，不用整體物價取代企業實際採購組合。
+- 信心、購買意向、終端銷售分開看；補貨與產能承諾採分段驗證。
+- 運費、租稅優惠與公共設施都會改變投資回收，不能只看名目價格。
+- 保留主管回應前線疑慮的時間，並追蹤承諾完成率；調查關聯不是因果保證。
+- AI 擴張同時交付責任表、接管演練與透明證據；歐洲新創資金與人才壓力暫列弱訊號。
+
+## 新增或升溫
+
+新增商品成本、消費意向、AI 生命週期治理三張研究卡，以及歐洲新創人才／資金一張弱訊號卡；既有重點沿用原卡，避免每週複製。
+
+## 下游學習機會
+
+- 年度預算與到岸成本壓力測試：投入成本三情境、到岸成本拆解、毛利觸發門檻
+- 海外投資與政策退場壓力測試：據點可行性、政策退場情境、資本支出階段門檻
+- 從信任到變革交付：分層信任診斷、承諾追蹤、主管負荷取捨
+- 從消費信心到補貨決策：情緒與消費意向區分、終端銷售對帳、分批補貨門檻
+- AI 生命週期責任與人工接管：用例責任清冊、供應商中斷演練、停用與人工接管
+- AI 透明治理的產品證據：適用角色盤點、介面告知抽查、證據與例外紀錄
+
+## 查核範圍與待確認
+
+- Joyce 觀點為編輯草稿，待 Joyce 確認後可署名採用。
+- 本週新增兩項核心經濟訊號；IEA、DDI、IMF、FSB 與歐盟透明指引為既有資料重讀，日期保留原值。
+- 世界銀行 10/30 八圖文章有年份及金屬漲幅內文不一致；本報只採官方主頁與報告索引一致支持的整體商品 23% 預測，細項數值待原表核對。
+- FT 僅核對 10/30 市場與 AI 支出標題；Sifted 僅公開摘要，未取付費全文、調查樣本或比例。
+- BBC 官方頁 robots 阻擋；搜尋返回非官方鏡像未採用。CNBC 活動與 IMF 影音頁僅作題材線索，未核對逐字稿或社群互動。
+- Reuters 能源報導取得授權轉載線索；Economist 本次無可讀正文，Bloomberg 為公開摘要，未據此新增定量主張。
+- Stanford、OECD、BIS、PwC、Deloitte 與 McKinsey 作背景基準，不改標為本週新發布。調查不能直接套用台灣；跨境稅務及歐盟義務的個案適用仍需專業確認。
+
+## 驗證與發布
+
+資料檢查通過：382 張趨勢卡、155 組來源、25 類、7 則必讀（2 則 AI）、6 項學習機會。JS 語法、差異空白與 site/docs 一致性檢查通過；DOM 模擬逐一驗證全部趨勢卡、必讀與學習詳情的來源連結，以及六條主線不重複、最新歷史週報可呈現。保留 10/27 與更早週報，新增一份 10/31 快照。未做完整瀏覽器視覺回歸或所有歷史連結的網路可用性檢查。
+
+發布狀態：本機內容完成，遠端部署尚待推送與線上核對。另發現同日既有暫存草稿與帶「 2」的摘要副本，保留副本不刪除；正式版採本次已查核資料。
