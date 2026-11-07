@@ -1,6 +1,498 @@
 window.LEADER_TREND_HISTORY = {
-  "generated_at": "2026-10-31",
+  "generated_at": "2026-11-07",
   "reports": [
+    {
+      "id": "2026-11-07",
+      "date": "2026-11-07",
+      "label": "2026-11-07 完整週報",
+      "status": "complete",
+      "summary": "Joyce 觀點草稿：本週領導議題不是預測單一景氣方向，而是確認企業是否有能力在能源、需求與技術同時變動時快速重配資源。歐洲低庫存與全球 LNG 競價提醒企業把供應彈性寫進預算；製造轉型要先成為可融資、可驗收的投資案；AI 則應把高階主管的判斷標準轉成組織可用、可質疑、可追責的決策系統。",
+      "interpretation": [
+        "能源安全不能只看單價；合約彈性、庫存、替代燃料與現金占用要一起進入董事會情境。",
+        "轉型計畫先定義客戶證據、認證、技能與驗收，再決定技術及資本支出規模。",
+        "信心、訂單與終端銷售仍要分開看；採分段承諾，避免在不確定需求下過度備貨。",
+        "組織改變的速度受信任與主管容量限制，承諾完成率比溝通場次更接近執行品質。",
+        "AI 應放大可說明的判斷，不應把高階責任藏進模型；對歐產品同步留下透明與覆核證據。"
+      ],
+      "discussionPrompts": [
+        "能源供應彈性如何同時影響毛利、交期與現金？",
+        "我們的轉型計畫有哪些可核對的客戶、認證與現金成果？",
+        "客戶說信心回來了，實際補貨與終端銷售有跟上嗎？",
+        "主管對前線做出的承諾，有多少真的完成？",
+        "拿掉租稅優惠後，這個據點仍具競爭力嗎？"
+      ],
+      "mustReads": [
+        {
+          "id": "read-20261107-1",
+          "rank": 1,
+          "trendId": "iea-gas-security-20261107",
+          "headline": "全球天然氣市場的彈性正在變貴：把冬季供應壓力寫進預算",
+          "globalSignal": "IEA 指出歐盟以十多年來最低的天然氣庫存進入供暖季，2026 年全球 LNG 供給預估減少 3%，亞洲與歐洲可能競逐有限的彈性貨源。此為基準情境，不代表所有買方價格必然同幅上升。",
+          "whyLeadersCare": "管理判讀：能源合約的彈性、庫存與替代燃料能力，已同時影響毛利、交期與營運持續性。",
+          "taiwanMeaning": "管理建議：台灣製造、石化與高耗能企業應把冬季現貨溢價、供應中斷與燃料切換納入採購及現金流壓力測試。",
+          "joyceQuestion": "能源供應彈性如何同時影響毛利、交期與現金？",
+          "keepWatching": [
+            "歐洲庫存水位",
+            "亞洲現貨 LNG 溢價",
+            "彈性貨源與替代燃料能力"
+          ],
+          "aiLed": false,
+          "sourceName": "IEA — Global Gas Security Review 2026",
+          "sourceUrl": "https://www.iea.org/news/low-storage-buffers-in-europe-could-prolong-global-gas-market-tightness-well-into-2027"
+        },
+        {
+          "id": "read-20261107-2",
+          "rank": 2,
+          "trendId": "wb-investment-ready-20261107",
+          "headline": "製造轉型先做成可融資、可驗收的投資案",
+          "globalSignal": "世界銀行核准 4.85 億美元專案，協助中小製造商建立轉型路線、認證與可融資投資計畫，再以長期資金支持數位、低碳與追溯能力。專案成效數字為預期值，尚非已實現結果。",
+          "whyLeadersCare": "管理判讀：轉型成敗不只取決於技術選型，而在於投資案是否有基準線、驗收條件、資金安排與技能升級。",
+          "taiwanMeaning": "管理建議：台灣供應鏈企業可把客戶認證、碳與追溯要求轉成分期投資案，以訂單證據及里程碑決定擴大資本支出。",
+          "joyceQuestion": "我們的轉型計畫有哪些可核對的客戶、認證與現金成果？",
+          "keepWatching": [
+            "客戶認證要求",
+            "可融資投資計畫",
+            "技能與追溯里程碑"
+          ],
+          "aiLed": false,
+          "sourceName": "World Bank — Türkiye Digital Transformation Project",
+          "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/10/27/turkiye-strengthens-industrial-competitiveness-and-job-creation-through-digital-tr"
+        },
+        {
+          "id": "read-20261107-3",
+          "rank": 3,
+          "trendId": "consumer-intention-20261031",
+          "headline": "消費者信心回升，購買意願仍保守：別急著擴大備貨",
+          "globalSignal": "美國 10 月消費者信心升至 91.7，但未來六個月服務與耐久財支出計畫減少。調查期間為 10/1–21；情緒回升不能等同消費已復甦。",
+          "whyLeadersCare": "管理判讀：需求判斷要同時看意向、通路庫存與實際銷售，避免把總體情緒當成產品需求。",
+          "taiwanMeaning": "管理建議：出口品牌與代工企業可要求客戶提供終端銷售及補貨依據，再分批承諾產能。",
+          "joyceQuestion": "客戶說信心回來了，實際補貨與終端銷售有跟上嗎？",
+          "keepWatching": [
+            "終端銷售",
+            "通路庫存週數",
+            "補貨訂單取消率"
+          ],
+          "aiLed": false,
+          "sourceName": "The Conference Board — October Consumer Confidence",
+          "sourceUrl": "https://www.conference-board.org/topics/consumer-confidence/"
+        },
+        {
+          "id": "read-20261107-4",
+          "rank": 4,
+          "trendId": "trust-20261017",
+          "headline": "執行落差可能來自信任，而非策略說明不足",
+          "globalSignal": "DDI 新研究中，基層員工信任高階領導者的比例為 21%，信任直屬主管為 25%。信任與決策落地呈關聯，不能解讀成因果保證。",
+          "whyLeadersCare": "管理判讀：策略會議之後，應檢查主管是否有能力解釋取捨、接住疑慮與履行承諾。",
+          "taiwanMeaning": "管理建議：家族企業與轉型團隊可分層衡量信任，不用高階團隊感受代替前線經驗。",
+          "joyceQuestion": "主管對前線做出的承諾，有多少真的完成？",
+          "keepWatching": [
+            "分層信任差距",
+            "承諾完成率"
+          ],
+          "aiLed": false,
+          "sourceName": "DDI Global Leadership Forecast 2027 — Trust",
+          "sourceUrl": "https://www.ddi.com/about/media/global-leadership-forecast-2027"
+        },
+        {
+          "id": "read-20261107-5",
+          "rank": 5,
+          "trendId": "imf-real-investment-tax-20261027",
+          "headline": "海外布局應回到真實營運：優惠不能取代交付條件",
+          "globalSignal": "IMF 第三章討論公司稅政策的跨境影響，指出減稅如何融資會改變結果；反避稅規則也使利潤與實際活動更趨一致。此為研究結論，非個別國家稅務建議。",
+          "whyLeadersCare": "管理判讀：選址若只比較名目稅率，會漏掉基礎建設、財政可持續性與實際投資條件。",
+          "taiwanMeaning": "管理建議：海外投資委員會可一起比較稅後現金流、電力、技能與物流，個案交由稅務顧問核對。",
+          "joyceQuestion": "拿掉租稅優惠後，這個據點仍具競爭力嗎？",
+          "keepWatching": [
+            "投資誘因期限",
+            "公共基礎設施供給",
+            "實際營運配置"
+          ],
+          "aiLed": false,
+          "sourceName": "IMF October WEO — corporate taxation",
+          "sourceUrl": "https://www.imf.org/en/Publications/WEO/Issues/2026/10/13/world-economic-outlook-october-2026"
+        },
+        {
+          "id": "read-20261107-6",
+          "rank": 6,
+          "trendId": "mckinsey-ceo-judgment-20261107",
+          "headline": "把 CEO 判斷轉成組織能力，但保留挑戰與最終責任",
+          "globalSignal": "McKinsey 提出 AI 可協助 CEO 將隱性判斷、優先順序與品質標準轉成組織可反覆使用的決策支援。這是管理觀點與方法建議，不是經驗性 ROI 保證。",
+          "whyLeadersCare": "管理判讀：若只讓高階主管個人提速，組織仍無法複製決策品質；真正價值在於標準可被使用、挑戰與修正。",
+          "taiwanMeaning": "管理建議：企業主與接班團隊可先選一類重複決策，明確記錄判準、例外、證據與最終責任，不把 AI 建議當成授權。",
+          "joyceQuestion": "哪些決策標準可以制度化，哪些必須保留人的判斷？",
+          "keepWatching": [
+            "決策標準覆用率",
+            "例外與覆核紀錄",
+            "決策前置時間"
+          ],
+          "aiLed": true,
+          "sourceName": "McKinsey — Turning executive judgment into organizational intelligence",
+          "sourceUrl": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/turning-executive-judgment-into-organizational-intelligence-leveraging-ai-in-ceo-leadership"
+        },
+        {
+          "id": "read-20261107-7",
+          "rank": 7,
+          "trendId": "eu-transparency-roles-20261027",
+          "headline": "AI 透明義務要落到產品角色與使用情境",
+          "globalSignal": "歐盟 7 月發布 Article 50 指引，協助 AI 系統提供者及部署者理解自 8 月 2 日適用的透明義務。本次重讀既有指引，並非本週新增法規。",
+          "whyLeadersCare": "管理判讀：簽署原則還不夠，必須釐清誰負責告知使用者、標示內容與保留交付證據。",
+          "taiwanMeaning": "管理建議：對歐產品團隊應逐一盤點互動介面及生成內容，由法務確認義務、例外與實際角色。",
+          "joyceQuestion": "AI 告知與標示由誰驗收，證據放在哪裡？",
+          "keepWatching": [
+            "使用者告知流程",
+            "生成內容標示",
+            "提供者與部署者責任"
+          ],
+          "aiLed": true,
+          "sourceName": "European Commission — Article 50 guidelines",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems"
+        }
+      ],
+      "risingThemes": [
+        {
+          "title": "歐洲低庫存可能把全球天然氣緊張延長至 2027：採購彈性要進入董事會情境",
+          "reason": "IEA 指出歐盟以十多年來最低的天然氣庫存進入供暖季，2026 年全球 LNG 供給預估減少 3%，亞洲與歐洲可能競逐有限的彈性貨源。此為基準情境，不代表所有買方價格必然同幅上升。",
+          "taiwanMeaning": "管理建議：台灣製造、石化與高耗能企業應把冬季現貨溢價、供應中斷與燃料切換納入採購及現金流壓力測試。"
+        },
+        {
+          "title": "製造轉型先做成可融資專案：技術、認證、追溯與人才要一起驗收",
+          "reason": "世界銀行核准 4.85 億美元專案，協助中小製造商建立轉型路線、認證與可融資投資計畫，再以長期資金支持數位、低碳與追溯能力。專案成效數字為預期值，尚非已實現結果。",
+          "taiwanMeaning": "管理建議：台灣供應鏈企業可把客戶認證、碳與追溯要求轉成分期投資案，以訂單證據及里程碑決定擴大資本支出。"
+        },
+        {
+          "title": "AI 的 CEO 用例不是替代判斷，而是把決策標準變成組織能力",
+          "reason": "McKinsey 提出 AI 可協助 CEO 將隱性判斷、優先順序與品質標準轉成組織可反覆使用的決策支援。這是管理觀點與方法建議，不是經驗性 ROI 保證。",
+          "taiwanMeaning": "管理建議：企業主與接班團隊可先選一類重複決策，明確記錄判準、例外、證據與最終責任，不把 AI 建議當成授權。"
+        },
+        {
+          "title": "能源上漲、金屬回落：總體通膨方向不能取代企業自己的成本組合",
+          "reason": "世界銀行 11 月資料顯示，10 月能源價格指數上升 7.1%，金屬下跌 3.0%，農產品下跌 1.3%。這是月度變動，與全年商品價格預測的期間不同。",
+          "taiwanMeaning": "管理建議：製造、食品與零售企業應依能源、金屬、農產原料權重及合約調價時點，重算產品別毛利。"
+        },
+        {
+          "title": "AI 訂單熱度之外：董事會要看客戶融資、循環投資與風險集中",
+          "reason": "BIS 官員指出，AI 過度投資、複雜債務與循環投資關係可能遮蔽風險集中；自主金融交易也帶來技術、法律與政策問題。這是講者觀點，不代表危機已發生或形成新監管要求。",
+          "taiwanMeaning": "管理建議：AI 伺服器、零組件及資料中心供應商應把訂單、付款條件、融資來源與擴產承諾放在同一張風險關係圖。"
+        }
+      ],
+      "learningOpportunities": [
+        {
+          "id": "learning-20261107-1",
+          "title": "能源採購與營運持續情境",
+          "category": "地緣政治與供應鏈",
+          "priority": 1,
+          "heat": 96,
+          "confidence": "A",
+          "trendIds": [
+            "iea-gas-security-20261107",
+            "iea-delivered-cost-20261027",
+            "imf-fiscal-buffer-20261027"
+          ],
+          "targetAudience": "CFO、COO、採購與廠務主管",
+          "whyNow": "管理判讀：能源風險已從單價升級為庫存、彈性貨源、替代燃料與現金占用的聯合問題。",
+          "teacherProfile": "具有跨部門決策與實際案例的企業主管，搭配相關財務、組織或法務專家；邀請前確認案例授權。",
+          "productStructure": [
+            "冬季能源三情境",
+            "採購與庫存觸發點",
+            "毛利與交付應變"
+          ],
+          "copywriting": "帶入企業案例，完成冬季能源三情境、採購與庫存觸發點、毛利與交付應變。",
+          "openingFormat": "半天案例工作坊＋30 天行動追蹤",
+          "sourceBasis": [
+            "IEA — Global Gas Security Review 2026",
+            "IEA — soaring cost of shipping",
+            "IMF October WEO — fiscal buffers"
+          ]
+        },
+        {
+          "id": "learning-20261107-2",
+          "title": "可融資的製造轉型投資案",
+          "category": "產業與商業模式",
+          "priority": 2,
+          "heat": 95,
+          "confidence": "A",
+          "trendIds": [
+            "wb-investment-ready-20261107",
+            "wb-private-capital-jobs-20261024",
+            "mckinsey-org-readiness-20261024"
+          ],
+          "targetAudience": "CEO、CFO、營運與數位轉型主管",
+          "whyNow": "管理判讀：轉型需要把客戶證據、認證、技能與資金安排變成同一組可驗收里程碑。",
+          "teacherProfile": "具有跨部門決策與實際案例的企業主管，搭配相關財務、組織或法務專家；邀請前確認案例授權。",
+          "productStructure": [
+            "投資基準線",
+            "認證與技能里程碑",
+            "分期資本支出"
+          ],
+          "copywriting": "帶入企業案例，完成投資基準線、認證與技能里程碑、分期資本支出。",
+          "openingFormat": "半天案例工作坊＋30 天行動追蹤",
+          "sourceBasis": [
+            "World Bank — Türkiye Digital Transformation Project",
+            "World Bank 2026 Annual Meetings Highlights",
+            "McKinsey — AI is changing work"
+          ]
+        },
+        {
+          "id": "learning-20261107-3",
+          "title": "從信心到補貨的需求驗證",
+          "category": "產業與商業模式",
+          "priority": 3,
+          "heat": 94,
+          "confidence": "A",
+          "trendIds": [
+            "consumer-intention-20261031",
+            "confidence-20261017",
+            "wb-cost-budget-20261031"
+          ],
+          "targetAudience": "CEO、業務、供應鏈與策略主管",
+          "whyNow": "管理判讀：信心回升不等於購買與補貨同步回升，產能承諾需要終端證據。",
+          "teacherProfile": "具有跨部門決策與實際案例的企業主管，搭配相關財務、組織或法務專家；邀請前確認案例授權。",
+          "productStructure": [
+            "情緒與訂單區分",
+            "終端銷售對帳",
+            "分批補貨門檻"
+          ],
+          "copywriting": "帶入企業案例，完成情緒與訂單區分、終端銷售對帳、分批補貨門檻。",
+          "openingFormat": "半天案例工作坊＋30 天行動追蹤",
+          "sourceBasis": [
+            "The Conference Board — October Consumer Confidence",
+            "The Conference Board Q4 CEO Confidence",
+            "World Bank — Commodity Markets Outlook October 2026"
+          ]
+        },
+        {
+          "id": "learning-20261107-4",
+          "title": "從信任到變革交付",
+          "category": "組織與人才",
+          "priority": 4,
+          "heat": 93,
+          "confidence": "A",
+          "trendIds": [
+            "trust-20261017",
+            "capacity-20261017",
+            "mckinsey-org-readiness-20261024"
+          ],
+          "targetAudience": "CEO、CHRO、中階主管",
+          "whyNow": "管理判讀：組織執行力取決於主管能否解釋取捨、接住疑慮並履行承諾。",
+          "teacherProfile": "具有跨部門決策與實際案例的企業主管，搭配相關財務、組織或法務專家；邀請前確認案例授權。",
+          "productStructure": [
+            "分層信任診斷",
+            "承諾完成率",
+            "主管容量取捨"
+          ],
+          "copywriting": "帶入企業案例，完成分層信任診斷、承諾完成率、主管容量取捨。",
+          "openingFormat": "半天案例工作坊＋30 天行動追蹤",
+          "sourceBasis": [
+            "DDI Global Leadership Forecast 2027 — Trust",
+            "DDI GLF 2027 release",
+            "McKinsey — AI is changing work"
+          ]
+        },
+        {
+          "id": "learning-20261107-5",
+          "title": "CEO 判斷的制度化與覆核",
+          "category": "科技與AI轉型",
+          "priority": 5,
+          "heat": 92,
+          "confidence": "A",
+          "trendIds": [
+            "mckinsey-ceo-judgment-20261107",
+            "fsb-ai-lifecycle-20261031",
+            "mckinsey-org-readiness-20261024"
+          ],
+          "targetAudience": "企業主、CEO、接班團隊與策略主管",
+          "whyNow": "管理判讀：AI 的高階價值在於把判斷標準變成組織資產，同時保留異議、例外與最終責任。",
+          "teacherProfile": "具有跨部門決策與實際案例的企業主管，搭配相關財務、組織或法務專家；邀請前確認案例授權。",
+          "productStructure": [
+            "決策判準庫",
+            "例外與覆核紀錄",
+            "責任邊界"
+          ],
+          "copywriting": "帶入企業案例，完成決策判準庫、例外與覆核紀錄、責任邊界。",
+          "openingFormat": "半天案例工作坊＋30 天行動追蹤",
+          "sourceBasis": [
+            "McKinsey — Turning executive judgment into organizational intelligence",
+            "FSB — Sound Practices for Responsible Adoption of AI",
+            "McKinsey — AI is changing work"
+          ]
+        },
+        {
+          "id": "learning-20261107-6",
+          "title": "AI 透明治理的產品證據",
+          "category": "治理與社會信任",
+          "priority": 6,
+          "heat": 91,
+          "confidence": "A",
+          "trendIds": [
+            "eu-transparency-roles-20261027",
+            "eu-20261017",
+            "eu-ai-enforcement-timeline-20261024"
+          ],
+          "targetAudience": "法務、產品、資訊與稽核主管",
+          "whyNow": "管理判讀：歐盟透明要求已進入可執法階段，產品角色、告知與標示證據要能被抽查。",
+          "teacherProfile": "具有跨部門決策與實際案例的企業主管，搭配相關財務、組織或法務專家；邀請前確認案例授權。",
+          "productStructure": [
+            "適用角色盤點",
+            "介面告知抽查",
+            "證據與例外紀錄"
+          ],
+          "copywriting": "帶入企業案例，完成適用角色盤點、介面告知抽查、證據與例外紀錄。",
+          "openingFormat": "半天案例工作坊＋30 天行動追蹤",
+          "sourceBasis": [
+            "European Commission — Article 50 guidelines",
+            "European Commission — Transparency Task Forces",
+            "European Commission AI Act enforcement framework"
+          ]
+        }
+      ],
+      "metrics": {
+        "trends": 387,
+        "sources": 160,
+        "highConfidence": 229,
+        "hotSignals": 366
+      },
+      "gaps": [
+        "Joyce 觀點為編輯草稿，待 Joyce 確認後可署名採用。",
+        "IEA 天然氣展望採用官方基準情境；實際價格仍受天候、技術中斷、合約與地區差異影響。",
+        "世界銀行專案的就業、民間資本與企業支持數字是預期成果，不是已實現成效。",
+        "McKinsey 的 CEO AI 文章屬管理觀點，未提供可泛化的 ROI 因果證據。",
+        "Reuters 本輪未取得可直接核對的本週原文；Bloomberg、FT、Economist、CNBC、Sifted 的付費或摘要內容未作核心定量證據。",
+        "BBC 與影音弱訊號未核對完整逐字稿、觀看數或留言，因此不宣稱社群熱度。",
+        "歐盟 AI 義務的個案適用仍需法律專業確認；跨國調查不應直接當成台灣企業比例或因果估計。"
+      ],
+      "sourceLinks": [
+        {
+          "name": "IEA — Global Gas Security Review 2026",
+          "url": "https://www.iea.org/news/low-storage-buffers-in-europe-could-prolong-global-gas-market-tightness-well-into-2027"
+        },
+        {
+          "name": "World Bank — Türkiye Digital Transformation Project",
+          "url": "https://www.worldbank.org/en/news/press-release/2026/10/27/turkiye-strengthens-industrial-competitiveness-and-job-creation-through-digital-tr"
+        },
+        {
+          "name": "The Conference Board — October Consumer Confidence",
+          "url": "https://www.conference-board.org/topics/consumer-confidence/"
+        },
+        {
+          "name": "DDI Global Leadership Forecast 2027 — Trust",
+          "url": "https://www.ddi.com/about/media/global-leadership-forecast-2027"
+        },
+        {
+          "name": "IMF October WEO — corporate taxation",
+          "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/10/13/world-economic-outlook-october-2026"
+        },
+        {
+          "name": "McKinsey — Turning executive judgment into organizational intelligence",
+          "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/turning-executive-judgment-into-organizational-intelligence-leveraging-ai-in-ceo-leadership"
+        },
+        {
+          "name": "European Commission — Article 50 guidelines",
+          "url": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems"
+        }
+      ],
+      "categoryCounts": [
+        {
+          "name": "AI投資ROI",
+          "count": 61
+        },
+        {
+          "name": "AI成本治理",
+          "count": 28
+        },
+        {
+          "name": "AI基礎建設與資料中心",
+          "count": 78
+        },
+        {
+          "name": "資本市場與金融風險",
+          "count": 97
+        },
+        {
+          "name": "Agentic AI與流程自動化",
+          "count": 22
+        },
+        {
+          "name": "資料治理與AI-ready",
+          "count": 51
+        },
+        {
+          "name": "AI規模化落地",
+          "count": 59
+        },
+        {
+          "name": "高階幕僚與決策智能",
+          "count": 46
+        },
+        {
+          "name": "AI信任與透明度",
+          "count": 86
+        },
+        {
+          "name": "董事會AI治理",
+          "count": 75
+        },
+        {
+          "name": "資安與數位韌性",
+          "count": 38
+        },
+        {
+          "name": "EU AI監管與合規",
+          "count": 49
+        },
+        {
+          "name": "地緣政治與能源風險",
+          "count": 104
+        },
+        {
+          "name": "全球低成長與通膨",
+          "count": 74
+        },
+        {
+          "name": "關稅貿易與區域布局",
+          "count": 58
+        },
+        {
+          "name": "印度與新興市場",
+          "count": 21
+        },
+        {
+          "name": "供應鏈韌性",
+          "count": 83
+        },
+        {
+          "name": "AI供應鏈與半導體",
+          "count": 54
+        },
+        {
+          "name": "歐洲AI產業政策",
+          "count": 49
+        },
+        {
+          "name": "新創與生態系合作",
+          "count": 43
+        },
+        {
+          "name": "未來工作與人機協作",
+          "count": 67
+        },
+        {
+          "name": "人才重配置與再學習",
+          "count": 59
+        },
+        {
+          "name": "CEO經營節奏與風險雷達",
+          "count": 121
+        },
+        {
+          "name": "領導力接班與心理安全",
+          "count": 57
+        },
+        {
+          "name": "高階學習產品與內容設計",
+          "count": 31
+        }
+      ]
+    },
     {
       "id": "2026-10-31",
       "date": "2026-10-31",

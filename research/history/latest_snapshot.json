@@ -1,45 +1,45 @@
 {
-  "recorded_at": "2026-10-31T12:03:47.908Z",
-  "generated_at": "2026-10-31",
-  "next_review": "2026-11-07 20:00 Asia/Taipei",
-  "trend_count": 382,
+  "recorded_at": "2026-11-07T12:05:40.604Z",
+  "generated_at": "2026-11-07",
+  "next_review": "2026-11-14 20:00 Asia/Taipei",
+  "trend_count": 387,
   "recommendation_count": 6,
-  "source_count": 155,
+  "source_count": 160,
   "category_count": 25,
   "category_counts": {
-    "AI投資ROI": 59,
+    "AI投資ROI": 61,
     "AI成本治理": 28,
-    "AI基礎建設與資料中心": 77,
-    "資本市場與金融風險": 96,
+    "AI基礎建設與資料中心": 78,
+    "資本市場與金融風險": 97,
     "Agentic AI與流程自動化": 22,
     "資料治理與AI-ready": 51,
-    "AI規模化落地": 58,
+    "AI規模化落地": 59,
     "高階幕僚與決策智能": 46,
     "AI信任與透明度": 88,
-    "董事會AI治理": 74,
+    "董事會AI治理": 75,
     "資安與數位韌性": 38,
     "EU AI監管與合規": 49,
-    "地緣政治與能源風險": 102,
-    "全球低成長與通膨": 72,
-    "關稅貿易與區域布局": 57,
-    "印度與新興市場": 20,
-    "供應鏈韌性": 81,
+    "地緣政治與能源風險": 104,
+    "全球低成長與通膨": 74,
+    "關稅貿易與區域布局": 58,
+    "印度與新興市場": 21,
+    "供應鏈韌性": 83,
     "AI供應鏈與半導體": 54,
     "歐洲AI產業政策": 49,
     "新創與生態系合作": 44,
     "未來工作與人機協作": 67,
-    "人才重配置與再學習": 58,
-    "CEO經營節奏與風險雷達": 118,
-    "領導力接班與心理安全": 56,
+    "人才重配置與再學習": 59,
+    "CEO經營節奏與風險雷達": 121,
+    "領導力接班與心理安全": 57,
     "高階學習產品與內容設計": 31
   },
   "parent_category_counts": {
-    "CEO經營環境": 70,
-    "產業與商業模式": 5,
-    "科技與AI轉型": 61,
-    "地緣政治與供應鏈": 58,
+    "地緣政治與供應鏈": 59,
+    "產業與商業模式": 6,
+    "科技與AI轉型": 62,
+    "CEO經營環境": 71,
+    "全球經濟與資本市場": 26,
     "治理與社會信任": 8,
-    "全球經濟與資本市場": 25,
     "組織與人才": 60,
     "AI治理與社會信任": 2,
     "科技與AI": 3,
@@ -47,12 +47,16 @@
     "新創與生態系合作": 33
   },
   "confidence_counts": {
-    "A": 225,
-    "C": 14,
-    "B": 143
+    "A": 229,
+    "B": 144,
+    "C": 14
   },
   "source_type_counts": {
-    "官方資料／一手研究": 14,
+    "官方資料／一手研究": 15,
+    "官方資料／一手專案": 1,
+    "顧問研究／管理觀點": 1,
+    "官方資料／一手數據": 1,
+    "官方機構演講／講者觀點": 1,
     "國際媒體／待核全文": 1,
     "官方資料／一手整理": 3,
     "官方能源安全聲明": 1,
@@ -226,6 +230,13 @@
   },
   "top_hot_trends": [
     {
+      "id": "iea-gas-security-20261107",
+      "title": "歐洲低庫存可能把全球天然氣緊張延長至 2027：採購彈性要進入董事會情境",
+      "category": "地緣政治與供應鏈",
+      "heat": 99,
+      "confidence": "A"
+    },
+    {
       "id": "wb-jobs-gap-20261024",
       "title": "全球就業缺口成為成長與社會穩定的共同壓力測試",
       "category": "CEO經營環境",
@@ -287,57 +298,50 @@
       "category": "AI信任與透明度",
       "heat": 99,
       "confidence": "A"
-    },
-    {
-      "id": "mckinsey-agentic-ai-workflow-coordination-tax-20260919",
-      "title": "McKinsey 指出 agentic AI 的價值卡在 workflow handoff 與協調稅",
-      "category": "組織與人才",
-      "heat": 99,
-      "confidence": "A"
     }
   ],
   "recommended_courses": [
     {
-      "id": "learning-20261031-1",
-      "title": "年度預算與到岸成本壓力測試",
+      "id": "learning-20261107-1",
+      "title": "能源採購與營運持續情境",
       "priority": 1,
       "category": "地緣政治與供應鏈",
+      "heat": 96
+    },
+    {
+      "id": "learning-20261107-2",
+      "title": "可融資的製造轉型投資案",
+      "priority": 2,
+      "category": "產業與商業模式",
       "heat": 95
     },
     {
-      "id": "learning-20261031-2",
-      "title": "海外投資與政策退場壓力測試",
-      "priority": 2,
+      "id": "learning-20261107-3",
+      "title": "從信心到補貨的需求驗證",
+      "priority": 3,
       "category": "產業與商業模式",
       "heat": 94
     },
     {
-      "id": "learning-20261031-3",
+      "id": "learning-20261107-4",
       "title": "從信任到變革交付",
-      "priority": 3,
+      "priority": 4,
       "category": "組織與人才",
       "heat": 93
     },
     {
-      "id": "learning-20261031-4",
-      "title": "從消費信心到補貨決策",
-      "priority": 4,
-      "category": "產業與商業模式",
+      "id": "learning-20261107-5",
+      "title": "CEO 判斷的制度化與覆核",
+      "priority": 5,
+      "category": "科技與AI轉型",
       "heat": 92
     },
     {
-      "id": "learning-20261031-5",
-      "title": "AI 生命週期責任與人工接管",
-      "priority": 5,
-      "category": "科技與AI轉型",
-      "heat": 91
-    },
-    {
-      "id": "learning-20261031-6",
+      "id": "learning-20261107-6",
       "title": "AI 透明治理的產品證據",
       "priority": 6,
       "category": "治理與社會信任",
-      "heat": 90
+      "heat": 91
     }
   ]
 }
