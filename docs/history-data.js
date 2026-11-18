@@ -1,6 +1,27 @@
 window.LEADER_TREND_HISTORY = {
-  "generated_at": "2026-11-07",
+  "generated_at": "2026-11-18",
   "reports": [
+    {
+      "id": "2026-11-18",
+      "date": "2026-11-18",
+      "label": "2026-11-18 完整週報",
+      "status": "complete",
+      "summary": "Joyce 觀點草稿：本週的關鍵不是追逐單一成長敘事，而是把韌性從備案改成可管理的營運能力。能源與原物料衝擊會穿透到交期、毛利與客戶承諾；CEO 同時要守住資本支出與人力節奏。AI 的治理焦點則從是否採用，轉為融資結構、第三方依賴與可被查核的責任。",
+      "interpretation": ["能源中斷的復原時間、備援與客戶承諾，應和資本支出一起被董事會審查。", "成本需以能源、金屬、物流與營運資金的交叉情境管理。", "信心轉弱時，投資與招聘應改為分段承諾，而非一刀切。", "人機協作要先重寫端到端流程的成果、權責、覆核與主管能力。", "AI 投資同時要看資本結構與對歐證據鏈。"],
+      "discussionPrompts": ["最關鍵場址斷電後，多久能恢復對客戶的承諾？", "哪些成本衝擊會同時壓縮毛利與現金？", "哪些投資該保留選擇權，哪些訊號出現才加碼？", "哪一條流程最值得先重寫人與 agent 的權責？", "若收到歐盟或客戶詢問，我們能否在一週內交出完整證據包？"],
+      "mustReads": [
+        {"id":"read-20261118-1","rank":1,"trendId":"iea-energy-resilience-20261110","headline":"能源韌性已是營運能力：把中斷與復原時間放進投資審查","globalSignal":"IEA 啟用全球能源部門韌性觀測站，彙整基礎設施風險與停電資料。","whyLeadersCare":"能源韌性同時是交付、資安、保險與資本支出的共同假設。","taiwanMeaning":"將供電品質、備援切換與供應商復原時間納入投資及長約審查。","joyceQuestion":"我們最關鍵場址斷電後，多久能恢復對客戶的承諾？","keepWatching":["復原時間","備援電力","供應商持續計畫"],"aiLed":false,"sourceName":"IEA — Global Observatory on Energy Sector Resilience","sourceUrl":"https://www.iea.org/news/iea-launches-global-observatory-to-help-strengthen-energy-sector-resilience"},
+        {"id":"read-20261118-2","rank":2,"trendId":"wb-commodity-crossshock-20261118","headline":"能源、食品與金屬衝擊會交互放大：成本治理改看組合情境","globalSignal":"世界銀行預估 2026 年商品價格上升 23%、能源價格上升 32%。","whyLeadersCare":"採購、定價、庫存和營運資金需要以同一組成本情境管理。","taiwanMeaning":"按產品別成本權重重跑毛利，設定報價與庫存觸發門檻。","joyceQuestion":"我們的報價、庫存與現金流能否承受多項成本同時上升？","keepWatching":["能源金屬組合","運費條款","毛利敏感度"],"aiLed":false,"sourceName":"World Bank — Commodity Markets Outlook October 2026","sourceUrl":"https://www.worldbank.org/en/news/press-release/2026/10/28/commodity-markets-outlook-october-2026"},
+        {"id":"read-20261118-3","rank":3,"trendId":"conference-board-ceo-confidence-20261118","headline":"CEO 信心轉弱但資本支出未全面縮手：用分段承諾取代一刀切","globalSignal":"The Conference Board Q4 調查顯示 CEO 信心指數降至 46，53% 暫無調整資本支出計畫。","whyLeadersCare":"信心轉弱但投資未同步收縮時，需要可回顧的承諾關卡。","taiwanMeaning":"以訂單、應收、產能利用與現金流設續行門檻。","joyceQuestion":"哪些投資該保留選擇權，哪些訊號出現才加碼？","keepWatching":["資本支出","招聘","地緣風險"],"aiLed":false,"sourceName":"The Conference Board — CEO Confidence Q4 2026","sourceUrl":"https://www.conference-board.org/topics/ceo-confidence/"},
+        {"id":"read-20261118-4","rank":4,"trendId":"mckinsey-org-redesign-20261116","headline":"AI 價值卡在既有組織：工作、人才、變革與權責必須一起重設","globalSignal":"McKinsey 建議同時調整工作成果導向、人才系統、變革機制與轉型權責。","whyLeadersCare":"AI 專案失速常因舊有分工、績效與授權仍未改變。","taiwanMeaning":"先以一條跨部門流程重寫人與 agent 的決策權及覆核責任。","joyceQuestion":"哪一條流程最值得先重寫人與 agent 的權責？","keepWatching":["成果導向","權責","主管技能"],"aiLed":false,"sourceName":"McKinsey — Redesigning your organization to capture AI’s value","sourceUrl":"https://www.mckinsey.com/~/media/mckinsey/email/leadingoff/2026/11/2026-11-16a.html"},
+        {"id":"read-20261118-5","rank":5,"trendId":"bis-ai-credit-20261027","headline":"AI 基建融資愈來愈依賴長期債與表外安排：董事會要看穿資本結構","globalSignal":"BIS 指出 AI 基建資本支出愈多由長期債與複雜表外安排支應。","whyLeadersCare":"需求品質也要看融資、付款、條款與資產利用率。","taiwanMeaning":"將客戶資本結構、應收曝險與擴產承諾放在同一張風險圖。","joyceQuestion":"我們看見的是可收現的需求，還是被複雜融資放大的訂單？","keepWatching":["長期債","付款來源","資產利用率"],"aiLed":true,"sourceName":"BIS Bulletin 140 — Building AI on credit","sourceUrl":"https://www.bis.org/publications/bulletin-140-building-ai-credit--structures-and-spillovers"},
+        {"id":"read-20261118-6","rank":6,"trendId":"eu-ai-enforcement-evidence-20261118","headline":"EU AI Act 已可要求資料與模型評估：對歐產品要備妥可抽查證據","globalSignal":"歐盟 AI Office 已可對 GPAI 與特定 AI 系統要求資訊、評估或採取措施。","whyLeadersCare":"治理需要能回溯到模型、供應商、產品告知、資料與責任人的證據鏈。","taiwanMeaning":"盤點角色並由法務核對技術文件、告知與供應商契約。","joyceQuestion":"我們能否在一週內交出完整證據包？","keepWatching":["資訊要求","技術文件","角色責任"],"aiLed":true,"sourceName":"European Commission — AI Act enforcement framework","sourceUrl":"https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act"}
+      ],
+      "risingThemes": [{"title":"能源韌性從備案變成營運能力","reason":"IEA 建立全球能源部門韌性資料與風險觀測。","taiwanMeaning":"把復原時間納入投資與客戶承諾。"},{"title":"商品衝擊改以成本組合管理","reason":"世界銀行指出衝擊下商品市場波動連結更強。","taiwanMeaning":"以產品別重跑毛利、報價及庫存。"},{"title":"AI 治理走向資本紀律與可查核證據","reason":"BIS 關注 AI 融資結構，歐盟 AI Office 已啟動執法權。","taiwanMeaning":"同時管理訂單品質與對歐證據鏈。"}],
+      "metrics": {"trends":393,"sources":166,"highConfidence":234,"hotSignals":338},
+      "gaps": ["Joyce 觀點為編輯草稿，待確認後採用。", "世界銀行與 Conference Board 為全球／美國基準，不能直接推估台灣企業比例。", "McKinsey 內容屬管理觀點；BIS 研究不是危機預測。", "歐盟 AI 個案適用仍需法律專業確認。", "本輪未將付費媒體或影音弱訊號作核心定量證據。"],
+      "sourceLinks": [{"name":"IEA — Global Observatory on Energy Sector Resilience","url":"https://www.iea.org/news/iea-launches-global-observatory-to-help-strengthen-energy-sector-resilience"},{"name":"World Bank — Commodity Markets Outlook October 2026","url":"https://www.worldbank.org/en/news/press-release/2026/10/28/commodity-markets-outlook-october-2026"},{"name":"The Conference Board — CEO Confidence Q4 2026","url":"https://www.conference-board.org/topics/ceo-confidence/"},{"name":"McKinsey — Redesigning your organization to capture AI’s value","url":"https://www.mckinsey.com/~/media/mckinsey/email/leadingoff/2026/11/2026-11-16a.html"},{"name":"BIS Bulletin 140 — Building AI on credit","url":"https://www.bis.org/publications/bulletin-140-building-ai-credit--structures-and-spillovers"},{"name":"European Commission — AI Act enforcement framework","url":"https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act"}]
+    },
     {
       "id": "2026-11-07",
       "date": "2026-11-07",
