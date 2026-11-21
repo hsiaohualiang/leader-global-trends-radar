@@ -1,26 +1,542 @@
 window.LEADER_TREND_HISTORY = {
-  "generated_at": "2026-11-18",
+  "generated_at": "2026-11-21",
   "reports": [
+    {
+      "id": "2026-11-21",
+      "date": "2026-11-21",
+      "label": "2026-11-21 完整週報",
+      "status": "complete",
+      "summary": "Joyce 觀點草稿：本週真正的領導考驗，是把「韌性」從備援設備提升為資源配置邏輯。能源衝擊要求企業同時重畫航道、燃料與庫存；全球平均成長掩蓋市場分化；AI 則暴露出科技投資、人力規劃與董事會治理仍未接在一起。",
+      "interpretation": [
+        "能源韌性已從價格避險升級為路線、燃料、庫存與替代技術的組合設計。",
+        "極端氣候不只是永續議題；港口停擺會直接改變交期、保險與營運資金。",
+        "全球成長平均數看似穩定，企業仍須按區域、客戶與終端用途拆解需求。",
+        "AI 的組織問題不是會不會使用，而是職務、人數、技能與財務假設是否同時被改寫。",
+        "董事會若分開審科技與人力，最容易漏掉責任、信任與能力建設的成本。"
+      ],
+      "discussionPrompts": [
+        "若主要能源路線受阻，我們先改燃料、路線、庫存，還是客戶承諾？",
+        "哪一個港口或航道停擺，最先穿透我們的交期與現金？",
+        "全球平均成長穩定時，哪個客戶市場其實已經轉弱？",
+        "AI 改變工作後，人數、技能、主管跨度與財務效益是否同步重算？",
+        "董事會是否用同一張投資案審查科技、人力與信任成本？"
+      ],
+      "mustReads": [
+        {
+          "id": "read-20261121-1",
+          "rank": 1,
+          "trendId": "iea-weo-energy-routes-20261121",
+          "headline": "能源安全進入路線重設：燃料、航道與供應來源要一起分散",
+          "globalSignal": "IEA 指出 2026 年荷莫茲海峽中斷是歷來最大的能源供應衝擊；各國正同時分散供應來源、貿易路線、燃料與技術供應鏈。情境模型不是單一路徑預測。",
+          "whyLeadersCare": "管理判讀：能源韌性不再只是多找一家供應商，而是要重畫路線、燃料、庫存與替代技術的組合。",
+          "taiwanMeaning": "管理建議：台灣進口能源與出口製造企業應把航道中斷、柴油短缺及替代燃料可用性納入董事會情境。",
+          "joyceQuestion": "若主要能源路線受阻，我們先改燃料、路線、庫存，還是客戶承諾？",
+          "keepWatching": [
+            "荷莫茲與紅海流量",
+            "柴油與航運成本",
+            "替代路線及燃料"
+          ],
+          "aiLed": false,
+          "sourceName": "IEA — World Energy Outlook 2026",
+          "sourceUrl": "https://www.iea.org/news/as-an-unprecedented-shock-reshapes-the-energy-world-its-duration-will-determine-the-scale-of-the-change"
+        },
+        {
+          "id": "read-20261121-2",
+          "rank": 2,
+          "trendId": "iea-weather-shipping-20261121",
+          "headline": "極端氣候正在改寫能源航運韌性：港口停擺要進入交期承諾",
+          "globalSignal": "IEA 指出全球約 40% 原油、30% 石油產品與 15% 天然氣供應至少一段經海運；港口平均每年因極端天候停擺約 1.5 天，重大事件可能延續數週或數月。",
+          "whyLeadersCare": "管理判讀：港口與咽喉航道的氣候風險會同時影響能源成本、交期、保險與客戶承諾。",
+          "taiwanMeaning": "管理建議：台灣企業應把港口替代、航程延長與安全庫存納入供應商營運持續計畫。",
+          "joyceQuestion": "哪一個港口或航道停擺，最先穿透我們的交期與現金？",
+          "keepWatching": [
+            "港口天候停擺",
+            "替代航道天數",
+            "燃料安全庫存"
+          ],
+          "aiLed": false,
+          "sourceName": "IEA — Extreme Weather Risks to International Oil and Natural Gas Shipping",
+          "sourceUrl": "https://www.iea.org/news/extreme-weather-poses-growing-risks-to-global-oil-and-natural-gas-shipping-new-iea-report-finds"
+        },
+        {
+          "id": "read-20261121-3",
+          "rank": 3,
+          "trendId": "oecd-growth-divergence-20261121",
+          "headline": "全球成長仍在前進但區域分化：平均數不能代替市場組合",
+          "globalSignal": "OECD 初步估計會員國第三季 GDP 成長由 0.7% 略降至 0.6%，G7 維持 0.5%，但各經濟體表現分化，且多數 G7 的淨貿易拖累成長。初值後續可能修正。",
+          "whyLeadersCare": "管理判讀：穩定的全球平均可能掩蓋客戶市場、匯率與貿易條件的明顯分化。",
+          "taiwanMeaning": "管理建議：台灣出口企業應按區域、客戶與終端市場拆解需求，不用單一 GDP 數字決定產能。",
+          "joyceQuestion": "全球平均成長穩定時，哪個客戶市場其實已經轉弱？",
+          "keepWatching": [
+            "區域 GDP 分化",
+            "淨貿易貢獻",
+            "客戶庫存與訂單"
+          ],
+          "aiLed": false,
+          "sourceName": "OECD — GDP Growth Q3 2026",
+          "sourceUrl": "https://www.oecd.org/content/dam/oecd/en/data/insights/statistical-releases/2026/11/GDP-Growth-Q3-2026.pdf"
+        },
+        {
+          "id": "read-20261121-4",
+          "rank": 4,
+          "trendId": "tcb-ai-workforce-planning-20261121",
+          "headline": "AI 人力影響尚未進入財務計畫：職務重設不能只停在試點",
+          "globalSignal": "The Conference Board 調查顯示，僅 11% 組織已把 AI 預期影響全面納入人力與財務規劃；近 70% 預期未來兩年將重設職務、任務或流程。調查比例不宜直接外推所有企業。",
+          "whyLeadersCare": "管理判讀：若職務設計、人數、技能與財務模型不同步，AI 生產力不會自然變成企業成果。",
+          "taiwanMeaning": "管理建議：台灣企業應選一條流程，同步重估工作量、技能、主管跨度與財務效益。",
+          "joyceQuestion": "AI 改變工作後，人數、技能、主管跨度與財務效益是否同步重算？",
+          "keepWatching": [
+            "職務重設比例",
+            "技能缺口",
+            "人力與財務假設"
+          ],
+          "aiLed": true,
+          "sourceName": "The Conference Board — AI Implications in Workforce Planning",
+          "sourceUrl": "https://www.conference-board.org/press/ai-implications-workforce-planning"
+        },
+        {
+          "id": "read-20261121-5",
+          "rank": 5,
+          "trendId": "deloitte-board-workforce-governance-20261121",
+          "headline": "董事會仍把科技與人才分開治理：投資配置缺少共同責任",
+          "globalSignal": "Deloitte 全球調查中，僅 16% 受訪者表示已有科技轉型影響人力的既定策略；49% 表示董事會未持續把人力議題納入科技討論，僅 12% 對科技與人力投資配置有完整監督。",
+          "whyLeadersCare": "管理判讀：把 AI 資本支出與人力轉型分開審查，容易造成工具上線但能力、信任與責任缺口未補。",
+          "taiwanMeaning": "管理建議：台灣董事會可用同一張投資案同時審查技術、流程、技能、溝通與風險指標。",
+          "joyceQuestion": "董事會是否用同一張投資案審查科技、人力與信任成本？",
+          "keepWatching": [
+            "科技與人才共同議程",
+            "投資配置監督",
+            "董事會能力"
+          ],
+          "aiLed": false,
+          "sourceName": "Deloitte Global — AI, Workforce and Board Governance Survey",
+          "sourceUrl": "https://www.deloitte.com/global/en/about/press-room/ai-workforce-board-governance-challenge.html"
+        },
+        {
+          "id": "read-20261121-6",
+          "rank": 6,
+          "trendId": "eu-ai-sme-deployment-20261121",
+          "headline": "歐洲 AI 政策從規則走向部署：可信中介與先試後投成為基礎設施",
+          "globalSignal": "歐盟 AI Office 徵集可供中小企業部署的成熟歐洲 AI 解決方案，並由 EDIH／AI Experience Centres 提供先試後投、技能、融資與生態系支持。此為政策部署機制，尚非採用成效。",
+          "whyLeadersCare": "管理判讀：AI 競爭正在從模型能力延伸到可信導入、測試、技能與融資的整套通路。",
+          "taiwanMeaning": "管理建議：台灣 AI 供應商進入歐洲時，除合規文件外，也要設計可試用、可驗收與在地夥伴交付模式。",
+          "joyceQuestion": "進入歐洲市場，我們提供的是模型，還是一套可信、可驗收的導入方式？",
+          "keepWatching": [
+            "EDIH 解決方案目錄",
+            "先試後投服務",
+            "在地融資與技能"
+          ],
+          "aiLed": true,
+          "sourceName": "European Commission AI Office — European AI Providers Call",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/news/call-expression-interest-european-ai-providers"
+        }
+      ],
+      "risingThemes": [
+        {
+          "title": "能源安全進入路線重設：燃料、航道與供應來源要一起分散",
+          "reason": "IEA 指出 2026 年荷莫茲海峽中斷是歷來最大的能源供應衝擊；各國正同時分散供應來源、貿易路線、燃料與技術供應鏈。情境模型不是單一路徑預測。",
+          "taiwanMeaning": "管理建議：台灣進口能源與出口製造企業應把航道中斷、柴油短缺及替代燃料可用性納入董事會情境。"
+        },
+        {
+          "title": "極端氣候正在改寫能源航運韌性：港口停擺要進入交期承諾",
+          "reason": "IEA 指出全球約 40% 原油、30% 石油產品與 15% 天然氣供應至少一段經海運；港口平均每年因極端天候停擺約 1.5 天，重大事件可能延續數週或數月。",
+          "taiwanMeaning": "管理建議：台灣企業應把港口替代、航程延長與安全庫存納入供應商營運持續計畫。"
+        },
+        {
+          "title": "全球成長仍在前進但區域分化：平均數不能代替市場組合",
+          "reason": "OECD 初步估計會員國第三季 GDP 成長由 0.7% 略降至 0.6%，G7 維持 0.5%，但各經濟體表現分化，且多數 G7 的淨貿易拖累成長。初值後續可能修正。",
+          "taiwanMeaning": "管理建議：台灣出口企業應按區域、客戶與終端市場拆解需求，不用單一 GDP 數字決定產能。"
+        },
+        {
+          "title": "AI 人力影響尚未進入財務計畫：職務重設不能只停在試點",
+          "reason": "The Conference Board 調查顯示，僅 11% 組織已把 AI 預期影響全面納入人力與財務規劃；近 70% 預期未來兩年將重設職務、任務或流程。調查比例不宜直接外推所有企業。",
+          "taiwanMeaning": "管理建議：台灣企業應選一條流程，同步重估工作量、技能、主管跨度與財務效益。"
+        }
+      ],
+      "learningOpportunities": [
+        {
+          "id": "learning-20261121-1",
+          "title": "能源路線與燃料組合情境",
+          "category": "地緣政治與供應鏈",
+          "priority": 1,
+          "heat": 96,
+          "confidence": "A",
+          "trendIds": [
+            "iea-weo-energy-routes-20261121",
+            "iea-weather-shipping-20261121",
+            "oecd-growth-divergence-20261121"
+          ],
+          "targetAudience": "CEO、CFO、COO與採購主管",
+          "whyNow": "管理判讀：能源韌性不再只是多找一家供應商，而是要重畫路線、燃料、庫存與替代技術的組合。",
+          "teacherProfile": "具有跨部門決策與實際案例的企業主管，搭配相關財務、組織或法務專家；邀請前確認案例授權。",
+          "productStructure": [
+            "荷莫茲與紅海流量",
+            "重畫關鍵能源流向",
+            "設定替代與庫存觸發點"
+          ],
+          "copywriting": "帶入企業案例，完成重畫關鍵能源流向與設定替代與庫存觸發點。",
+          "openingFormat": "半天案例工作坊＋30 天行動追蹤",
+          "sourceBasis": [
+            "IEA — World Energy Outlook 2026"
+          ]
+        },
+        {
+          "id": "learning-20261121-2",
+          "title": "港口停擺與交付韌性",
+          "category": "地緣政治與供應鏈",
+          "priority": 2,
+          "heat": 95,
+          "confidence": "A",
+          "trendIds": [
+            "iea-weather-shipping-20261121",
+            "iea-weo-energy-routes-20261121",
+            "oecd-growth-divergence-20261121"
+          ],
+          "targetAudience": "COO、供應鏈與風險主管",
+          "whyNow": "管理判讀：港口與咽喉航道的氣候風險會同時影響能源成本、交期、保險與客戶承諾。",
+          "teacherProfile": "具有跨部門決策與實際案例的企業主管，搭配相關財務、組織或法務專家；邀請前確認案例授權。",
+          "productStructure": [
+            "港口天候停擺",
+            "盤點單一路線曝險",
+            "重算延誤與營運資金"
+          ],
+          "copywriting": "帶入企業案例，完成盤點單一路線曝險與重算延誤與營運資金。",
+          "openingFormat": "半天案例工作坊＋30 天行動追蹤",
+          "sourceBasis": [
+            "IEA — Extreme Weather Risks to International Oil and Natural Gas Shipping"
+          ]
+        },
+        {
+          "id": "learning-20261121-3",
+          "title": "區域需求分化決策",
+          "category": "CEO經營環境",
+          "priority": 3,
+          "heat": 94,
+          "confidence": "A",
+          "trendIds": [
+            "oecd-growth-divergence-20261121",
+            "iea-weo-energy-routes-20261121",
+            "iea-weather-shipping-20261121"
+          ],
+          "targetAudience": "CEO、策略、業務與財務主管",
+          "whyNow": "管理判讀：穩定的全球平均可能掩蓋客戶市場、匯率與貿易條件的明顯分化。",
+          "teacherProfile": "具有跨部門決策與實際案例的企業主管，搭配相關財務、組織或法務專家；邀請前確認案例授權。",
+          "productStructure": [
+            "區域 GDP 分化",
+            "拆分市場成長假設",
+            "設定分區資源門檻"
+          ],
+          "copywriting": "帶入企業案例，完成拆分市場成長假設與設定分區資源門檻。",
+          "openingFormat": "半天案例工作坊＋30 天行動追蹤",
+          "sourceBasis": [
+            "OECD — GDP Growth Q3 2026"
+          ]
+        },
+        {
+          "id": "learning-20261121-4",
+          "title": "AI 人力與財務共同規劃",
+          "category": "組織與人才",
+          "priority": 4,
+          "heat": 93,
+          "confidence": "A",
+          "trendIds": [
+            "tcb-ai-workforce-planning-20261121",
+            "iea-weo-energy-routes-20261121",
+            "iea-weather-shipping-20261121"
+          ],
+          "targetAudience": "CEO、CHRO、CFO與數位主管",
+          "whyNow": "管理判讀：若職務設計、人數、技能與財務模型不同步，AI 生產力不會自然變成企業成果。",
+          "teacherProfile": "具有跨部門決策與實際案例的企業主管，搭配相關財務、組織或法務專家；邀請前確認案例授權。",
+          "productStructure": [
+            "職務重設比例",
+            "建立端到端工作量基線",
+            "把技能與人數納入效益表"
+          ],
+          "copywriting": "帶入企業案例，完成建立端到端工作量基線與把技能與人數納入效益表。",
+          "openingFormat": "半天案例工作坊＋30 天行動追蹤",
+          "sourceBasis": [
+            "The Conference Board — AI Implications in Workforce Planning"
+          ]
+        },
+        {
+          "id": "learning-20261121-5",
+          "title": "董事會科技人才共同治理",
+          "category": "治理與社會信任",
+          "priority": 5,
+          "heat": 92,
+          "confidence": "A",
+          "trendIds": [
+            "deloitte-board-workforce-governance-20261121",
+            "tcb-ai-workforce-planning-20261121",
+            "wb-investment-ready-20261107"
+          ],
+          "targetAudience": "董事、CEO、CHRO與CIO",
+          "whyNow": "管理判讀：把 AI 資本支出與人力轉型分開審查，容易造成工具上線但能力、信任與責任缺口未補。",
+          "teacherProfile": "具有跨部門決策與實際案例的企業主管，搭配相關財務、組織或法務專家；邀請前確認案例授權。",
+          "productStructure": [
+            "科技與人才共同議程",
+            "合併投資審查表",
+            "指定跨域責任人"
+          ],
+          "copywriting": "帶入企業案例，完成合併投資審查表與指定跨域責任人。",
+          "openingFormat": "半天案例工作坊＋30 天行動追蹤",
+          "sourceBasis": [
+            "Deloitte Global — AI, Workforce and Board Governance Survey"
+          ]
+        },
+        {
+          "id": "learning-20261121-6",
+          "title": "歐洲 AI 可信市場進入",
+          "category": "產業與商業模式",
+          "priority": 6,
+          "heat": 91,
+          "confidence": "A",
+          "trendIds": [
+            "eu-ai-sme-deployment-20261121",
+            "wb-investment-ready-20261107",
+            "mckinsey-ceo-judgment-20261107"
+          ],
+          "targetAudience": "CEO、產品、法務與海外事業主管",
+          "whyNow": "管理判讀：AI 競爭正在從模型能力延伸到可信導入、測試、技能與融資的整套通路。",
+          "teacherProfile": "具有跨部門決策與實際案例的企業主管，搭配相關財務、組織或法務專家；邀請前確認案例授權。",
+          "productStructure": [
+            "EDIH 解決方案目錄",
+            "盤點成熟可部署方案",
+            "建立歐洲驗收與夥伴包"
+          ],
+          "copywriting": "帶入企業案例，完成盤點成熟可部署方案與建立歐洲驗收與夥伴包。",
+          "openingFormat": "半天案例工作坊＋30 天行動追蹤",
+          "sourceBasis": [
+            "European Commission AI Office — European AI Providers Call"
+          ]
+        }
+      ],
+      "metrics": {
+        "trends": 399,
+        "sources": 254,
+        "highConfidence": 240,
+        "hotSignals": 378
+      },
+      "gaps": [
+        "Joyce 觀點為編輯草稿，待本人確認語氣與判斷。",
+        "OECD 第三季 GDP 為初步估計，後續可能修正。",
+        "The Conference Board 與 Deloitte 為調查結果，不宜直接外推所有台灣企業。",
+        "歐盟 AI 徵集計畫顯示政策方向，尚無中小企業採用成效。",
+        "本輪未把付費媒體全文或影音互動數據作為核心定量證據。"
+      ],
+      "sourceLinks": [
+        {
+          "name": "IEA — World Energy Outlook 2026",
+          "url": "https://www.iea.org/news/as-an-unprecedented-shock-reshapes-the-energy-world-its-duration-will-determine-the-scale-of-the-change"
+        },
+        {
+          "name": "IEA — Extreme Weather Risks to International Oil and Natural Gas Shipping",
+          "url": "https://www.iea.org/news/extreme-weather-poses-growing-risks-to-global-oil-and-natural-gas-shipping-new-iea-report-finds"
+        },
+        {
+          "name": "OECD — GDP Growth Q3 2026",
+          "url": "https://www.oecd.org/content/dam/oecd/en/data/insights/statistical-releases/2026/11/GDP-Growth-Q3-2026.pdf"
+        },
+        {
+          "name": "The Conference Board — AI Implications in Workforce Planning",
+          "url": "https://www.conference-board.org/press/ai-implications-workforce-planning"
+        },
+        {
+          "name": "Deloitte Global — AI, Workforce and Board Governance Survey",
+          "url": "https://www.deloitte.com/global/en/about/press-room/ai-workforce-board-governance-challenge.html"
+        },
+        {
+          "name": "European Commission AI Office — European AI Providers Call",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/call-expression-interest-european-ai-providers"
+        }
+      ]
+    },
     {
       "id": "2026-11-18",
       "date": "2026-11-18",
       "label": "2026-11-18 完整週報",
       "status": "complete",
       "summary": "Joyce 觀點草稿：本週的關鍵不是追逐單一成長敘事，而是把韌性從備案改成可管理的營運能力。能源與原物料衝擊會穿透到交期、毛利與客戶承諾；CEO 同時要守住資本支出與人力節奏。AI 的治理焦點則從是否採用，轉為融資結構、第三方依賴與可被查核的責任。",
-      "interpretation": ["能源中斷的復原時間、備援與客戶承諾，應和資本支出一起被董事會審查。", "成本需以能源、金屬、物流與營運資金的交叉情境管理。", "信心轉弱時，投資與招聘應改為分段承諾，而非一刀切。", "人機協作要先重寫端到端流程的成果、權責、覆核與主管能力。", "AI 投資同時要看資本結構與對歐證據鏈。"],
-      "discussionPrompts": ["最關鍵場址斷電後，多久能恢復對客戶的承諾？", "哪些成本衝擊會同時壓縮毛利與現金？", "哪些投資該保留選擇權，哪些訊號出現才加碼？", "哪一條流程最值得先重寫人與 agent 的權責？", "若收到歐盟或客戶詢問，我們能否在一週內交出完整證據包？"],
-      "mustReads": [
-        {"id":"read-20261118-1","rank":1,"trendId":"iea-energy-resilience-20261110","headline":"能源韌性已是營運能力：把中斷與復原時間放進投資審查","globalSignal":"IEA 啟用全球能源部門韌性觀測站，彙整基礎設施風險與停電資料。","whyLeadersCare":"能源韌性同時是交付、資安、保險與資本支出的共同假設。","taiwanMeaning":"將供電品質、備援切換與供應商復原時間納入投資及長約審查。","joyceQuestion":"我們最關鍵場址斷電後，多久能恢復對客戶的承諾？","keepWatching":["復原時間","備援電力","供應商持續計畫"],"aiLed":false,"sourceName":"IEA — Global Observatory on Energy Sector Resilience","sourceUrl":"https://www.iea.org/news/iea-launches-global-observatory-to-help-strengthen-energy-sector-resilience"},
-        {"id":"read-20261118-2","rank":2,"trendId":"wb-commodity-crossshock-20261118","headline":"能源、食品與金屬衝擊會交互放大：成本治理改看組合情境","globalSignal":"世界銀行預估 2026 年商品價格上升 23%、能源價格上升 32%。","whyLeadersCare":"採購、定價、庫存和營運資金需要以同一組成本情境管理。","taiwanMeaning":"按產品別成本權重重跑毛利，設定報價與庫存觸發門檻。","joyceQuestion":"我們的報價、庫存與現金流能否承受多項成本同時上升？","keepWatching":["能源金屬組合","運費條款","毛利敏感度"],"aiLed":false,"sourceName":"World Bank — Commodity Markets Outlook October 2026","sourceUrl":"https://www.worldbank.org/en/news/press-release/2026/10/28/commodity-markets-outlook-october-2026"},
-        {"id":"read-20261118-3","rank":3,"trendId":"conference-board-ceo-confidence-20261118","headline":"CEO 信心轉弱但資本支出未全面縮手：用分段承諾取代一刀切","globalSignal":"The Conference Board Q4 調查顯示 CEO 信心指數降至 46，53% 暫無調整資本支出計畫。","whyLeadersCare":"信心轉弱但投資未同步收縮時，需要可回顧的承諾關卡。","taiwanMeaning":"以訂單、應收、產能利用與現金流設續行門檻。","joyceQuestion":"哪些投資該保留選擇權，哪些訊號出現才加碼？","keepWatching":["資本支出","招聘","地緣風險"],"aiLed":false,"sourceName":"The Conference Board — CEO Confidence Q4 2026","sourceUrl":"https://www.conference-board.org/topics/ceo-confidence/"},
-        {"id":"read-20261118-4","rank":4,"trendId":"mckinsey-org-redesign-20261116","headline":"AI 價值卡在既有組織：工作、人才、變革與權責必須一起重設","globalSignal":"McKinsey 建議同時調整工作成果導向、人才系統、變革機制與轉型權責。","whyLeadersCare":"AI 專案失速常因舊有分工、績效與授權仍未改變。","taiwanMeaning":"先以一條跨部門流程重寫人與 agent 的決策權及覆核責任。","joyceQuestion":"哪一條流程最值得先重寫人與 agent 的權責？","keepWatching":["成果導向","權責","主管技能"],"aiLed":false,"sourceName":"McKinsey — Redesigning your organization to capture AI’s value","sourceUrl":"https://www.mckinsey.com/~/media/mckinsey/email/leadingoff/2026/11/2026-11-16a.html"},
-        {"id":"read-20261118-5","rank":5,"trendId":"bis-ai-credit-20261027","headline":"AI 基建融資愈來愈依賴長期債與表外安排：董事會要看穿資本結構","globalSignal":"BIS 指出 AI 基建資本支出愈多由長期債與複雜表外安排支應。","whyLeadersCare":"需求品質也要看融資、付款、條款與資產利用率。","taiwanMeaning":"將客戶資本結構、應收曝險與擴產承諾放在同一張風險圖。","joyceQuestion":"我們看見的是可收現的需求，還是被複雜融資放大的訂單？","keepWatching":["長期債","付款來源","資產利用率"],"aiLed":true,"sourceName":"BIS Bulletin 140 — Building AI on credit","sourceUrl":"https://www.bis.org/publications/bulletin-140-building-ai-credit--structures-and-spillovers"},
-        {"id":"read-20261118-6","rank":6,"trendId":"eu-ai-enforcement-evidence-20261118","headline":"EU AI Act 已可要求資料與模型評估：對歐產品要備妥可抽查證據","globalSignal":"歐盟 AI Office 已可對 GPAI 與特定 AI 系統要求資訊、評估或採取措施。","whyLeadersCare":"治理需要能回溯到模型、供應商、產品告知、資料與責任人的證據鏈。","taiwanMeaning":"盤點角色並由法務核對技術文件、告知與供應商契約。","joyceQuestion":"我們能否在一週內交出完整證據包？","keepWatching":["資訊要求","技術文件","角色責任"],"aiLed":true,"sourceName":"European Commission — AI Act enforcement framework","sourceUrl":"https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act"}
+      "interpretation": [
+        "能源中斷的復原時間、備援與客戶承諾，應和資本支出一起被董事會審查。",
+        "成本需以能源、金屬、物流與營運資金的交叉情境管理。",
+        "信心轉弱時，投資與招聘應改為分段承諾，而非一刀切。",
+        "人機協作要先重寫端到端流程的成果、權責、覆核與主管能力。",
+        "AI 投資同時要看資本結構與對歐證據鏈。"
       ],
-      "risingThemes": [{"title":"能源韌性從備案變成營運能力","reason":"IEA 建立全球能源部門韌性資料與風險觀測。","taiwanMeaning":"把復原時間納入投資與客戶承諾。"},{"title":"商品衝擊改以成本組合管理","reason":"世界銀行指出衝擊下商品市場波動連結更強。","taiwanMeaning":"以產品別重跑毛利、報價及庫存。"},{"title":"AI 治理走向資本紀律與可查核證據","reason":"BIS 關注 AI 融資結構，歐盟 AI Office 已啟動執法權。","taiwanMeaning":"同時管理訂單品質與對歐證據鏈。"}],
-      "metrics": {"trends":393,"sources":166,"highConfidence":234,"hotSignals":338},
-      "gaps": ["Joyce 觀點為編輯草稿，待確認後採用。", "世界銀行與 Conference Board 為全球／美國基準，不能直接推估台灣企業比例。", "McKinsey 內容屬管理觀點；BIS 研究不是危機預測。", "歐盟 AI 個案適用仍需法律專業確認。", "本輪未將付費媒體或影音弱訊號作核心定量證據。"],
-      "sourceLinks": [{"name":"IEA — Global Observatory on Energy Sector Resilience","url":"https://www.iea.org/news/iea-launches-global-observatory-to-help-strengthen-energy-sector-resilience"},{"name":"World Bank — Commodity Markets Outlook October 2026","url":"https://www.worldbank.org/en/news/press-release/2026/10/28/commodity-markets-outlook-october-2026"},{"name":"The Conference Board — CEO Confidence Q4 2026","url":"https://www.conference-board.org/topics/ceo-confidence/"},{"name":"McKinsey — Redesigning your organization to capture AI’s value","url":"https://www.mckinsey.com/~/media/mckinsey/email/leadingoff/2026/11/2026-11-16a.html"},{"name":"BIS Bulletin 140 — Building AI on credit","url":"https://www.bis.org/publications/bulletin-140-building-ai-credit--structures-and-spillovers"},{"name":"European Commission — AI Act enforcement framework","url":"https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act"}]
+      "discussionPrompts": [
+        "最關鍵場址斷電後，多久能恢復對客戶的承諾？",
+        "哪些成本衝擊會同時壓縮毛利與現金？",
+        "哪些投資該保留選擇權，哪些訊號出現才加碼？",
+        "哪一條流程最值得先重寫人與 agent 的權責？",
+        "若收到歐盟或客戶詢問，我們能否在一週內交出完整證據包？"
+      ],
+      "mustReads": [
+        {
+          "id": "read-20261118-1",
+          "rank": 1,
+          "trendId": "iea-energy-resilience-20261110",
+          "headline": "能源韌性已是營運能力：把中斷與復原時間放進投資審查",
+          "globalSignal": "IEA 啟用全球能源部門韌性觀測站，彙整基礎設施風險與停電資料。",
+          "whyLeadersCare": "能源韌性同時是交付、資安、保險與資本支出的共同假設。",
+          "taiwanMeaning": "將供電品質、備援切換與供應商復原時間納入投資及長約審查。",
+          "joyceQuestion": "我們最關鍵場址斷電後，多久能恢復對客戶的承諾？",
+          "keepWatching": [
+            "復原時間",
+            "備援電力",
+            "供應商持續計畫"
+          ],
+          "aiLed": false,
+          "sourceName": "IEA — Global Observatory on Energy Sector Resilience",
+          "sourceUrl": "https://www.iea.org/news/iea-launches-global-observatory-to-help-strengthen-energy-sector-resilience"
+        },
+        {
+          "id": "read-20261118-2",
+          "rank": 2,
+          "trendId": "wb-commodity-crossshock-20261118",
+          "headline": "能源、食品與金屬衝擊會交互放大：成本治理改看組合情境",
+          "globalSignal": "世界銀行預估 2026 年商品價格上升 23%、能源價格上升 32%。",
+          "whyLeadersCare": "採購、定價、庫存和營運資金需要以同一組成本情境管理。",
+          "taiwanMeaning": "按產品別成本權重重跑毛利，設定報價與庫存觸發門檻。",
+          "joyceQuestion": "我們的報價、庫存與現金流能否承受多項成本同時上升？",
+          "keepWatching": [
+            "能源金屬組合",
+            "運費條款",
+            "毛利敏感度"
+          ],
+          "aiLed": false,
+          "sourceName": "World Bank — Commodity Markets Outlook October 2026",
+          "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/10/28/commodity-markets-outlook-october-2026"
+        },
+        {
+          "id": "read-20261118-3",
+          "rank": 3,
+          "trendId": "conference-board-ceo-confidence-20261118",
+          "headline": "CEO 信心轉弱但資本支出未全面縮手：用分段承諾取代一刀切",
+          "globalSignal": "The Conference Board Q4 調查顯示 CEO 信心指數降至 46，53% 暫無調整資本支出計畫。",
+          "whyLeadersCare": "信心轉弱但投資未同步收縮時，需要可回顧的承諾關卡。",
+          "taiwanMeaning": "以訂單、應收、產能利用與現金流設續行門檻。",
+          "joyceQuestion": "哪些投資該保留選擇權，哪些訊號出現才加碼？",
+          "keepWatching": [
+            "資本支出",
+            "招聘",
+            "地緣風險"
+          ],
+          "aiLed": false,
+          "sourceName": "The Conference Board — CEO Confidence Q4 2026",
+          "sourceUrl": "https://www.conference-board.org/topics/ceo-confidence/"
+        },
+        {
+          "id": "read-20261118-4",
+          "rank": 4,
+          "trendId": "mckinsey-org-redesign-20261116",
+          "headline": "AI 價值卡在既有組織：工作、人才、變革與權責必須一起重設",
+          "globalSignal": "McKinsey 建議同時調整工作成果導向、人才系統、變革機制與轉型權責。",
+          "whyLeadersCare": "AI 專案失速常因舊有分工、績效與授權仍未改變。",
+          "taiwanMeaning": "先以一條跨部門流程重寫人與 agent 的決策權及覆核責任。",
+          "joyceQuestion": "哪一條流程最值得先重寫人與 agent 的權責？",
+          "keepWatching": [
+            "成果導向",
+            "權責",
+            "主管技能"
+          ],
+          "aiLed": false,
+          "sourceName": "McKinsey — Redesigning your organization to capture AI’s value",
+          "sourceUrl": "https://www.mckinsey.com/~/media/mckinsey/email/leadingoff/2026/11/2026-11-16a.html"
+        },
+        {
+          "id": "read-20261118-5",
+          "rank": 5,
+          "trendId": "bis-ai-credit-20261027",
+          "headline": "AI 基建融資愈來愈依賴長期債與表外安排：董事會要看穿資本結構",
+          "globalSignal": "BIS 指出 AI 基建資本支出愈多由長期債與複雜表外安排支應。",
+          "whyLeadersCare": "需求品質也要看融資、付款、條款與資產利用率。",
+          "taiwanMeaning": "將客戶資本結構、應收曝險與擴產承諾放在同一張風險圖。",
+          "joyceQuestion": "我們看見的是可收現的需求，還是被複雜融資放大的訂單？",
+          "keepWatching": [
+            "長期債",
+            "付款來源",
+            "資產利用率"
+          ],
+          "aiLed": true,
+          "sourceName": "BIS Bulletin 140 — Building AI on credit",
+          "sourceUrl": "https://www.bis.org/publications/bulletin-140-building-ai-credit--structures-and-spillovers"
+        },
+        {
+          "id": "read-20261118-6",
+          "rank": 6,
+          "trendId": "eu-ai-enforcement-evidence-20261118",
+          "headline": "EU AI Act 已可要求資料與模型評估：對歐產品要備妥可抽查證據",
+          "globalSignal": "歐盟 AI Office 已可對 GPAI 與特定 AI 系統要求資訊、評估或採取措施。",
+          "whyLeadersCare": "治理需要能回溯到模型、供應商、產品告知、資料與責任人的證據鏈。",
+          "taiwanMeaning": "盤點角色並由法務核對技術文件、告知與供應商契約。",
+          "joyceQuestion": "我們能否在一週內交出完整證據包？",
+          "keepWatching": [
+            "資訊要求",
+            "技術文件",
+            "角色責任"
+          ],
+          "aiLed": true,
+          "sourceName": "European Commission — AI Act enforcement framework",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act"
+        }
+      ],
+      "risingThemes": [
+        {
+          "title": "能源韌性從備案變成營運能力",
+          "reason": "IEA 建立全球能源部門韌性資料與風險觀測。",
+          "taiwanMeaning": "把復原時間納入投資與客戶承諾。"
+        },
+        {
+          "title": "商品衝擊改以成本組合管理",
+          "reason": "世界銀行指出衝擊下商品市場波動連結更強。",
+          "taiwanMeaning": "以產品別重跑毛利、報價及庫存。"
+        },
+        {
+          "title": "AI 治理走向資本紀律與可查核證據",
+          "reason": "BIS 關注 AI 融資結構，歐盟 AI Office 已啟動執法權。",
+          "taiwanMeaning": "同時管理訂單品質與對歐證據鏈。"
+        }
+      ],
+      "metrics": {
+        "trends": 393,
+        "sources": 166,
+        "highConfidence": 234,
+        "hotSignals": 338
+      },
+      "gaps": [
+        "Joyce 觀點為編輯草稿，待確認後採用。",
+        "世界銀行與 Conference Board 為全球／美國基準，不能直接推估台灣企業比例。",
+        "McKinsey 內容屬管理觀點；BIS 研究不是危機預測。",
+        "歐盟 AI 個案適用仍需法律專業確認。",
+        "本輪未將付費媒體或影音弱訊號作核心定量證據。"
+      ],
+      "sourceLinks": [
+        {
+          "name": "IEA — Global Observatory on Energy Sector Resilience",
+          "url": "https://www.iea.org/news/iea-launches-global-observatory-to-help-strengthen-energy-sector-resilience"
+        },
+        {
+          "name": "World Bank — Commodity Markets Outlook October 2026",
+          "url": "https://www.worldbank.org/en/news/press-release/2026/10/28/commodity-markets-outlook-october-2026"
+        },
+        {
+          "name": "The Conference Board — CEO Confidence Q4 2026",
+          "url": "https://www.conference-board.org/topics/ceo-confidence/"
+        },
+        {
+          "name": "McKinsey — Redesigning your organization to capture AI’s value",
+          "url": "https://www.mckinsey.com/~/media/mckinsey/email/leadingoff/2026/11/2026-11-16a.html"
+        },
+        {
+          "name": "BIS Bulletin 140 — Building AI on credit",
+          "url": "https://www.bis.org/publications/bulletin-140-building-ai-credit--structures-and-spillovers"
+        },
+        {
+          "name": "European Commission — AI Act enforcement framework",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act"
+        }
+      ]
     },
     {
       "id": "2026-11-07",
